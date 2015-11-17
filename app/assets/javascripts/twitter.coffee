@@ -16,4 +16,4 @@ renderTweetButtons = ->
   twttr.widgets.load()
 
 loadTwitterSDK = ->
-  $.getScript("//platform.twitter.com/widgets.js")
+  #$.getScript("//platform.twitter.com/widgets.js")

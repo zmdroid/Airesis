@@ -1,0 +1,1107 @@
+zh-CN:
+  unauthorized:
+    default: 您没有执行此操作所需的权限
+    create:
+      group: 一天最多只能增加一个群组
+  permissions_required: 你没有相关的操作权限
+  test: 测试
+  open_space: Open Space
+  hello: Hello World!
+  pages:
+    top_panel:
+      login: 登录或注册
+      facebook_login: 用Facebook帐号登录
+      google_login: 用Google帐号登录
+      twitter_login: 用Twitter帐号登录
+      meetup_login: 用Meetup帐号登录
+      linkedin_login: 用Linkedin帐号登录
+      openid_login: 用OpenID登录
+      find_groups: 搜寻群组
+      parma_login: 以Parma登录
+      tecnologiedemocratiche_login: "Login with Tecnologie Democratiche"
+      tecnologiedemocratiche: "Tecnologie Democratiche"
+    user:
+      notifications: 提示与显示通知
+      privacy: 帐号与隐私
+    users:
+      index:
+        title: 使用者列表
+      show:
+        groups_title: 你的群组
+        group_column: 群组
+        role_column: 角色
+        get_out_of_group_button: 离开这个群组
+        get_out_of_group_confermation: 确定吗？
+        secret_vote: 秘密
+        votations_title: 你已参与的投票
+        proposal_column: 提案
+        votation_date_column: 日期
+        vote_column: 投票
+        profile_info: 个人资料
+        profile_info_unconfirmed: (email 未确认)
+        send_message_button: 寄发讯息
+        name_label: 名字
+        surname_label: "Last Name"
+        email_label: E-mail
+        edit_image: 修改图片
+        to_be_confirmed: 等待确认
+        password_label: 密码
+        facebook_url_label: Facebook 个人页面
+        googleplus_url_label: Google+ 个人页面
+        linkedin_url: Linkedin 个人页面
+        username_label: 显示名称
+        registered_from: 已注册，来自
+        load_image: 载入一张图片
+        max_file_size: 档案大小限制：2MB
+        what_can_i_do: 你可以 ...
+        what_i_cant_do: 你不可以 ...
+        certified_from: 已认证从
+        group_level_permission_title: 群组的等级权限
+      send_message:
+        subject_label: 标题
+        body_label: 内文
+        massive_email: 发送大量邮件
+      left_panel:
+        general_info: 基本资讯
+        alarm_and_notifications: 提示与显示通知
+        geographic_borders: 所在地区
+        account_and_privacy: 帐号与隐私
+        title: 喜好设定
+      alarm_preferences:
+        receive_on_address: '将更新通知与最新消息寄到%{email}'
+        alerts: 通知
+        emails: 信件
+      privacy_preferences:
+        tooltips: 显示操作提示
+        show_urls: '公开Facebook, Google+ 和Linkedin 的个人页面位置'
+        private_messages: 别的使用者可以寄发站内讯息给我
+        join_accounts: 连结其它帐号
+        join_accounts_description: '在Airesis 上，你可以连结各种社群网站的帐号到同一个Airesis 帐号上，诸如Facebook, Google, Twitter 甚至更多！'
+        joined_all: 你已加入所有可连结的社群帐号，感谢！
+        join_facebook: 连结你的 Facebook 帐号
+        join_google: 连结你的 Google 帐号
+        join_twitter: 连结你的 Twitter 帐号
+        join_linkedin: 连结你的 Linkedin 帐号
+        join_meetup: 连结你的 Meetup 帐号
+        providers_list: 可加入的社群服务提供者
+        options: 选项
+        rotp: 开启安全码
+        rotp_title: 安全码
+        rotp_confirm_enable: 确定要开启安全码？
+        rotp_confirm_disable: 确定要关闭安全码？
+        mail_language: 电子邮件的语言
+        time_zon​​e: '时区'
+      border_preferences:
+        updating: 更新你的地区偏好，请稍候
+        your_borders: 你主要关心的地区
+      send_message_title: '送讯息给 %{name}'
+    groups:
+      accept_requests:
+        unavailable_option: 这个选项还没开放
+      administration_panel:
+        title: 管理界面
+        info: 基本资讯
+        events: 活动与会议
+        permissions: 角色与权限
+        proposals: 门槛与提案
+        areas: 工作小组
+        forum: 论坛管理
+        users: 管理使用者
+      edit_events:
+        title: 管理群组的活动
+      edit_permissions:
+        title: 管理角色与权限
+        new_role: 新增一个角色
+        edit_role_title: 编辑角色
+        new_role_title: 新角色
+        user_title: 使用者
+        role_title: 角色
+        no_users_yet: 你可以在这里管理参与者可以扮演的角色种类
+        default_role: 群组预设的成员角色
+        confirm_role_deletion: 确定要删除这个角色？
+        remove_user: '删除使用者 '
+        confirm_role_change1: 使用者的角色
+        confirm_role_change2: 将更改从
+        confirm_role_change3: 到
+        confirm_role_change4: 确认？
+        confirm_delete_1: '这个操作可能需要几分钟的时间...确定要从群组中移除%{计数} 使用者？ '
+        confirm_delete_2: '此操作表示你所选择的%{计数} 个使用者会被移除，此操作不能还原！你真的确定要继续吗？ '
+      edit_proposals:
+        title: 管理门槛与提案
+      index:
+        title: 所有群组
+        open_space_button: 前往开放讨论空间
+        create_group_button: 新增一个群组
+        find_group_label: 寻找一个你有兴趣的群组加入吧！
+        find_title: 输入群组名称或描述
+        find_button: 搜寻
+        groups_list: 群组参与者
+        groups_registration: 群组注册
+        groups_list_2: 群组列表
+        no_groups_yet: '你还没加入任何 %{name}'
+        open_space_title: 公开活动
+        show_more: 显示更多群组
+        sea​​rch_with_query: '使用个人化的查询'
+        sea​​rch_description: '使用搜寻工具或按下一个标签来查找您感兴趣的群组'
+        insert_query_or_place: 您必须键入至少三个字元或一个地名
+        tags: 标签
+        proposals_number: 提案总数
+        events_number: 开启活动
+        search_mask: 搜寻工具
+        search_with_place: 或地理边界
+        no_results: 找不到群组
+        limit_reached: 你每天最多建立一个群组
+        switchButton:
+          exact_border: 精确搜寻：使用确切的地理位置搜寻群组
+          area_border: 地区搜寻： 搜寻这个地区内的所有群组
+          all_words: 搜寻包含所有关键字的群组
+          one_word: 搜寻至少拥有一个关键字的群组
+      new:
+        title: 建立一个群组
+        new_group: 建立一个群组
+        create_button: 送出！
+        change_permissions_button: 你要确定修改标准的权限？
+        change_permissions_title: 修改加入群组时，新使用者预设的权限
+        change_permissions_description: 你想让新加入你的群组的使用者拥有哪些权限呢？你可以随时回来修改这些设定，或是建立不同的角色，给每种角色设定不同权限。
+        errors_title: 抱歉，这个文章无法发布：
+        tags:
+          title: 标签 (以空白区隔)
+      edit:
+        title: 编辑群组设定
+        change_permissions: 在「角色与权限」设定中，你可以随时修改成员的权限。
+        remove_user_confirm: '确定要移除%{name} 这个成员？ '
+        modify_group: 修改群组
+        private_warning_html: '<b> 私人群组的提醒< / b > <br/> 非群组成员依然可以浏览群组的公开议案。 <br/>你可以透过<b>%{连结}</b> 来关闭「议案可公开浏览」选项。 <br/> 在群组墙上公布的议案，也将会在个人页面中显示。 <br/>而公开论坛始终是所有成员都可以浏览的。 '
+      layout:
+        home_button: 墙
+        proposals_button: 提案
+        calendar: 日历
+      show:
+        rules_button: 使用者条款
+        post_button: 发表在群组墙上
+        blog_button: 建立我的 Blog
+        participants_list: 参与者列表
+        invite_button: 邀请朋友加入！
+        participants_full_list: 完成群组成员列表
+        no_participants: 目前还没有人参与这个群组。
+        no_blogs_yet: 这个群组目前还没有任何文章，稍后再回来！
+        waiting_participation_requests: 参与者的申请正在等候审核
+        accept_request_button: 接受
+        reject_request_button: 婉拒
+        ask_participate_button: 申请加入群组
+        remove_post: 从群组看板中移除
+        destroy_button: 删除
+        confirm_destroy: 你确定要删除这个群组？一经确认将无法回覆，并移除所有资料。
+        list_permissions:
+          title: 你在这个群组中的操作权限是：
+          button: 权限列表
+        print_all_participants: 列印参加者列表
+        last_proposals: 最后观看的议题
+        last_topics: 最新的主题
+        next_events: 下一个活动
+        short_url: 短网址
+      header:
+        settings: 设定
+        documents: 文件
+        forums: 论坛
+      documents:
+        documents_archive: 封存的文件
+        storage_size: 占用储存空间
+        max_storage_size: 最大可用储存空间
+        current_storage_usage: 已使用空间
+        not_authorized: 您没有浏览此文件所需的权限，请联络群组管理员
+      edit_quorums:
+        new_quorum:
+          title: 新的门槛人数
+          simple: 简单
+          advanced: 进阶
+          advanced_percentage_description: '如果成熟度低于%{bad_score} %，这项提案将被放弃。 '
+          advanced_percentage_description3: 在达到投票阶段或否决的门槛前，提案会一直开放讨论。
+        active: 启动
+        name: 名称
+        participants: 参与者
+        condition: 条件
+        good_percentage: '% 成熟度'
+        bad_percentage: '% 撤销'
+        confirm_deletion: 确定要删除门槛？
+        edit_quorum: 修改门槛
+        configure_proposal_parameters: 调整提案的参数
+        default_anonymous_proposal: 开启暂时匿名功能
+        default_private_proposal: 非群组成员也可以浏览此提案
+        default_secret_vote: 秘密投票
+        let_editor_change_settings: 编辑可以自由选择上面的选项
+        time: 时间
+        edit_quorum_warning: 注意！门槛的修改不会套用在进行中的提案。
+      edit_work_areas:
+        index:
+          not_enabled: 工作小组没有开放。
+          description: Airesis 让你在群组中管理不同的工作小组。
+          description2: 如此一来，你可以更方便管理所有参与成员与他们的角色权限。
+          description3: 但请注意这是进阶功能，适合比较庞大的群组或熟悉操作的使用者进行设定。
+          description4: 在启动工作小组前，确定你是否能够直接管理群组成员的使用权限
+        manage:
+          new_area: 建立一个工作小组
+          switch_area_participants: 切换到成员管理
+          list_title: 工作小组列表：为每个工作小组选择成员，或点击成员的姓名以编辑他在工作小组中的角色与适当权限。
+          title: 工作小组设定
+          list_participants: 小组的成员的清单。为他们每个人都选择他所属的工作小组。
+          switch_area_management: 切换到工作小组的管理
+          confirm_deletion: 确定要删除此工作小组？
+        manage_group_areas: 管理工作小组内的成员
+        form:
+          title: 新工作小组
+      default_admin_title: 总管理者
+      invite_your_friends:
+        type_email_addresses: 输入E-mail，并用空白分隔多个不同的位置
+        email_not_valid: 填写的 E-mail 不正确。
+        text_to_send: 附加的讯息文字 (选填)
+        title: 邀请你的朋友加入这个群组！
+      participations:
+        list_participations: 参加者名单
+        sea​​rch: '搜寻'
+        filter: 筛选
+        anything: 全部
+        operations_on_user: 使用者可用的操作
+        send_email: 传送电子邮件
+        name: 名称
+        role: 角色
+        member_since: 成员加入时间
+        participants_html:
+          other: '<b>%{count}</b> 参与者'
+        added_by: 加入自
+        remove_all: 移除所有
+    login:
+      title: 登录
+    confirmation:
+      title: 重新寄发帐号确认通知
+      submit: 将相关操作寄给我
+    password:
+      title: 你忘记密码了吗？
+      submit: 寄给我重设密码的相关操作
+      edit:
+        new_password: 新密码
+        confirm_password: |2
+          
+          请确认新密码
+          
+        confirm_button: 更改我的密码
+    registration:
+      title: 注册
+      email_confirmed: 如果你用此E-mail 注册，我们不会要求你再次确认帐号。
+      choose_password: 选择密码
+      confirm_password: 再次确认密码
+      register_button: 注册
+      identity_provviders_title: 连结你常用的社群网站帐号直接登录！
+    proposals:
+      index:
+        title: 提案列表
+        debate: 所有的提案审查正在进行讨论
+        voting: 目前在等待表决或者在投票阶段的所有提案
+        accepted: 完成投票阶段的所有提案
+        revision: 没有通过讨论，可以重新放回讨论的所有提案
+        last: 最新
+        most_popular: 热门
+        most_valutated: 最多评价
+        continue_reading: (完整提案与讨论)
+        debate_title: '讨论中 %{count}'
+        voting_title: '投票中 %{count}'
+        accepted_title: '投票完 %{count}'
+        revision_title: '被放弃了 %{count}'
+        group_areas_title: 工作小组
+        no_group_areas: 没有工作小组
+        all_areas: 所有工作小组
+        categories_title: 提案分类
+        all_categories: 所有分类
+        loading_proposals: '正在读取提案, 请稍候'
+        title_with_category: '%{category} 分类的提案'
+        all_categories_title: 所有分类下的提案
+        in_group_area_title: 在工作小组中
+        last_title: '最新(待办)'
+        most_popular_title: 热门(待办)
+        most_voted_title: 最佳 Rank (待办)
+        show_more: 显示更多提案...
+        loading_alt: 载入中
+        choose_model: 选择一个提案范本
+        sea​​rch_title: '在群组中搜寻提案'
+        sea​​rch_placeholder: '至少输入两个字'
+        sea​​rch_words: '任何字串'
+        contributes_number: 贡献
+        rank: 评价
+        voters: 投票者
+        date_range: '建立于 %{start} 到 %{end}'
+        proposal_types_title: 类型
+        all_proposal_types: 所有的类型
+        with_text: "包含 '%{text}'"
+        last_24h: 在过去的 24 小时中建立
+        last_1h: 在最后一小时中建立
+        last_7d: 在过去一周中建立
+        last_1m: 在过去一个月中建立
+        last_1y: 在过去的一年中建立
+      show:
+        voteup: 我同意
+        votenil: 我不知道 / 我不明白
+        votedown: 我不同意
+        random_stack: 自动排序
+        most_recent: 最近
+        most_ranked: 最多人考虑
+        history_button: 历史记录
+        choose_votation_period: 选择投票期间
+        choose_votation_period_alert: 确定投票时间吗？确认后将无法更动！
+        choose_votation_period_button: 确定
+        no_periods_contact_group: 没有设定投票日期，请联络总管理者
+        choose_new_votation_period_button: 请选择一个新的投票日期
+        loading_contributions: 正在读取编辑修订，请稍候
+        previos_contributes: 先前的编辑修订...
+        delete_contribute_confirmation: 确定要删除这个编辑修订？
+        delete_suggestion_confirmation: 确定要删除这个建议？
+        offered_as_editor_message: 你被指派为这个提案的编辑之一。
+        offer_as_editor_button: 我想参与编辑此提案！
+        available_editors_button: 目前的编辑群
+        confirm_editors_button: 你想要成为此提案的编辑吗？
+        editors_list_title: 这个提案目前的编辑
+        attached_documents: 附加文件
+        no_document_attached: 没有附加任何文件
+        geographic_boundaries_title: 地理位置
+        tags_title: 标签
+        similar_proposals_title: 相似的提案
+        category_title: 分类
+        edit_button: 编辑
+        delete_button: 删除
+        delete_proposal_confirmation: 确定要删除这个提案？
+        votation_message: '这个提案将从%{from} 到%{to} 进行投票'
+        editing_message_1: 感谢所有对此提案的讨论与贡献，提案人与编辑将会发展此提案。
+        editing_message_2: 进行投票前，排行必须先达到至少
+        editing_message_3: 最低的成熟度
+        votation_page_button: 前往投票页面
+        vote_button: 投票
+        send_contribute_button: 送出
+        characters_left: 剩余字数：
+        score: 评价
+        rank: 成熟度 RANK
+        created_at_html: '建立%{time} 前： <br/> <b>%{date}</b>'
+        updated_at_html: '更新于%{time} 前： <br/> <b>%{date}</b>'
+        votation_results: 投票结果
+        votation_results_title: 投票结果
+        in_votation_html: '投票从：<br/> <b>%{start}</b> <br/> 到<br/> <b>%{end}</b>'
+        in_votation_now: 现在就投票！
+        in_votation_until_html: '投票结束于：<br/> <b>%{date}</b>'
+        anonimity_active: 开启暂时匿名功能
+        your_nickname_is: 你的昵称为
+        editors_title: 编辑者
+        supporting_group: 支持的群组
+        no_supporting_group: 尚未有其他群组支持此提案
+        support_proposal_button: 支持这个提案 ...
+        close_debate_button: 结束讨论
+        close_debate_proposal_confirmation: 要关闭讨论，并立刻进行下一个阶段？
+        during_debate: 讨论进行中
+        comment_inserted_by: '%{who} - %{when}'
+        replies:
+          show_all: '显示所有 %{count} 建议...'
+          delete: 删除
+        reply_button: 回应
+        reply_placeholder: 提供你的建议
+        export_pdf: 列印 PDF
+        manage_noise_folder: '被移除的编辑修订(%{removable}/%{removed})'
+        noise_folder: 移除所有编辑修订
+        what_nickname: 这是什么？
+        give_contribute: 修改与显示先前版本
+        no_contributes: 投票阶段将不显示编辑修订
+        new_valutation_message: 此提案得到了新的评价
+        old_editors_title: 老编辑
+        back_debate_button: 返回讨论阶段
+        new_quorum_title: 选择新的门槛
+        enable_alerts: 开启通知
+        disable_alerts: 关闭通知
+        close_contribute: 关闭编辑修订
+        contributes_list: "显示'%{section}' 所有相关编辑修订 "
+        add_comment: 留下意见
+        add_contribute: 参与，贡献你的想法！无论是针对内容或用字遣词上的建议，请帮助编辑让这个提案更好。
+        login_to_comment: 登录并留下回应
+        regenerate_nickname: 重新产生昵称
+        add_contribution_no_paragraph: 没有特定的段落
+        debate_ends_html: 结束讨论于
+        debate_ends_valutations_or: 或与
+        model_title: 范本
+        group_area: 工作小组
+        debate_ends_valutations_and: "并与"
+        debate_ends_valutations: "辩论结束"
+        error_loading_paragraph: "这段已被删除。刷新页面以查看更新的建议"
+        generic_fake_content: "本节尚未编制。通过插入贡献帮助编辑！"
+        created_events: "已经创建的事件"
+        create_new_votation_period: "在辩论结束时创造一个新的事件"
+        choose_later: "不谢。我稍后会选择它"
+        choose_now: "我现在要选择它"
+        nickname_assigned: "我们给你分配了昵称为'%{nickname}'. 如果你不喜欢，你可以在10分钟内把它从左边的菜单中改变"
+        cant_participate:
+          no_permissions: "你不能在这个建议参加，因为你是该组的成员，但你没有参与的权限。"
+          ask_permissions: "询问你的管理员权限，送他的消息。"
+          request_pending: "你可以不参加这个建议，因为你问到是该组中的一员，但你的请求没有被接受呢。"
+          send_message: "你想将消息发送给该组的管理员？"
+          not_a_member: "你不能在这个建议参加，因为你不是这个组的成员。"
+          not_logged_in: "你可以不参加这个建议，因为你目前没有登录。"
+        read_contribute: "显示贡献"
+        security_token: "安全令牌"
+        you_can_choose_vote_dates: "这一提议一直在等待%{count} 数天，投票日期，所以现在你被允许选择一个。"
+        no_contributes_yet: "没有捐款到现在还没有"
+        start_votation_button: '开始投票'
+        start_votation_proposal_confirmation: "你确定要立即启动投票"
+      new:
+        quorum_prompt: 选择门槛
+        quorum_help: 说明
+        step_classification: "Classification"
+        step_similar: 相似的提案
+        step_3: "Problems/Obstacles"
+        step_dates: "Debate and votation"
+        step_3_title: 刚开始时，尽可能全面地描述目前想要尝试解决的问题、面临的挑战或困难是什么，以及这个提案希望达成的目标。
+        create_button: 提出新的提案
+        title: 新提案
+        title_group: '在 %{name} 群组中'
+        title_synthetic: "Objective (in summary)"
+        title_placeholder: '例如："携带脚踏车上火车"'
+        interest_borders_tkn_placeholder: 与这个提案有关的地区、城市或国家
+        tags_list_placeholder: 在你的提案中输入些文字吧
+        step_1_title: 你可以提出一个待解决的问题、一个更好的想法或一个行动。最重要的是必须要有清楚的目标：Airesis 帮助你解决问题的方法，就是透过开放讨论与共同参与的过程。
+        step_2_title: "也许有人已经创建了一个类似的建议：检查以下并最终停止你的创作，以避免重复。联合力量赐力量给你的想法！点击标题的建议，将在新标签中打开。"
+        step_4_title: 太好了！填写选项并按下「建立提案」来完成。你的提案将被储存，并且你能随时继续增加、修改提案的内容与资讯。
+        step_4_footer_html: |     
+          Airesis会帮助你通过共享解决问题，以达到自己的目标：用户会提出修改建议和贡献，你的文字和<b>这是给你</b>集成最喜欢<br/>
+          如果你不这样做，你的建议将不会进入投票阶段。<br/>
+          祝你好运，不要害怕：您可以通过其他人在你的工作有所帮助。
+        category_prompt: "--选凿分类--"
+        tags_separated_by_comma: "(以逗号分隔)"
+        cannot_add_proposal_in_work_area: "你不所需的权限，以增加提案的任何区域"
+        no_work_area_selected: "没有工作区"
+        solution1: "议题"
+        solution: "议题"
+        step_base_info: "初步信息"
+        advanced_options: "高级选项"
+        wait: |
+          您可以创建只有一个建议，每两分钟
+          请等待%{minutes} 分钟 %{seconds} 秒。
+      tabs:
+        last_inserted: 最后更新
+        most_urgent: 最紧急
+        most_popular: "更高的等级"
+        most_valutated: "更多评价"
+      list:
+        last_update: "更新<br/>%{time_ago}"
+        waiting_date: "等待的日期"
+        voting_from_to: "从 %{from} 至 %{to}"
+        voting_until: "直到 <br/>%{date}"
+        votation_finished: "截止<br/>%{time_ago}"
+        no_votation: "拒绝<br/> %{date}"
+        votation_finished_approved: "批准<br/> %{date}"
+        no_votation: "尚未有任何得票"
+        interest_borders: "地理位置"
+        authors: "编辑群"
+        support_group: "支持此提案的群组"
+        no_proposals: "尚未有任何提案"
+        condition_left: "状态来结束辩论"
+        time_left: "剩下的时间"
+        vote: "投票"
+      delete_comment: 删除
+      results:
+        total: '总票数：%{count}'
+        vote_column: 投票
+        number_column: 总数
+        percentage_column: 比例
+        positive: 赞同
+        negative: 反对
+        neutral: 中立
+        name_surname_column: "名字和姓氏"
+        date_time_column: 投票日期与时间
+      report_contribute:
+        mark_title: 标记这个编辑修订
+        mark_description: "你可以指出来，这个贡献不包含相关信息，以找到一个解决的建议提案的编辑。<br/>如果捐款被标记%{num}次，该提案的编辑人员可以从讨论中删除，并将其放置在\"noise\" 文件夹中。<br/>"
+        report_title: 回报这个编辑修订
+        report_description: '您可以回报给网站管理者，这则编辑修改违反了法律或是使用者条款。 <br/>，一经确认，这则编辑修订会被移出讨论，但请别滥用回报系统。 '
+      vote_panel:
+        title: 投下你的一票！
+        secret_vote: 你的投票是匿名进行的，而且一经送出无法再修改。
+        clear_vote: 你的投票已经被记录且可供验证。
+        single_title: 在这个提案中只有一个方案，快说出你的意见吧！
+        results_time: '你在 %{when} 投票了'
+        hidden_​​vote: '投票是匿名进行的，所以无法显示'
+        preferences_order: 你的喜好排序为：
+        expressed_vote: '你送出了 %{vote} 票'
+        schulze_title: "有几种解决方案这一建议。<br/>符合自己需求的去排序<br/>从1（不喜欢）到%{max} (我很喜欢)"
+        hidden_vote: "这次投票是秘密的，因此无法显示。"
+      edit:
+        title: "编辑提案 '%{title}'"
+        hurry_up: 时间要到了，动作快！
+        last_minutes: '你只能在%{minutes} 分钟以内编辑完这些栏位。 '
+        no_participants: 你只能在没有人参与之前编辑这些栏位。
+        remove_section: 移除段落
+        add_paragraph: 上传一张图片
+        remove_solution: 移除这个解决方案
+        press_to_compress: 点击标题收合方案
+        add_paragraph_to_solution: 为解决方案增加一张照片
+        you_know_what_you_d​​o: '你知道你该怎么座吗？'
+        schulze_title: 一个或多个解决方案？
+        inserted_contributes: 整合这则编辑修订到目前的版本
+        paragraph: 段落
+        show_contributes: 显示所有编辑修订
+        cancel_confirm: 确定取消你的编辑并检视提案？
+        update_confirm: 你没有完成任何编辑修订，确定要继续吗？
+        edit_proposal: "修改和更新该提案的文字！"
+        you_know_what_you_do: "你知道什么是你打算怎么办？"
+        more_solutions_explained_html: |
+          <b>为什么我们问你，如果你知道你在做什么？</b><br/>
+          Airesis让您的建议添加一个或多个解决方案。<br/>
+          如果将只有一个解决办法，在投票阶段参与者将有权批准或拒绝已起草文本的选项。<br/>
+          如果将有超过一个的解决方案，投票将是不同的，每个参与者将能够使用舒尔策的方法来投票。<br/>
+          如果您正试图起草一个问题的总结，你想共享的文本<b>不会产生替代解决方案</b>!<br/>
+          如果相反，你正在寻找一个投票或你想要一个替代方案，是不可积的第一个解决方案，然后继续。<br/>
+          请记住，在辩论结束前，您将能够添加或删除解决方案，修改的投票中使用的方法。
+        confirm_paragraph_deletion: "你确定要删除这一段？"
+        confirm_solution_deletion: "你确定要删除这个解决方案？"
+        press_to_expand: "点击标题，以扩大该解决方案"
+        integrated: "综合"
+        contribution_valuation: "他们是怎么想的？"
+        navigator: "导航员"
+        compress_solutions: "折叠解决方案"
+        hide_contributes: "隐藏的贡献"
+        expand_solutions: "扩展解决方案"
+      manage_noise:
+        available: 这则编辑修订符合移除标准
+        removed: 已经从讨论中移除这则编辑修订
+      contribution_valuation: 你觉得这个如何？
+      contribution_valuation_again: 改变主意吗？
+      new_rank_bar:
+        creation: '建立于：%{time_ago} <br/> %{date}'
+        end: '结束讨论：<br/> %{date}'
+        valutations:
+          other: '%{count} 的评价'
+        good_score: '正面评价 %{score}%'
+        bad_score: '负面评价 %{score}%'
+        now: '剩下 %{left}'
+      left_panel:
+        creation_date: "创作时间"
+        any_date: "任何日期"
+        choose_creation_date: "选择一个时间间隔"
+        last_hour: "最后一小时"
+        last_24_hour: "最近24小时"
+        last_week: "上个星期"
+        last_month: "上个月"
+        last_year: "去年"
+        date_range: "时间间隔"
+      update_comment: "编辑"
+    events:
+      index:
+        title: 日历
+        group_title: 活动日历
+        choose_type: "选择事件类型"
+      new:
+        private_tooltip: 只有群组中的成员可以观看、参与这个活动
+        title: 建立新活动
+        submit: 建立新活动
+        type_for_town: "键入一些文字来搜索一个小镇"
+        no_town_found: "没有发现"
+        town_searching: "搜索"
+        title_event: "新的投票事件"
+        title_meeting: "新的会议事件"
+        step_1: "新的会议事件"
+        step_2: "描述"
+        step_3: "时间"
+        step_4: "地方"
+      show:
+        map: "地图"
+        event_place: "事件地点"
+        when_past: "是什么时候？"
+        when: "什么时候？"
+        where_past: "它在哪里？"
+        where: "哪里？"
+        show_on_map: "地图显示"
+        reply: "回复!"
+        no_answer: "你没有回复邀请"
+        yes_partecipated: "你已经参加了活动"
+        no_partecipated: "你没有参加过这个活动"
+        yes_partecipate: "你将参加活动"
+        no_partecipate: "你将不参加活动"
+        with_guests: "有 %{field} 客人"
+        will_be_in: "你参加这个活动吗？"
+        participants: "谁参加了？"
+        will_partecipate: "谁来参加？"
+        no_participants: "没有人参加"
+        no_participants_yet: "仍然没有参与者"
+        non_participants: "谁没有参加？"
+        will_non_participants: "谁不参加？"
+        voting_proposals: "在这些日子里，这些提案将被投票"
+        no_voting_proposals: "在这几天里没有建议被投票"
+    votations:
+      show:
+        vote_positive: 正面评价
+        vote_neutral: 中立评价
+        vote_negative: 负面评价
+        confirm_positive: '确认要投下「赞成」票到「%​​ {name}」到提案？送出后的投票无法修改。 '
+        confirm_neutral: '确认要投下「中立」票到提案「% {name}」？送出后的投票无法修改。 '
+        confirm_negative: '确认要投下「反对」票到提案「% {name}」？送出后的投票无法修改。 '
+        confirm_schulze: '确认你在提案「%{name}」上的投票正确？送出后的投票无法修改。 '
+    blog_posts:
+      new:
+        title: 新增文章
+        published_in_groups: 这则文章会被发布在下列群组：
+      new_button: 新增一篇文章
+      drafts_button: 隐藏文章
+      edit_button: 修改
+      delete_button: 删除
+      comment:
+        delete_button: 删除
+        confirm_delete: 确定要删除这篇文章？
+      list_elements:
+        inserted: '%{name} 发表于 %{date}'
+      show:
+        previous_comments: 先前的回应...
+        tags_title: '标签:'
+        edit_button: 编辑
+        delete_button: 删除
+        delete_button_confirm: 确定要删除这篇文章？
+        comments_says: 说...
+      published_button: 发布的文章
+      view:
+        comments: '共有 %{count} 则回应'
+    alerts:
+      polling:
+        show_all: 显示所有通知事项
+      index:
+        new_not_read: 新的未读通知
+        no_new: 没有新的通知
+        old_not_read: 已读过的通知
+        no_old: 没有通知
+    blog_comments:
+      new:
+        insert_comment: 发表回应
+    header:
+      groups:
+        events: 活动
+        proposals: 提案
+      menu:
+        my_page: 我的首页
+        my_blog: 我的 Blog
+        create_blog: 建立你的 Blog
+        preferences: 喜好设定
+        administration: 总管理者
+        logout: 登出
+        remember_me: 在这台电脑记住我
+        login_button: 登录
+        registration_button: 加入我们
+        resend_email_button: 没有收到帐号确认信？
+        no_notifications: 没有通知
+        sign_has_read: 阅
+        moderator: 审和界面
+      welcome: 欢迎
+      groups_title: 群组
+      login: 登录
+      login_placeholder: E-mail 或使用者名称
+      groups_list: 你的群组
+      open_group: 建立一个群组
+      new_group: 寻找群组
+      support_us: 支持我们
+      no_alerts: 没有提醒
+    blogs:
+      show:
+        no_posts: 没有文章
+        no_posts_long: 这个Blog 目前还没有任何文章，稍后再回来！
+        tag: 标签
+        previous_posts: 先前的文章...
+        edit_button: 编辑 Blog
+        title: Blogs 列表
+        no_unpublished_posts: "还有目前没有未发表的帖子"
+        other_blogs: "更多博客"
+      new:
+        title: 建立你的个人 Blog！
+        cancel_button: 不，谢了！
+        create_button: 建立
+      edit:
+        title: 编辑 Blog
+        title_label: Blog 标题
+        back_to_blog: 返回我的 blog
+      index:
+        blog_subtitle: "%{posts} posts, %{comments} comments"
+        find_blog_label: "找到一个博客，你可能有兴趣"
+    quorums:
+      index:
+        title: 可选择的门槛
+    home:
+      index:
+        whatis: "什么东东"
+        partecipate: 参与
+        videos: 影片教学
+        whowe: 关于我们
+        support: ♥ 支持我们
+        cloud_1: 建议
+        cloud_2: 协作
+        cloud_3: 线上民主
+        cloud_4: 回报
+        cloud_5: 讨论
+        cloud_6: 辩论
+        cloud_7: 参与
+        cloud_8: 投票
+        cloud_9: 选择
+        try_it: 试用
+        register: 注册
+        whatis: 什么东东
+        features: 特点
+        donations: 捐赠
+        volunteers: 志愿者
+        login: 登录
+        forgot_password: 忘记密码?
+        follw_on_twitter: 在推特上追踪 @democracyo
+        field_1:
+          title: '<em>提出</em> 解决方案'
+          content: 这是动民主 Airesis v1.75
+        field_2:
+          title: '<em>现在就加入</em>'
+          content: 加入群组，选择最能代表你和你有兴趣参与的。人多力量大！
+        field_3:
+          title: '<em>选择</em> 你的未来'
+          content: 找出群体里创新选择的决策工具。简单的投票系统，以实现流动式的直接民主。
+        field_4:
+          title: '<em>协作</em>实现您的希望'
+          content: 分享你的经验、让别人的提案更好。认识更多志同道合的新朋友，共同实现你的想法！
+        keep_connected: 保持登录阶段
+        feedback: 建议与回馈
+        guide: 教学
+        change_language: 更换语言
+        most_used_tags: "最常用的标签"
+        show_tags: "显示所有标签"
+        next_events: "接下来的活动"
+        show_events: "显示日历"
+        most_active_groups: "最活跃群体"
+        show_groups: "显示所有团体"
+        last_proposals: "最后一次公开建议"
+        from_blogs: "最后的博客"
+        features: "特点"
+        donations: "捐赠"
+        volunteers: "志愿者"
+      show:
+        your_proposals: 你正在参与的提案
+        proposals:
+          title: 标题
+          last_edit: 最后编辑
+          notifications: 通知
+        notifications:
+          title: 提示
+        your_contributes: 你最后一次的编辑修订
+        your_territory: 你的地盘 (测试中)
+    open_space:
+      layout:
+        proposals_button: 提案
+        calendar_button: 日历
+        map_button: 地图
+    proposal_supports:
+      new:
+        panel_title: 确认同意支持此提案
+        no_available_groups: 你无法代表任何群组来支持这个提案
+      confirm_button: 确认
+    calendar:
+      create_event_button: 建立新的活动
+    sessions:
+      new:
+        login_label: 使用者名称或 E-mail
+        remember_me_label: 记住我
+      links:
+        register: 没有帐号？现在就注册一个！
+        forgot_password: 忘记密码？
+        havent_received_email: 没有收到帐号确认信？
+    steps:
+      next: 继续
+      interest_borders:
+        title: 开始参与
+        description_html: |
+          设置您的地理兴趣范围。<br />
+          如果airesis知道你所感兴趣的领域是什么，它可以建议你按照显示你的领土相关的新提案组。<br />
+      rank_bar_explain:
+        title: "成熟的条目"
+        description_html: |
+          成熟栏位于左侧菜单中。<br />
+          该栏显示参与者的建议批准的成熟度。<br />
+          你可以建议如果该提案的文本是完全或不使用下面的按钮的按钮。<br />
+          编辑的建议写的基础上，其他参与者的贡献的文本。当建议更改文本时，如果你喜欢或不喜欢或不喜欢的话，你会给出建议的可能性，因此，修改你以前的评价。<br />
+          如果该提案准备好进入投票阶段，则该栏显示的颜色，而长度显示在讨论结束前的时间和/或评价的时间是多少。<br />
+        newdescription2: "该栏显示参与者的建议的成熟度，以及在辩论结束前剩下多少时间"
+        newdescription3: "如果提案将能够进入投票阶段，则该颜色显示，而长度显示在辩论结束前剩下多少时间"
+        newdescription4: "当你认为辩论已经结束，编辑们整合其他用户的贡献，使用这个按钮"
+        newdescription5: "如果你认为辩论应该继续，用这个按钮"
+        newdescription6: "当提案的文本将被更新，您将能够更改您的评价"
+      welcome:
+        title_html: '<b>欢迎airesis， %{user}</b><br/>'
+        description_html: |
+          这个简短的教程将帮助您在平台的第一选择。<br/>
+          这是你的桌面：在这里你会找到所有的信息，你需要与你的领土保持联系。<br/>
+          你可以管理你的建议和你的团体，查看你周围的事件，并与其他公民接触。<br/>
+          通过发送一个反馈改善airesis <a href="mailto:info@airesis.it">info@airesis.it</a>.<br/>
+      choose_follow:
+        description_html: |
+          在这里，你是最活跃的团体在你的利益边界的领土。<br />
+          选择你想参加的人，这样你就可以与他们接触并参与他们的活动和建议。<br />
+          单击一次选中，再次点击取消。<br />
+      first_proposal:
+        title_html: 你的第一个贡献
+        description_html: |
+          是时候给你的意见！<br />
+          增加一个建议，一个想法或一个反馈的领土。 <br />
+          contriute的讨论让其他用户知道你。<br/>
+          您的建议将在%{proposal} 中添加，并可在您的领土上支持该组！
+    proposal_histories:
+      index:
+        title: '%{title} - 编辑修订历程'
+        back_to_proposal: 返回提案
+    tags:
+      show:
+        related_title: 相关标签
+  pl:
+    comments:
+      other: '%{count} 回应'
+  proposals:
+    create_button: 提出新的提案
+    show:
+      ready_for_vote: 准备好投票了！
+    regenerate_button: 返回讨论阶段
+  digit_tags: 输入你想加入的标签
+  buttons:
+    cancel: 取消
+    save: 储存
+    report: 回报
+    update: 更新
+    send: 送出
+    create: 建立
+    delete: 删除
+    sea​​rch: '搜寻'
+    edit: 编辑
+  tooltips:
+    random_stack_1: '<strong>显示的顺序？ </strong><br/>首先我们会挑出最新或您尚未给予评价的编辑修订意见，接着依序照您认为的优劣来排序。 <br/> <b>提醒你</b>: 您给予的评价会改变排序！ '
+    random_stack_2: '<strong>显示的顺序？ </strong><br/>编辑修订会依照最近一则为顺序来排列。 '
+    random_stack_3: '<strong>显示的顺序？ </strong><br/>编辑修订会依照受欢迎的程度排序。 <br/> <b>提醒你</b>: 你的评价也会影响排序。 '
+    miglioricontributi: '<strong>如何贡献？ </strong> <br/>参与提案的讨论不仅止于给予评价或投票，更重要的是针对文本的共同编辑与修订：提出具体、有建设性的批评、替代或改进的建议，都将帮助这个提案者与编辑改进提案本身。 <br /> <br/> <b>提醒你</b>: 最有价值的贡献是提出想法，使得提案找到一个或多个可能的解决方案！ '
+    voglioredigere: 我有意见：向编辑群提出申请编辑这些文字。
+    valutazioni: 提出评价的人数
+    gradimento: 正面评价的比例
+    nickname: '<strong>开启匿名讨论本提案</strong> <br />透过匿名讨论，没有人能知道彼此是谁，在这种方式下共同编辑或讨论提案，可能可以让焦点更集中于提案的内容本身。 <br/> <b>提醒你</b>: 当讨论结束，无论提案被通过或是撤销后，所有参与者的显示名称会公开。 '
+  group: 群组
+  saving: 储存中...
+  sending: 传送中...
+  updating: 更新中...
+  loading: 载入中...
+  error:
+    setting_preferences: 设定时出现错误
+    admin_required: 你必须是管理者才能浏览此页面
+    permissions_required: 你的操作不被允许
+    portavoce_required: 你必须是这个群组的发言人，才能检视此页面
+    blog_required: 要进行这个操作前，你必须开启一个你个人的Blog
+    not_your_blog: 你不能在别人的Blog 上面做这个操作
+    role_permission_change: 无法更改权限
+    event_answer: 传送回应出现错误
+    event_already_answered: 你已经回应过这个活动
+    event_past: 本活动结束了
+    configuration_required: 模组尚未开启
+    areas_required: 必须先开启工作小组
+    quorums:
+      quorum_creation: 建立门槛时出现错误
+      quorum_modification: 更新门槛时出现错误
+      advanced_proposals_settings: 设定喜好设定时出现错误
+    participation_roles:
+      role_updated: 更新角色时出现错误
+      role_created: 建立角色时出现错误
+    groups:
+      update: 更新群组时出现错误
+      work_area:
+        area_created: 建立工作小组时出现错误
+      creation: 建立群组时出现错误
+    proposals:
+      view_proposal: 你没有适当的权限观看此提案
+      participate: 你没有适当的权限主动参与这个提案，请联系这个群组的管理者们。
+      modify_comments: 你无法编辑不属于你的回应
+      insert_comment: 增加回应时出现错误
+      contribute_report: 回报这个编辑修订出现错误
+      updating: 更新时出现错误
+      proposal_rank: 很抱歉，记录你的评价时出错了，请稍后再尝试，谢谢！
+      proposal_not_waiting_date: 这个提案没有在等待进行表决日
+      proposal_not_voted: 这个提案没有完成投票阶段，所以你无法进行这个操作
+      proposal_not_valuating: 这个提案并非投票阶段，所以你无法进行这个操作
+      proposal_not_your: 你无法编辑不是属于你的提案
+    registration:
+      recaptcha: 输入图形辨识错误，请再试试看
+      user_not_found: 没有找到这个使用者
+    blog:
+      cannot_edit: 你无法编辑不属于你的 Blog
+      already_have: 抱歉，你已经建立 Blog 了
+      comment_added: 建立回应时出现错误
+    users:
+      join_accounts_password: 密码错误
+  info:
+    setting_preferences: 成功更改设定
+    blog_created: 成功建立文章
+    proposal:
+      can_change_valutation: 自从你上次评价过后，这个提案有最新的更新，你可以检视并更改你的评价。
+      waiting_date: 这个提案已经完成了讨论阶段，正在等待投票日期设定
+      voting: 这个提案正在进行投票
+      ask_participation: 申请加入这个群组，以便评价或参与提案讨论
+      public_visible: 这个提案是公开的
+      available_authors: 有新的编辑加入了这个提案
+      updated_comment: 你的回应已经成功的更新了
+      contribute_reported: 成功的回报这则编辑修订
+      contribute_added: 成功增加编辑修订
+      comment_added: 成功建立回应
+      contribute_added_right: '成功增加编辑修订。 <br/>要检视请按下「%{section}」段落右上方的「修改与显示先前版本」按钮。 '
+      proposal_created: 提案已经成功建立。请试着填妥其它栏位。
+      proposal_updated: 成功更新提案
+      proposal_deleted: 成功删除提案
+      date_selected: 提案会在选择的期间进行投票
+      rank_recorderd: 你的评价已经记录
+      comment_already_ranked: 你已经评价了这则回应，目前无法更改这个评价。
+      comment_not_your: 你没有适当的权限去删除这则回应
+      login_to_contribute: 登录并新增你的编辑修订
+    message_sent: 讯息成功送出
+    private_messages_active: 别的使用者可以送出私讯给你
+    private_messages_inactive: 别的使用者不能送出私讯给你
+    rotp_active: 已开启安全码
+    rotp_inactive: 已关闭安全码
+    quorums:
+      quorum_created: 成功建立门槛
+      quorum_updated: 成功更新门槛
+      quorum_deleted: 成功删除门槛
+      quorum_activated: 门槛启动
+      quorum_deactivated: 门槛关闭
+      can_modify_advanced_proposals_settings: 编辑可以修改进阶设定
+      cannot_modify_advanced_proposals_settings: 编辑不可以修改进阶设定
+      anonymous_proposals: 这个群组的提案预设是匿名讨论的
+      non_anonymous_proposals: 这个群组的提案预设并非匿名讨论
+      public_proposals: 这个群组的提案预设都是公开的
+      private_proposals: 这个群组的提案预设是非公开的
+      secret_vote: 这个群组的提案预设是进行秘密投票
+      non_secret_vote: 这个群组的提案预设是进行非秘密投票
+    groups:
+      group_updated: 成功更新群组
+      work_area:
+        area_created: 成功建立工作小组
+      group_deleted: 成功删除群组
+      group_created: 成功建立群组
+    participation_roles:
+      role_updated: 成功更新角色
+      permissions_updated: 成功修改权限
+      role_created: 成功建立角色
+      role_changed: 成功修改角色
+      role_deleted: 成功删除角色
+    user:
+      click_to_change: 点击你想要修改的资讯
+      info_updated: 成功更新资讯
+      account_joined: 成功连结帐号！
+      tooltips_enabled: 开启提示
+      tooltips_disabled: 关闭提示
+      update_border: 成功更新了关心的地区
+      confirm_email: 你需要确认新的信箱位置
+      IP_disabled: 此帐号提供者已移除
+      time_zon​​e_changed: '时区已储存'
+    blog:
+      blog_created: 成功建立 Blog
+      title_updated: 成功更新 Blog 标题
+    events:
+      event_deleted: 成功删除活动
+      event_updated: 成功更新活动
+    moderator_panel:
+      account_blocked: 被封锁的帐号
+      account_unblocked: 解除封锁帐号
+    locale_changed: 已成功更新语系在地化
+    blog_post_updated: 你的文章已成功被更新
+    blog_post_deleted: 你的文章已成功被删除
+    participation_request:
+      multiple_request:
+        other: '你申请参加了 %{count} 新群组'
+    event:
+      comment_added: 增加了一个新的意见
+    topic:
+      hidden: 这个主题目前是隐藏
+    participations_destroyed: 使用者已删除，请重新整理此页面
+  interest_borders:
+    hint: 请多输入点字
+    no_place_found: 找不到地方
+    sea​​rching: '搜寻中，请稍后...'
+    region: '%{name} (地区)'
+    province: '%{name} (省)'
+    town: '%{name} (镇)'
+    country: '%{name} (国家)'
+    continent: '%{name} (大陆)'
+  mailer:
+    default:
+      follow_twitter: 在 Twitter 跟随我们
+      follow_facebook: 订阅 Facebook 粉丝团
+      follow_google: 关注我们的 Google+
+      footer:
+        registered_at: '您收到这封电子邮件，是因为您在%{url} 上注册帐号。 '
+      click_here: 点击此处
+    new_contribute:
+      title: '%{user} 增加了一个新的编辑修订%{comment} 到这个提案'
+      view_proposal: '%{click_here} 检视此提案'
+    text_update:
+      integrated_contributes: 恭喜！你提出的下列编辑修订，已经被编辑群整合到提案中了：
+      view_proposal_2: '%{click_here} 并验证新的提案内文包含了你的建议。 <br/>若你不满意，你可以随时从历史记录中将你的编辑修订开放回讨论状态。 '
+      connect: '登录 %{name}'
+    unintegrated_contribute:
+      view_proposal: '一个已经被整合到提案的编辑修订，被其作者要求重新讨论。 <b>%{click_here}</b> '
+      view_proposal_2: '%{click_here}，了解为何作者不同意这个编辑修订有适当的被整合？ '
+      verify: 检查
+    user_message:
+      hi_user: 'Hi %{user},'
+      user_sent_message: '%{user} 寄送给你下列讯息：'
+      reply_to_user: '你可以透过email 回应%{user}'
+    blocked:
+      hi_user: 'Hi %{user},'
+      deleted_correctly: 通知您，您的帐户已从Airesis 中被删除。
+      greetings: '你好, <br/> Airesis Team'
+    new_blog_comment:
+      title: '%{user} 回应了你的文章 %{post}.'
+      click_here: 点击此处
+      view_post: '%{click_here}，阅读这篇文章。 '
+    invite:
+      hi_user: 您好 ！
+      invitation: '%{user} 邀请你参加这个群组<b>%{group}</b> - %{app_name}。这是一个线上民主平台，为了促进直接与参与式民主。 '
+      message_intro: 这是他发送给你的讯息：
+      accept_or_reject: 若你愿意接受邀请，请点击「接受」，否则请按「拒绝」
+      no_more: '若你不想再收到任何%{app_name} 的邀请，请点击「不再接受邀请」'
+      accept: 接受
+      reject: 拒绝
+      greetings: 你好！
+      no_more_button: 不再接受邀请
+      subject: '你被邀请加入 %{group_name} '
+  words:
+    contribute: 编辑修订
+    comment: 评论
+    or: 或
+    and: 和
+    terms_of_service: 服务条款
+    privacy_policy: 隐私权
+    guide: 常见问题
+  home:
+    portlets:
+      last_proposals:
+        proceed_to_proposals: "继续建议"
+      from_blogs:
+        proceed_to_blogs: "继续博客"
+  confirm_detach: "您确定要删除此身份提供商？你将不能使用它的未来。"
+  alert_detach: "你必须为了消除这种身份提供商提供一个有效的电子邮件地址"
+  proposals:
+    create_button: "创建提案"
+    show:
+      ready_for_vote: "准备投票"
+      keep_discuss: "继续讨论"
+    regenerate_button: "返回辩论"
+    edit:
+      expand_all: "展开全部"
+      collapse_all: "全部收缩"
+    schulze_vote_results:
+      results: "结果"
+      votes: "投票"
+      solution: "解决方法"
+      points: "点"
+      random_ordered_votes: "随机顺序投票"
+      number_of_voters: "选民人数"
+      vote: "他们投票"
+    authors_list_panel:
+      dont_want_to_be_an_author: "我不想再成为一个作家"
+    left_panel:
+      promote_proposal: "促进提案"
+      share_with_friends: "和朋友分享"
+    show_proposal:
+      vote_here: "这一建议是在投票阶段。阅览方案列表和%{link}。"
+  digit_tags: "输入要添加的标签"  

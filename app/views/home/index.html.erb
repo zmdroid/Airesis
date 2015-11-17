@@ -74,6 +74,7 @@
         window.___gcfg = {
             lang: 'it'
         };
+        /*
         (function () {
             var po = document.createElement("script");
             po.type = "text/javascript";
@@ -93,6 +94,7 @@
             js.src = "//connect.facebook.net/<%="#{I18n.locale.to_s.gsub('-','_')}"%>/all.js#xfbml=1&appId=221145254619152";
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
+*/
     });
 </script>
 <div id="fb-root"></div>
@@ -154,6 +156,7 @@
           <div class="login-form card buttons" data-equalizer-watch>
             <%= form_for resource, as: resource_name, url: user_session_path do |f| %>
                 <div class="row">
+                <% if ::Configuration.socialnetwork_active && !in_subdomain? %>
                   <div class="columns large-12 medium-10 medium-push-1 large-push-0">
                     <ul class="social-network small-block-grid-6">
                       <li><%= link_to_ip t('pages.top_panel.facebook_login'), :facebook, 'facebook' %></li>
@@ -164,6 +167,7 @@
                       <li><%= link_to_ip t('pages.top_panel.tecnologiedemocratiche'), :tecnologiedemocratiche, 'tecnologiedemocratiche' %></li>
                     </ul>
                   </div>
+                <% end %>
                   <div class="columns large-12 medium-10 medium-push-1 large-push-0">
                     <%= f.email_field :email, placeholder: 'Email' %>
                     <%= f.password_field :password, placeholder: 'Password' %>
@@ -489,163 +493,6 @@
 
   </div>
 
-  <div class="row">
-
-    <div class="columns">
-
-      <ul id="screenshots-wrapper" class="small-block-grid-2 medium-block-grid-4">
-
-        <li>
-          <div class="item-wrap">
-            <%= link_to chisiamo_path(anchor: 'development') do %>
-                <%= image_tag 'volunteers/rodi_alessandro.jpg' %>
-                <div class="link-icon">
-                  <div>Alessandro Rodi</div>
-                  <i class="fa fa-plus"></i>
-                </div>
-            <% end %>
-
-          </div>
-        </li>
-
-        <li>
-          <div class="item-wrap">
-            <%= link_to chisiamo_path(anchor: 'development') do %>
-                <%= image_tag 'volunteers/tilatti_marino.png' %>
-                <div class="link-icon">
-                  <div>Marino Tilatti</div>
-                  <i class="fa fa-plus"></i>
-                </div>
-            <% end %>
-          </div>
-        </li>
-
-        <li>
-          <div class="item-wrap">
-            <%= link_to chisiamo_path(anchor: 'analysis') do %>
-                <%= image_tag 'volunteers/giulietti_nicola.png' %>
-                <div class="link-icon">
-                  <div>Nicola Giulietti</div>
-                  <i class="fa fa-plus"></i>
-                </div>
-            <% end %>
-          </div>
-        </li>
-
-        <li>
-          <div class="item-wrap">
-            <%= link_to chisiamo_path(anchor: 'analysis') do %>
-                <%= image_tag 'volunteers/baiotto_marco.png' %>
-                <div class="link-icon">
-                  <div>Marco Baiotto</div>
-                  <i class="fa fa-plus"></i>
-                </div>
-            <% end %>
-
-          </div>
-        </li>
-
-
-        <li>
-          <div class="item-wrap">
-            <%= link_to chisiamo_path(anchor: 'i18n') do %>
-                <%= image_tag 'volunteers/tolja_jacopo.jpg' %>
-                <div class="link-icon">
-                  <div>Jacopo Tolja</div>
-                  <i class="fa fa-plus"></i>
-                </div>
-            <% end %>
-          </div>
-        </li>
-
-        <li>
-          <div class="item-wrap">
-            <%= link_to chisiamo_path(anchor: 'communication') do %>
-                <%= image_tag 'volunteers/curini_simone.jpg' %>
-                <div class="link-icon">
-                  <div>Simone Curini</div>
-                  <i class="fa fa-plus"></i>
-                </div>
-            <% end %>
-          </div>
-        </li>
-
-        <li>
-          <div class="item-wrap">
-            <%= link_to chisiamo_path(anchor: 'test') do %>
-                <%= image_tag 'volunteers/mion_carlo.jpg' %>
-                <div class="link-icon">
-                  <div>Carlo Mion</div>
-                  <i class="fa fa-plus"></i>
-                </div>
-            <% end %>
-
-          </div>
-        </li>
-
-        <li>
-          <div class="item-wrap">
-            <%= link_to chisiamo_path(anchor: 'test') do %>
-                <%= image_tag 'volunteers/zanellato_luca.jpg' %>
-                <div class="link-icon">
-                  <div>Luca Zanellato</div>
-                  <i class="fa fa-plus"></i>
-                </div>
-            <% end %>
-          </div>
-        </li>
-
-        <li>
-          <div class="item-wrap">
-            <%= link_to chisiamo_path(anchor: 'graphic') do %>
-                <%= image_tag 'volunteers/kabora_marcello.png' %>
-                <div class="link-icon">
-                  <div>Marcello Kabora</div>
-                  <i class="fa fa-plus"></i>
-                </div>
-            <% end %>
-          </div>
-        </li>
-
-        <li>
-          <div class="item-wrap">
-            <%= link_to chisiamo_path(anchor: 'communication') do %>
-                <%= image_tag 'volunteers/chiara_gianferrari.jpg' %>
-                <div class="link-icon">
-                  <div>Chiara Gianferrari</div>
-                  <i class="fa fa-plus"></i>
-                </div>
-            <% end %>
-          </div>
-        </li>
-
-        <li>
-          <div class="item-wrap">
-            <%= link_to chisiamo_path(anchor: 'communication') do %>
-                <%= image_tag 'volunteers/matteo_martini.jpg' %>
-                <div class="link-icon">
-                  <div>Matteo Martini</div>
-                  <i class="fa fa-plus"></i>
-                </div>
-            <% end %>
-          </div>
-        </li>
-
-        <li>
-          <div class="item-wrap">
-            <%= link_to partecipa_path(anchor: 'partecipare') do %>
-                <%= image_tag 'volunteers/you.png' %>
-                <div class="link-icon">
-                  <div><%= t('you') %></div>
-                  <i class="fa fa-plus"></i>
-                </div>
-            <% end %>
-          </div>
-        </li>
-
-      </ul>
-    </div>
-  </div>
 </section>
 
 <footer>

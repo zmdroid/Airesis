@@ -2,8 +2,8 @@ $('#blogPostContainer').append("<%= escape_javascript(render(partial: 'blog_post
 try{
     FB.XFBML.parse();
 }catch(ex){}
-twttr.widgets.load();
-gapi.plusone.go();
+//twttr.widgets.load();
+//gapi.plusone.go();
 <%if @blog_posts.total_pages > @blog_posts.current_page%>
 checkActive = true;
 checkScroll();

@@ -1,0 +1,312 @@
+zh-CN:
+  db:
+    sys_locales:
+      bs-BA:
+        description: Bosnian
+      crowdin:
+        description: Crowdin (only for developers)
+      de-DE:
+        description: German
+      el-GR:
+        description: Greek
+      en-AU:
+        description: English (Australia)
+      en-EU:
+        description: English (Europe)
+      en-GB:
+        description: English (UK)
+      en-IE:
+        description: English (Ireland)
+      en-NZ:
+        description: English (New Zeland)
+      en-US:
+        description: English (USA)
+      en-ZA:
+        description: English (South Africa)
+      es-AR:
+        description: Spanish (Argentina)
+      es-CL:
+        description: Spanish (Chile)
+      es-EC:
+        description: Spanish (Ecuador)
+      es-ES:
+        description: Spanish
+      fr-FR:
+        description: French
+      hu-HU:
+        description: Hungarian
+      id-ID:
+        description: Indonesian
+      it-IT:
+        description: Italian
+      jp-JP:
+        description: Japanese
+      me-ME:
+        description: Montenegrin
+      nl-NL:
+        description: Netherland
+      pt-BR:
+        description: Portuguese (Brasil)
+      pt-PT:
+        description: Portuguese (Portugal)
+      ro-RO:
+        description: Romanian
+      ru-RU:
+        description: Russian
+      sh-HR:
+        description: Serbo-Croatian
+      sr-CS:
+        description: Serbia (Latin)
+      sr-SP:
+        description: Serbia (Cyrillic)
+      zh-TW:
+        description: 中文(繁) 
+      zh-CN:
+        description: 中文(简)              
+    proposal_types:
+      STANDARD:
+        description: 标准的议案
+      POLL:
+        description: 投票
+      RULE_BOOK:
+        description: 规则书
+      PRESS:
+        description: 新闻发布
+      EVENT:
+        description: 主办团体
+      ESTIMATE:
+        description: 预估成本
+      AGENDA:
+        description: 议程
+      CANDIDATES:
+        description: 一名候选人的选择
+      SIMPLE:
+        description: 简单的议案
+      PETITION:
+        description: 请愿
+    event_types:
+      meeting:
+        description: 会议
+      vote:
+        description: 投票
+      meeting2:
+        description: 会议
+      election:
+        description: 选举
+    proposal_types:
+      STANDARD:
+        description: Standard Proposal
+      POLL:
+        description: Poll
+      RULE_BOOK:
+        description: Rule Book
+      PRESS:
+        description: Press Release
+      EVENT:
+        description: Event Organization
+      ESTIMATE:
+        description: Cost Estimate
+      AGENDA:
+        description: Agenda
+      CANDIDATES:
+        description: Choice of a candidate
+      SIMPLE:
+        description: Simple proposal
+      PETITION:
+        description: Petition
+    event_types:
+      meeting:
+        description: meeting
+      vote:
+        description: vote
+      meeting2:
+        description: meeting
+      election:
+        description: election        
+    group_actions:
+      STREAM_POST:
+        description: 发表在群组墙上
+      CREATE_EVENT:
+        description: 建立实体活动
+      PROPOSAL:
+        description: 以群组的名义支持此议案
+      REQUEST_ACCEPT:
+        description: 在群组中增加新成员
+      PROPOSAL_VIEW:
+        description: 检视私人提案
+      PROPOSAL_INSERT:
+        description: 在群组中插入新的提案
+      DOCUMENT_VIEW:
+        description: 检视文件
+      DOCUMENT_MANAGE:
+        description: 管理文件
+      PROPOSAL_VOTE:
+        description: 表决提案
+      PROPOSAL_DATE:
+        description: 建立投票活动
+    notification_categories:
+      MYPROP:
+        description: 我编写的提案
+      PROP:
+        description: 我参加的提案
+      NEWPROP:
+        description: 新的提案
+      NEWEVENT:
+        description: 新的活动
+      GROUPS:
+        description: 群组
+    notification_types:
+      new_public_events:
+        description: 新的公开活动
+        email_subject: '新公开活动：%{event}'
+        message: '新公开活动： <b>%{event}</b>'
+      new_events:
+        description: 在我参加的群组中的新活动
+        email_subject: '新的活动：%{event}'
+        message: '在<b>%{group}</b> 群组中的新活动<b>%{event}</b> '
+      new_posts_user_follow:
+        description: 我追踪的使用者发表的新文章
+        email_subject: 有一个新的文章
+        message: '%{user} 在他的blog <b>%{blog}</b> 新增了一篇新文章'
+      new_valutation_mine:
+        description: 我的提案的新评价
+      new_valutation:
+        description: 我参加的一项提案有了新评价
+      available_author:
+        description: 使用者现在可以成为一个提案的编辑
+      author_accepted:
+        description: 接受使用者成为此提案的编辑
+        email_subject: '%{title} -你现在是这个提案的编辑！ '
+        message: '你现在是提案<b>%{title}</b> 的编辑。 <br/>提醒您，作为一个编辑，你应该听听其他使用者的讨论、作出的贡献，来改善提案的文本。 <br/>'
+      new_authors:
+        description: 提案的新编辑
+        email_subject: '%{title}-新的编辑者'
+        message: '<b>%{user}</b> 现在是提案<b>%{title}</b> 的编辑'
+      unintegrated_contribute:
+        description: 编辑修订已经被放回讨论
+        email_subject: '%{proposal} - 编辑修订已经被放回讨论'
+        message: '你针对提案<b>%{poposal}<b> 提出的编辑修订，现在已经放回讨论阶段'
+      text_update:
+        description: 我参与的提案内文更新了
+      new_contributes_mine:
+        description: 有人针对你的提案提出了新的编辑修订
+      change_status:
+        description: 我参与的提案状态更新了
+        email_subject:
+          wait: '%{title} - 选择投票日期！ '
+          waiting_date: '%{title} - 投票日期决定了！ '
+          in_vote: '%{title} - 快来参与投票！ '
+          abandoned: '%{title} 没有通过讨论'
+          rejected: '%{title} 提案已被拒绝'
+          voted: '%{title} - 投票被终止'
+          24_hours: '针对提案%{title} 的讨论即将于明天截止！ '
+          1_hour: '提案%{title} 讨论将在一小时内结束！ '
+          24_hours_vote: '提案%{title} 的投票将在明天结束！ '
+          1_hour_vote: '提案%{title} 的投票将在一小时内结束！ '
+        message:
+          waiting_date: '%{name} 已经决定了提案<b>%{title}</b> 的投票日期'
+          in_vote: '提案<b>%{title}</b> 正在进行投票阶段！ '
+          abandoned: '提案<b>%{title}</b> 没有通过讨论阶段，已经被放弃'
+          rejected: '提案<b>%{title}</b> 被参与者否决了'
+          voted: '%{title} - 投票结束'
+          24_hours: '提案<b>%{title}</b> 的讨论将于明天结束！ '
+          1_hour: '提案<b>%{title}</b> 的讨论将在一小时内结束！ '
+          24_hours_vote: '提案<b>%{title}</b> 的投票将在明天结束！ '
+          1_hour_vote: '提案<b>%{title}</b> 的投票将在一小时内结束！ '
+      change_status_mine:
+        description: 更改我的提案的状态
+        email_subject:
+          wait: '%{title} - 选择投票日期！ '
+          waiting_date: '%{title} - 投票日期决定了！ '
+          in_vote: '%{title} - 快来参与投票！ '
+          abandoned: '%{title} 没有通过讨论'
+          rejected: '%{title} 提案已被拒绝'
+          voted: '%{title} - 投票结束'
+          24_hours: '针对提案%{title} 的讨论即将于明天截止！ '
+          1_hour: '提案%{title} 讨论将在一小时内结束！ '
+          24_hours_vote: '提案%{title} 的投票将在明天结束！ '
+          1_hour_vote: '提案%{title} 的投票将在一小时内结束！ '
+        message:
+          wait: '你的提案<b>%{title}</b> 已经通过讨论阶段，正在等待你决定投票日期。 '
+          waiting_date: '%{name} 已经决定了提案<b>%{title}</b> 的投票日期'
+          in_vote: '你的提案<b>%{title}</b> 正在进行投票阶段！ '
+          abandoned: '你的提案<b>%{title}</b> 并没有通过讨论且已经被放弃了，抱歉'
+          rejected: '你的提案<b>%{title}</b> 被参与者否决了，抱歉'
+          voted: '<b>%{title}</b>-投票已终止'
+          24_hours: '提案<b>%{title}</b> 的讨论将于明天结束！ '
+          1_hour: '提案<b>%{title}</b> 的讨论将在一小时内结束！ '
+          24_hours_vote: '提案<b>%{title}</b> 的投票将在明天结束！ '
+          1_hour_vote: '提案<b>%{title}</b> 的投票将在一小时内结束！ '
+      new_posts_group_follow:
+        description: 我所追踪的群组墙上新的文章
+        email_subject: 新文章
+      new_posts_group:
+        description: 我所参与的群组墙上的新文章
+        email_subject: 新文章
+        message: '<b>%{user}</b> 在群组<b>%{group}</b> 中新增了一篇文章'
+      new_public_proposals:
+        description: 在Open Space 中有一个新的提案
+        email_subject: '%{proposal}'
+        message: '加入到Open Space 的新提案<b>%{proposal}</b>'
+      new_proposals:
+        description: 群组提出的新提案
+        email_subject: '%{proposal}'
+        message: '<b>%{group}</b> 群组提出了新的提案<b>%{proposal}</b> '
+      new_blog_comment:
+        description: 你的 Blog 有了新的回应
+      new_comments_mine:
+        description: 你的提案有新的回应
+        email_subject: 你的提案有一个新的回应
+        message: '<b>%{name}</b> 针对你的提案<b>%{title}</b> 的编辑修订提出了回应'
+      new_comments:
+        description: 你参与讨论的提案有新的回应
+        email_subject: '%{title} - 新的回应'
+        message: '<b>%{name}</b> 在你参与讨论的提案<b>%{title}</b> 中新增了一个回应'
+    proposal_categories:
+      no_category:
+        description: 未分类
+      education:
+        description: 教育、研究
+      health:
+        description: 医疗、卫生
+      information:
+        description: 资讯、传播
+      commerce:
+        description: 商务、金融、税收
+      work:
+        description: 职业与自我实现
+      security:
+        description: 安全与法律
+      world:
+        description: 世界、移民
+      minorities:
+        description: 少数、弱势
+      ethics:
+        description: 道德、团结、灵性
+      sexuality:
+        description: 性别、家庭、儿童
+      culture:
+        description: 艺术和文化
+      entertainment:
+        description: 社会、体育、娱乐
+      organization:
+        description: 内部组织
+      agricolture:
+        description: 水、食品、农业
+      territory:
+        description: 领土、自然、动物
+      mobility:
+        description: 都市化、流动性、工程
+      energy:
+        description: 能源、气候
+      industry:
+        description: 工业、材料和废弃物
+      democracy:
+        description: 民主、机构
+    vote_types:
+      favorable:
+        description: 赞成
+      neutral:
+        description: 中立
+      dissenting:
+        description: 异议

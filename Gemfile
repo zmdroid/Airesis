@@ -1,4 +1,4 @@
-source 'http://rubygems.org'
+source 'https://ruby.taobao.org'
 
 ruby File.read('.ruby-version').strip
 

@@ -30,7 +30,6 @@ class GroupsController < ApplicationController
                                                       else
                                                         InterestBorder.find_or_create_by_key(params[:interest_border])
                                                       end
-
     @groups = Group.look(params)
     respond_to do |format|
       format.html

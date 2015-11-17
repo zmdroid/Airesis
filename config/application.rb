@@ -21,11 +21,11 @@ module Airesis
 
     config.autoload_paths << "#{Rails.root}/lib"
     config.time_zone = 'Rome'
-    config.i18n.default_locale = :'en-EU'
+    config.i18n.default_locale = :'zh-CN'
     config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '**', '*.{yml}')]
 
     europe_eng_fallbacks = [:'en-GB', :'en-IE', :'en-US', :'en-ZA', :'en-AU', :'en-NZ',
-                            :'sr-CS', :'sr-SP', :'sh-HR', :'zh-TW', :'me-ME', :'bs-BA',
+                            :'sr-CS', :'sr-SP', :'sh-HR', :'zh-TW', :'zh-CN', :'me-ME', :'bs-BA',
                             :'ru-RU', :'ro-RO', :'it-IT', :'id-ID', :'hu-HU',
                             :'es-ES', :'de-DE', :'el-GR', :'fr-FR', :'pt-PT']
     portuguese_fallbacks = [:'pt-BR']
@@ -46,7 +46,7 @@ module Airesis
                                      :'bs-BA', :'de-DE', :'el-GR', :'en-AU', :'en-EU', :'en-GB', :'en-NZ', :'en-US', :'en-ZA',
                                      :'en-IE', :'es-AR', :'es-CL', :'es-EC', :'es-ES', :'fr-FR', :'hu-HU', :'id-ID',
                                      :'it-IT', :'me-ME', :'pt-BR', :'pt-PT', :'ro-RO', :'ru-RU', :'sh-HR', :'sr-CS', :'sr-SP',
-                                     :'zh-TW']
+                                     :'zh-TW', :'zh-CN']
 
     config.i18n.enforce_available_locales = true
 
@@ -100,7 +100,7 @@ module Airesis
       if ENV['ASSETS_HOST'].present?
         config.action_controller.asset_host = ENV['ASSETS_HOST']
       end
-      config.paperclip_defaults = options
+      #config.paperclip_defaults = options
     end
   end
 end

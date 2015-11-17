@@ -25,8 +25,8 @@ window.EventsEdit =
       $('#edit_event_' + EventsEdit.eventId).formValidation('revalidateField', input.attr('name'))
   initMapManager: =>
     if EventsEdit.placeDefined
-      latlng = new (google.maps.LatLng)(EventsEdit.latitudeOriginal, EventsEdit.longitudeOriginal)
-      center = new (google.maps.LatLng)(EventsEdit.latitudeCenter, EventsEdit.longitudeCenter)
+      latlng = new (BMap.LatLng)(EventsEdit.latitudeOriginal, EventsEdit.longitudeOriginal)
+      center = new (BMap.LatLng)(EventsEdit.latitudeCenter, EventsEdit.longitudeCenter)
       EventsEdit.mapManager = new Airesis.MapManager('edit_map_canvas', latlng, center, @zoom)
     else
       EventsEdit.mapManager = new Airesis.MapManager('edit_map_canvas')

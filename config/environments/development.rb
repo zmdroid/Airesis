@@ -30,3 +30,6 @@ Airesis::Application.configure do
 end
 
 Airesis::Application.default_url_options = Airesis::Application.config.action_mailer.default_url_options
+
+Paperclip.options[:image_magick_path] = "/opt/ImageMagick/bin"
+Paperclip.options[:command_path] = "/opt/ImageMagick/bin"

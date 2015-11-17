@@ -1,0 +1,58 @@
+zh-CN:
+  errors:
+    messages:
+      expired: 过期了, 请重新申请一次has expired, please request a new one
+      not_found: 找不到
+      already_confirmed: 已经确认，请试着直接登入
+      not_locked: 没有被锁定
+      not_saved:
+        one: '因为1 个错误，禁止%{resource} 被储存。 '
+        other: '%{count} 个错误不允许这%{resource} 存档:'
+  devise:
+    failure:
+      locked: 你的帐号已被锁定。
+      invalid: 帐号或密码不正确。
+      invalid_token: 无效的认证安全码。
+      timeout: 你已离开太久，请重新登入。
+      inactive: 你的帐号被冻结了。
+    sessions:
+      signed_in: 成功登入！
+      signed_out: 你已登出。
+    passwords:
+      send_instructions: 为了确认此你是帐号所有人，我们已将重设密码的操作步骤寄到你的电子信箱，应该会在数分钟内收到。
+      updated: 你的密码变更成功，现在已登入。
+      updated_not_active: 你的密码变更成功。
+      send_paranoid_instructions: 如果你的E-mail 曾经注册过，你将会在数分钟内，收到一封含有密码回复连结的信件。
+    confirmations:
+      send_instructions: 为了确认此E-mail 属于你本人，我们已将一封帐号确认信件寄到你的信箱，应该会在数分钟内收到。
+      send_paranoid_instructions: 如果你的E-mail 曾经注册过，你将会在数分钟内，收到一封含有确认账号连结的信件。
+      confirmed: 你已成功确认帐号，现在已登入。
+    registrations:
+      signed_up: 欢迎！你已成功完成注册！
+      signed_up_but_unconfirmed: 为了确认此E-mail 属于你本人，我们已将一封帐号确认信件寄到你的信箱，请点击信件中的连结来完成注册。
+      signed_up_but_inactive: 你的登入资讯正确，但是你的帐号现在正被冻结中。
+      signed_up_but_locked: 你的登入资讯正确，但是你的帐号现在正被锁定中
+      updated: 成功修改帐号资讯。
+      update_needs_confirmation: 你已经成功修改帐号资讯，为了确认此新的email 属于你本人，我们已将一封帐号确认信件寄到你的信箱，请点击信件中的连结来完成注册。
+      destroyed: 你的帐号已经被删除，再见！
+    unlocks:
+      unlocked: 你的帐号已经成功解除锁定，请重新登入。
+      send_paranoid_instructions: 如果你的电子信箱曾经注册过，你将会在数分钟内，收到一封含有解除锁定连结的信件。
+    omn​​iauth_callbacks:
+      failure: '无法连结你的%{kind} 帐号，错误理由是："%{reason}".'
+    mailer:
+      confirmation_instructions:
+        subject: 帐号确认通知
+        welcome: '欢迎来到 %{app_name}，%{user}！ '
+        follow_link: 你可以点击下列的连结，来认证这个e-mail 位置。
+        confirm_account: 认证帐号
+        follow_link_2: 或浏览这个网址：
+        access_by_email: '你现在可以用你设定的e-mail 与密码登入%{app_name}'
+        contact_assistance: '如果你对这个过程有任何问题，请联系网站管理者%{mail}'
+      reset_password_instructions:
+        subject: 重设你的密码
+        hi_user: 'Hello %{user}！ '
+        change_password: 变更密码
+        password_will_not_change: 直到你按下上一个的连结之前，你的密码不会更新
+      unlock_instructions:
+        subject: 解除帐号锁定

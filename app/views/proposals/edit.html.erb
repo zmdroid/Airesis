@@ -1,6 +1,6 @@
 <% content_for :head do %>
     <script type="text/javascript"
-            src="https://maps.googleapis.com/maps/api/js?key=<%= ENV['MAPS_API_KEY'] %>&sensor=false&libraries=drawing">
+            src="http://api.map.baidu.com/api?v=2.0&ak=<%= ENV['MAPS_API_KEY'] %>&sensor=false&libraries=drawing">
     </script>
 <% end %>
 

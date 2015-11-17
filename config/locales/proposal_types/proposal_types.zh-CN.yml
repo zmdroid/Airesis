@@ -1,0 +1,263 @@
+zh-CN:
+  pages:
+    proposals:
+      edit:
+        add_solution:
+          standard: "添加另一种解决方案"
+          poll: "添加另一种选择"
+          rule_book: "添加另一种解决方案"
+          press: "添加另一种解决方案"
+          event: "添加另一种解决方案"
+          estimate: "添加另一种解决方案"
+          agenda: "再添点"
+          candidates: "添加另一名候选人"
+          simple: "添加另一种解决方案"
+        solution_title:
+          standard: "解决方法"
+          poll: "选项"
+          rule_book: "解决方法"
+          press: "解决方法"
+          event: "解决方法"
+          estimate: "解决方法"
+          agenda: "点"
+          candidates: "候选人"
+          simple: "解决方法"
+        insert_title:
+          standard: "插入一个标题"
+          poll: "插入一个标题"
+          rule_book: "插入一个标题"
+          press: "插入一个标题"
+          event: "插入一个标题"
+          estimate: "插入一个标题"
+          agenda: "插入一个标题"
+          candidates: "插入姓名"
+          simple: "插入一个标题"
+        new_solution_title:
+          standard: '解决方法 <span class=\"num\">%{num}</span>:'
+          poll: '选项 <span class=\"num\">%{num}</span>:'
+          rule_book: '解决方法 <span class=\"num\">%{num}</span>:'
+          press: '解决方法 <span class=\"num\">%{num}</span>:'
+          event: '解决方法 <span class=\"num\">%{num}</span>:'
+          estimate: '解决方法 <span class=\"num\">%{num}</span>:'
+          agenda: '<span class=\"num\">%{num}</span> point:'
+          candidates: '候选人 <span class=\"num\">%{num}</span>:'
+          simple:  '解决方法 <span class=\"num\">%{num}</span>:'
+      new:
+        standard:
+          problems_title: '问题'
+          problems_question: "什么是要解决的问题和/或哪些为了实现这一目标，克服障碍？"
+          problems_title_label: "什么是要解决的问题和/或哪些为了实现这一目标，克服障碍？"
+          objectives_title: "目标"
+          step_4_title: "您可以输入该提案的文字或更高版本的基础上接收到的输入写"
+          solution:
+            description: "该方案的描述"
+            time: "时报"
+            subject: "主管"
+            resources: "必要的资源，以及如何检索它们"
+            aspects: "伦理，环境，社会等各方面"
+            documents: "文件"
+            pros: "优点"
+            cons: "缺点"
+            title: "解决方法 1"
+          suggestion_html: |
+            <div><b>示例:</b></div>
+            <div>减少饮用水灌溉的用法。</div>
+            <div>用饮用水浇灌公园和私人花园是一个浪费，有相关费用。此外，它提供了渡槽含水层已所剩无几</div>
+          paragraph:
+            similar: "相似的经历"
+            stakeholders: "利益相关者"
+            requirements: "方案要求"
+          question:
+            paragraph:
+              similar: "是否有经验，激励要达到的目标？其中那些已取得的最好成绩，哪些有最坏的可能的解决方案/计划已经到位，？为什么呢？"
+              stakeholders: "谁将会从实现目标和提出的解决方案中获得的好处和缺点？参与该提案的讨论这些议题？ 以什么方式？"
+              requirements: "什么是应该尊重的理想解决方案的特点是什么？可被称为两个技术要求的价值观和原则参与该提案的讨论observed.ese科目？ 以什么方式？"
+            solution:
+              description: "描述的是，在实践中，建议采取以实现这一目标的解决方案。"
+              time: "当将这种解决方案来实现？确定实施的可能的阶段。"
+              subject: "谁将会实施或安排实施该解决方案？如果实施，如何监测和验证解决方案的结果是什么？"
+              resources: "是资金，志愿者，工具和技能，要实现这个解决方案需要？列出并量化。如何将这些资源被发现的？"
+              aspects: "这是否解决方案，满足集团或社会的道德要求，它是解决？什么是它的社会和环境的影响？"
+              documents: "文档提供解决方案？"
+              pros: "列表和总结的主要优势和该解决方案的优势。指示的优势利益相关者。"
+              cons: "列出和总结本解决方案的主要问题和缺点。指出缺点的利益相关者。"
+        rule_book:
+          problems_title: "问题"
+          problems_title_label: "什么是本条的应用需要解决的问题？什么是被规定的问题是什么？为什么呢？"
+          problems_question: "什么是本条的应用需要解决的问题？什么是被规定的问题是什么？为什么呢？"
+          suggestion_html: |
+            <div><b>示例:</b></div>
+            <div>Rule book to reserve the St. Peter's hall</div>
+            <div>The town of  Silverham has a conference room that nowadays is used only by the Mayor's "fellows". It is time to choose an impartial procedure to grant all citizens and public associations the right to book the room for public events.</div>
+          solution:
+            title: "解决方法 1"
+            article: "文章 %{num}"
+            pros: "优点"
+            cons: "缺点"
+          paragraph:
+            inspire: "条例从激发"
+            requirements: "要求满足"
+            stakeholders: "利益相关者(参与人)"
+          question:
+            paragraph:
+              inspire: "是从它的灵感有类似的规定？在类似规则的经验，哪些已经取得的最好成绩，哪些有最坏的？为什么呢？"
+              requirements: "什么是调控应考虑到的主要制约因素？什么是价值和应遵循的原则？会有什么应用程序规制的成本是多少？什么科目将指示执行呢？"
+              stakeholders: "谁是最受调控影响的应用程序？谁将会承担后果？参与该提案的讨论这些议题？ 怎么样？"
+            solution:
+              article: "进入第一篇文章的文本，以确保它的解释似乎是唯一的。插入术语或表述的定义都受到误解。"
+              pros: "列表和总结的主要优势和该解决方案的优势。指示的优势利益相关者。"
+              cons: "列出和总结本解决方案的主要问题和缺点。指出缺点的利益相关者。"
+        press:
+          problems_title_label: "什么是你想传达的信息？预计其应有的理解和流有什么障碍？有文章，或者要复制或要提供一个调整其最近的新闻？"
+          problems_title: "消息传送"
+          problems_question: "什么是你想传达的信息？预计其应有的理解和流有什么障碍？有文章，或者要复制或要提供一个调整其最近的新闻？"
+          suggestion_html: |
+            <div><b>Example:</b></div>
+            <div>Advertise the release of the version 3.5 of Airesis.</div>
+            <div>We have to advertise the release of the version 3.5 of Airesis, that brings important features for the Public Administrations. It is necessary to explain what Airesis is and captivate the attention of the press, given the recent rumors about the usage of Airesis in the White House.</div>
+          solution:
+            title: "解决方法 1"
+            maintitle: "标题"
+            subtitle: "副标题"
+            incipit: "个人"
+            body: "Body"
+            conclusion: "结论"
+            deep: "慧眼"
+          paragraph:
+            target: "接受者/目标"
+          question:
+            paragraph:
+              target: "谁是文章/新闻稿的目标？该消息方面，你想传达的是最感兴趣的呢？"
+            solution:
+              maintitle: "你怎么可以用几句话概括文章/新闻稿的信息？"
+              subtitle: "指示概括地说，要包含在文章标题或其他信息的一个重要概念。"
+              incipit: "表明很少说话谁做了什么，当他做到了，在哪里，为什么，为什么突出的事实是非常相关的。"
+              body: "更详细地描述，但合成的，这一事实。写短句子显著。"
+              conclusion: "是否有建议作出的读者？可能是什么的事实或它的含义可能的发展？"
+              deep: "插入链接，联系人，或为那些谁愿意深化消息的附加信息。"
+        estimate:
+          problems_title_label: "你希望成为什么样的商品或服务的购买？要解决哪些问题？"
+          problems_title: "问题"
+          problems_question: "你希望成为什么样的商品或服务的购买？要解决哪些问题？"
+          suggestion_html: |
+            <div><b>Example:</b></div>
+            <div>Replacement of the thermal plant in the headquarter of the Association.</div>
+            <div>Because of the failure of the old boiler, our quarter is impractical during winters. Given that it is not possible to fix it, we have to substitute the old thermal plant with a new one, with low energy consumption.</div>
+          solution:
+            title: "解决方法 1"
+            cost: "多少"
+            problems: "制约因素和问题的尊重"
+            dumentation: "文件"
+          paragraph:
+            technical_constrains: "技术约束"
+            temporal_constrains: "技术约束"
+            other_constrains: "环境，道德，监管约束"
+            budget: "最高预算"
+            recipient_budget: "报价请求收件人"
+          question:
+            paragraph:
+              technical_constrains: "如技术要求，将确保商品和服务购买？"
+              temporal_constrains: "什么时间将事先提供，以及该商品或服务的购买？"
+              other_constrains: "有什么要求，必须确保环境和道德的商品和服务的购买？他们必须遵守法律的特殊规定？"
+              budget: "什么是分摊到购买的最大金额？"
+              recipient_budget: "什么科目将被要求提供报价？他们有什么接触？"
+            solution:
+              cost: "现在需要的预算金额的商品和服务的供应？"
+              problems: "其中上述确定的约束，也不会得到尊重？使用该预算涉及的其他问题？ （如利益冲突，缺乏援助...）。"
+              dumentation: "报告显示，包括使用链接和附件，对于这句话的其他文档。"
+        agenda:
+          problems_title: "会议类型"
+          problems_question: "你想要什么样的会议来组织？我们为什么要设置？"
+          suggestion_html: |
+            <div><b>Example:</b></div>
+            <div>Choose an agenda for our meeting.</div>
+            <div>Ordinary co-ordination meeting to exchange experiences with the referents of the local committees for the biological agriculture of Italy.</div>
+          solution:
+            title: "项目"
+            priorities: "项目优先"
+            links: "洞察链接"
+            description: "描写"
+            estimated_time: "所需的讨论时间"
+          paragraph:
+            date_time: "日期和时间"
+            place: "地点"
+          question:
+            paragraph:
+              date_time: "什么时候开会？已确保被邀请者的可用性？结果发现，该事件不与他人重叠？ "
+              place: "当事件发生？如果事件发生在网上，输入网址要连接参加。"
+            solution:
+              description: "指示的议程上的项目之一。"
+              links: "有用的网页或文档的任何链接的会议或在会议中提及。"
+              priorities: "说明为什么它被认为是重要的看待这个问题，什么是你的优先。"
+              estimated_time: "什么是分配给了这一点讨论的时间呢？"
+        event:
+          problems_title: "活动范围"
+          problems_title_label: "你为什么要组织一次活动？有什么目的？"
+          problems_question: "你为什么要组织一次活动？有什么目的？"
+          suggestion_html: |
+            <div><b>Example:</b></div>
+            <div>Organize a low-cost rock concert.</div>
+            <div>In our town there are a lot of young bands that cannot show off and improve their talent, because of a lack of space. In addition to this, there are few events promoted by our Municipality for the next summer, because of a lack of resources.</div>
+          solution:
+            title: "解决方法 1"
+            maintitle: "标题"
+            description: "该方案的描述"
+            program: "日期，时间和计划"
+            body: "地点"
+            place: "地点"
+            organization: "活动组织"
+            resources: "必要的资源，以及如何检索它们"
+            pros: "优点"
+            cons: "缺点"
+          paragraph:
+            similar_experiences: "相似的经历"
+            stakeholders: "利益相关者（参与人）"
+            desired_characteristics: "期望中的特点"
+          question:
+            paragraph:
+              similar_experiences: "期望中的特性有经验，启发他们组织的活动吗？其中已经实现了最好的结果和其最坏的可能措施已经到位，？为什么呢？"
+              stakeholders: "谁将会从实现事件的组织接收的优点和缺点？参与该提案的讨论这些主题？以何种方式？"
+              desired_characteristics: "有什么特点，该事件应该出现？可称为技术，伦理，组织的标准..."
+            solution:
+              description: "描述了拟采取的活动的组织的解决方案"
+              program: "如果是事件？会有什么计划？结果发现，该事件不与他人重叠？已确保被邀请者的可用性？"
+              place: "当事件发生？这个地方有事件（如：残疾人通道，洗手间，电力供应）必要的设施？如果没有，你怎么打算弥补差距？"
+              organization: "有哪些不同的阶段/组织领域？商务局将会负责不同阶段/地区的组织？"
+              resources: "资金需要，志愿者，工具，专业知识来实施该解决方案？列出他们和量化。如何将这些资源会被发现？"
+        candidates:
+          suggestion_html: |
+            <div><b>Example:</b></div>
+            <div>Elect the new referent for the communication group.</div>
+            <div>The communication group has just been established and it is necessary to elect a referent. All the people that have been members of the group for at least 5 months can be nominated.</div>
+          solution:
+            name: '候选人姓名'
+            data: "个人数据"
+            curriculum: "课程"
+          paragraph:
+            election_type: "选类型的描述："
+            role: "角色或办公室要填写"
+            requirements: "应聘要求"
+          question:
+            paragraph:
+              role: "什么是你必须选择一个候选者的角色？什么是你的职责是什么？什么任务必须完成什么？"
+              requirements: "什么是理想人选的特点是什么？什么是最低强制？"
+            solution:
+              name: "注明应聘的名称。"
+              data: "显示必要让候选人的唯一识别的个人资料。"
+              curriculum: "什么是应聘者的简历？符合要求先前确定的？考生限制其愿意担任该？"
+        simple:
+          problems_title: "问题"
+          problems_title_label: "什么是要解决的问题和/或哪些为了实现这一目标，克服障碍？"
+          problems_question: "什么是要解决的问题和/或哪些为了实现这一目标，克服障碍？"
+          solution:
+            description: "描述"
+            title: "方案 1"
+          question:
+            solution:
+              description: "描述的解决方案可采取以实现目标，指示的时间尺度，实现所需的资源，任何未解决的问题。"
+        petition:
+          paragraph:
+            text: "信访文本"
+          question:
+            paragraph:
+              text: "请愿书的文本"

@@ -183,6 +183,7 @@ SysLocale.create(key: 'sr-CS', host: 'localhost', territory: Country.find_by(des
 SysLocale.create(key: 'sr-SP', host: 'localhost', territory: Country.find_by(description: 'Serbia'), lang: 'sr-SP')
 SysLocale.create(key: 'sh-HR', host: 'localhost', territory: Country.find_by(description: 'Croatia'), lang: 'sh-HR')
 SysLocale.create(key: 'zh-TW', host: 'localhost', territory: Country.find_by(description: 'China'), lang: 'zh-TW')
+SysLocale.create(key: 'zh-CN', host: 'localhost', territory: Country.find_by(description: 'China'), lang: 'zh-CN')
 
 SysCurrency.create(description: 'EUR')
 SysCurrency.create(description: 'CHF')

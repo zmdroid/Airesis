@@ -1,5 +1,6 @@
+puts '4'
 Dir[File.join(Rails.root, 'db', 'seeds', '*.rb')].sort.each { |seed| load seed }
-
+puts '5'
 puts "creating an admin user with the following credentials: #{ENV['ADMIN_EMAIL']}/#{ENV['ADMIN_PASSWORD']}"
 
 admin = User.new(password: ENV['ADMIN_PASSWORD'],
@@ -10,3 +11,4 @@ admin = User.new(password: ENV['ADMIN_PASSWORD'],
                  user_type_id: UserType::ADMINISTRATOR)
 admin.skip_confirmation!
 admin.save!
+puts '6'

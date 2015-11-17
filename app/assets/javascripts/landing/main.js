@@ -11,8 +11,8 @@ $(function () {
     //$('.buttons .learn-more').addClass("animated fadeInRightBig");
     $('.js #hero .hero-image img').addClass("animated fadeInUpBig");
     $('.js #hero .buttons a.trial').addClass("animated shake");
-
-    !function (d, s, id) {
+/*
+    !function (d, s, id) {  
         var js, fjs = d.getElementsByTagName(s)[0];
         if (!d.getElementById(id)) {
             js = d.createElement(s);
@@ -21,7 +21,7 @@ $(function () {
             fjs.parentNode.insertBefore(js, fjs);
         }
     }(document, "script", "twitter-wjs");
-
+*/
     var toggle_button = $("<a>", {
             id: "toggle-btn",
             html: "Menu",

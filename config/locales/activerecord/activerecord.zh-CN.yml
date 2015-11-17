@@ -1,0 +1,138 @@
+zh-CN:
+  activerecord:
+    models:
+      meeting: 会议
+      places: 地点
+    attributes:
+      blog_comment:
+        body: 回应
+        created_at: 广告防护
+      event:
+        title: 活动标题
+        description: 描述
+        event_type_id: 活动类型
+        starttime: 开始日期
+        endtime: 结束日期
+        all_day: 整天
+        period: 重复
+        frequency: 固定重复
+        private: '不公开 '
+      group:
+        facebook_page_url: Facebook 页面位址
+        name: 名称
+        title_bar: 标题栏位
+        description: 描述
+        accept_requests: 申请参与
+        porta_id: 管理员
+        interest_border_tkn: 你主要关心的地区
+        interest_border_id: 你主要关心的地区
+        image_url: 图片位置
+        default_role_name: 新使用者的角色名称？
+        default_role_name_placeholder: 例如：使用者, 会员, 行动者, 海盗
+        name_placeholder: 选择一个与群组认同或所在地区有关的名称
+        title_bar_placeholder: 群组页面的标题
+        description_placeholder: 以下讯息会出现在群组页面的首页
+        image_url_placeholder: 群组图片位置
+        facebook_page_url_placeholder: 群组也有Facebook 粉丝团吗？将连结贴在这。
+        admin_title: 管理者的名称
+        private: 非公开群组
+        rule_book: 规则书
+        image: 载入图片
+        admin_title_placeholder: 群组管理者的角色名称(预设：管理者)
+      blog:
+        title: 标题
+      blog_post:
+        title: 标题
+        body: 内文
+        published: 状态
+        published_true: 已发布
+        published_false: 草稿
+      group_invitation:
+        emails_list: E-mail 位置
+        testo: 讯息内容
+      place:
+        address: 地址
+      proposal:
+        group_area_id: 工作小组
+        proposal_category_id: 类别
+        title: 标题
+        subtitle: 副标题
+        problems: 问题
+        objectives: '目标 '
+        content: 内文
+        interest_borders_tkn: 你主要关心的地区
+        tags_list: 标签
+        anonima: 暂时匿名
+        visible_outside: 公开检视
+        secret_vote: 秘密投票
+      proposal_comment:
+        content: 内容
+      quorum:
+        name: 此门槛的名称
+        name_title: 请输入一个简洁、一目了然的标题
+        description: 描述 / 简介
+        description_title: 描述一下这个门槛的设计目的，以及使用的时机
+        minutes: 讨论持续
+        days_m: 天
+        hours_m: 小时
+        minutes_m: 分钟
+        percentage: (参与者)法定人数
+        percentage_title: 提案至少需要多少群组内的成员参与过，才能进行投票？
+        good_score: 期限
+        good_score_title: 到达投票的正面评价门槛
+        bad_score: 撤案门槛 (比例)
+        bad_score_title: 负面评价过多，以致于低于这个门槛时，提案会自动​​被撤案。但是没有低于这个门槛，提案将可以持续被讨论。
+        condition: 条件
+        condition_title: 要以期限为条件或参与人数？或是两者皆是呢？
+        vote_minutes: 投票持续
+        vote_percentage: (选民)法定人数
+        vote_good_score: 核准
+      sys_movement:
+        sys_movement_type_id: 类别
+        made_on: 制作
+        amount: 数量
+        sys_currency_id: 货币
+      user:
+        email: E-mail 位置
+        login: 使用者名
+        password: 密码
+        linkedinpageurl: 你在 Linkedin 的个人页面
+        facebookpageurl: 你在 Facebook 的个人页面
+        accept_conditions: 使用者条款
+        receive_newsletter: 接收电子报
+        blocked: 错误
+      group_area:
+        name: 名称
+        description: 描述
+        default_role_name: 预设角色名称
+    errors:
+      messages:
+        inclusion: 不在列表中
+        exclusion: 不能使用的保留字
+        invalid: 不正确
+        confirmation: 密码两次填写不同噢
+        accepted: 必须被接受
+        empty: 不能留空
+        blank: 必须填写
+        too_long: 内容太长了
+        too_short: 内容太短了
+        wrong_length: '请控制在 %{count} 字'
+        taken: 已经被使用了
+        not_a_number: 请填写数字
+        greater_than: '必须大于 %{count}'
+        greater_than_or_equal_to: '必须大于或等于%{count}'
+        equal_to: '必须等于 %{count}'
+        less_than: '必须小于 %{count}'
+        less_than_or_equal_to: '必须小于或等于%{count}'
+        odd: 必须是偶数
+        even: 必须是奇数
+        record_invalid: '验证失败 %{错误}'
+        not_found: 找不到
+        TOS: 需要接受 TOS
+      full_messages:
+        format: '%{attribute} %{message}'
+      models:
+        user:
+          attributes:
+            email:
+              already_confirmed: 这个E-mail 已经注册过了。

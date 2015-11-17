@@ -1,0 +1,454 @@
+zh-CN:
+  home:
+    intro:
+      title: "线上的民主网络社区"
+      description: "A tool of direct democracy born to decide and act collectively on proposals and ideas generated anywhere for any theme."
+      paragraph_1:
+        title: "线上的民主网络社区"
+        content_html: |
+          <p>
+            Airesis是一个免费的软件平台，由一组意大利开发者和贡献者建成，使社区和群体根据直接民主和参与的原则组织起来的生产方式。
+          </p>
+          <p>
+            为了实现这一目标，该应用程序已被设计为一个多功能的系统，该系统集成了所有可以帮助一个社会的发展，特别是“社会”，并审议工具的工具。
+          </p>
+          <p>
+            社交工具中，Airesis提供博客和促销活动的制度，并与毗邻的会议安排。慎思工具，它包括收集和建议和倡议审议，表决系统，旨在为候选人当选领域。
+            该平台还允许您创建组，进入管制政策和可定制的权限。由于Airesis的目标是刺激参与，高度重视已废，以最大限度地提高整个平台的直观性。的发展理念，
+            专注于持续改进，基于用户反馈的一种进化过程。开发团队可满足其需要根据直接民主的精神，使用该软件社区的需要。
+          </p>
+      paragraph_3:
+        title: "原则和核心价值观"
+        content_html: |
+          <p>Airesis是一个开源的决策工具，电子民主，强烈导向，以解决问题和设计，以最大限度地发挥集体智慧的巨大进化的力量。</p>
+          <p>通过按照非营利原则，志愿者完全开发，Airesis是为了充分利用更快的，处获悉，共享和参与决策。<br/>
+          它是基于以下原则：</p>
+          <ul>
+          <li><strong>参与</strong> <br/>
+            涉及公民意味着有更多的精力和观点提供百分点。只有通过直接参与，可以探讨的问题，并了解人们真正想要的。参与是民主决策的本质。
+          </li>
+          <li><strong>透明度和安全性</strong><br/>
+            如果没有透明度，规则可以很容易地规避和民主能迅速退化。透明度的增加也意味着开放，能够接受。因为这方面的原因Airesis还允许非注册用户查看该网站的内容。该软件的源代码也“透明”的，是它完全开源的。
+          </li>
+          <li><strong>建设性对话</strong><br/>
+            没有人拥有所有正确的答案。使用合适的工具，阐述提出了很多人的想法可能比做自己的工作效率。
+          </li>
+          <li><strong>平等机会</strong><br/>
+            要目的是作为如何有效平等，在所提供的可能性方面，可以由系统来进行。
+          </li>
+          <li><strong>灵活性</strong><br/>
+            每个组都有自己的需求，每一项提案是从别人不同，每个用户都有自己的需求。
+          </li>
+      paragraph_4:
+        title: "我们的目标：直接和民主参与"
+        content_html: |
+          <p>
+            结构作为一个社交网络，Airesis可以让用户根据自己的兴趣从事其他人，
+            并利用各自的特质，以协商一致审议任何类型的建议。该架构及其核心价值观使该平台以追求社会和建设性的讨论目标对可能涉及境内，
+            社会宣传，行业政策，从而带出最好的想法的问题。
+          </p>
+          <p>Airesis提供的工具：
+          <ul>
+                <li>促进思想和个人会员的经验</li>
+                <li>集团的倡议/个人用户的建议，并提交给社区</li>
+                <li>提供的工具可以对各项措施进行辩论</li>
+                <li>促进提案共享编辑</li>
+                <li>管理的各项措施和建议进行表决</li>
+                <li>推动一般事件或会议</li>
+                <li>管理候选人的申请和毗邻的投票行动</li>
+                <li>管理受限子组，由具体的规定和权限限制，但所有由平台提供的工具</li>
+          </ul>
+          </p>
+      paragraph_5:
+        title: "特点和功能"
+        content_html: |
+          <p>
+            该Airesis开发团队根据该采取受惠于平台群体的需求建立的所有功能和工具。同样的开发小组是存在于Airesis并决定协商一致的将来实现。
+          </p>
+          <p>
+            实际结构允许登记的用户属于一个开放的空间，加入已经存在的基团之一，或建立一个新的。无论是<strong>团体</strong> 和开放的<strong>空间</strong> 内，可以发布<strong>倡议</strong> /<strong>建议</strong> ，评估它们，
+            编辑共享总结和再投他们。在同样的环境中，你可以创建有关<strong>会议</strong> 和<strong>投票</strong> 活动。
+          </p>
+      paragraph_6:
+        title: "基本特征"
+        content_html: |
+          <ul>
+            <li><strong>注册和登录</strong> <br>
+              从每一个网页，甚至后添加评论或贡献。它使用Facebook，谷歌+，Meetup网站，Twitter或LinkedIn登陆甚至有可能
+            </li>
+            <li><strong>公共场所或私人区域组</strong> (<a href="http://youtu.be/n_ZruAcNkVk" target="blank">在这个视频教程更多信息</a>) <br>
+              签到了，可以参加开放空间，加入已经存在的群体之一，或创建一个新的。
+            </li>
+            <li><strong>创作建议和辩论</strong>
+              无论是在团体和开放空间它发布建议/倡议和接收的捐款是可能的，意见和评价，以编辑能获得最大可能的共识，该提案的共同总结。
+            </li>
+            <li><strong>仲裁和提案投票</strong> <br>
+              每个提案都有自己的法定人数。投票按照舒尔茨的方法时按优先。
+            </li>
+            <li><strong>活动/日历管理</strong> <br>
+              这是可能的安排有关组内或开放空间会议的候选人，投票选举活动。
+            </li>
+            <li><strong>事件</strong> 和新闻有关平台的通讯</li>
+            <li><strong>消息服务Messaging service</strong> 和<strong>电子邮件通知</strong> (customizable by the user)
+            </li>
+            <li><strong>上传和管理文件</strong> 和附件的提案（功能目前已停用）
+            </li>
+            <li><strong>民意</strong>调查内部和外部用舒尔茨的投票方法。</li>
+            <li><strong>手机软件</strong></li>
+          </ul>
+      paragraph_7:
+        title: "建议和辩论的工具"
+        content_html: |
+          <p>
+            该软件的核心是集中在<strong>审议工具</strong>，它允许您参与提案的起草，要设置一个共同的目标，有助于寻找替代解决方案，并提请表决这项工作，这样的结果这个方案能得到最可能达成共识的最好，最共同的解决方案可以出现。
+          </p>
+          <p>该方法包括3个步骤：</p>
+          <ul>
+            <li><strong>作者创建的建议</strong> 下一个向导,之后至极系统发布一节文“<strong>辩论</strong>”。
+              在此期间，建议可以由下式给出的评价和由其他用户加入贡献的基础上，编辑修改。
+            </li>
+            <li>
+              当达到<strong>辩论法定人数</strong>建议去一节“<strong>投票</strong>”在此期间，该提案的文本不能改变，
+              编辑选择了一个<strong>投票活动</strong> （投票期间）在那些已经计划或者可以创建一个新的使用日历。<br>
+              所有符合条件的用户（根据集团制定的规则），可以在规定的时间<strong>投票</strong>。</li>，
+            <li>
+              <strong>在投票结束时</strong> 系统计算的<strong>结果</strong>，并将该提案的<strong>“投票”</strong>部分。
+            </li>
+            <li>
+              然而，如果<strong>辩论<strong>的法定人数未达到，建议转到<strong>“抛弃”<strong>部分，在这里它可以被<strong>放回辩论<strong>，重新开始一个新的生命周期。
+           </li>
+          </ul>
+          <p>
+            特别有趣的是通过<strong>讨论区</strong> 发布的每一个建议，即允许该提案本身由编辑器（如<a href="http://en.wikipedia.org/wiki/Wiki" target="blank">wiki</a>）
+            根据个人贡献获得了一致意见修改的。讨论区有两个层次缩进，第一个目的是收集捐款，对后者的第二个人的考虑。
+            第一个层次实现了一个机制，以增加纳入其最欣赏的贡献提案的成熟。
+          </p>
+          <p>
+            <strong>辩论法定人数</strong>，必须促进提案的投票阶段，由三个不同的参数：
+          </p>
+          <ul>
+            <li><strong>参加人员</strong>:是谁参加辩论的人数;
+            </li>
+            <li><strong>讨论时间</strong>: 时间段中的提议仍然在辩论阶段（从提交开始）;
+            </li>
+            <li><strong> 到期日</strong>: 与会者谁声称，该提案已准备好进行表决的百分比;
+            </li>
+          </ul>
+          <p>
+            提案 "<strong>成熟</strong>" 的评价是社会的成员（在讨论期间完成），通过它们表达的建议下投票阶段文本的适用性的正式行动。
+          </p>
+          <p>有不同类型的法定人数：根据主题的复杂性，参数（参加，时间和期限）有所不同。为开放空间法定人数内的提案由系统管理员进行了定义，而这些建议内部组织发布仲裁可以通过组管理员随意修改。
+          </p>
+          <p>这些建议的组织，分类和检索的方式不同：</p>
+          <ul>
+            <li>这取决于他们的<strong>状态</strong>（“辩论”，“投票”，“投票”，“废弃”）</li>
+            <li>根据预先定义的<strong>类别</strong>（“工作”，“健康”，“教育”等）</li>
+            <li>根据建议的<strong>类型</strong>：标准，法规，估计，声明，技术决策，等</li>
+            <li>使用它可以在提案的文本输入<strong>免费的标签</strong>。</li>
+          </ul>
+      paragraph_8:
+        title: "舒尔茨投票法和直接民主"
+        content_html: |
+          <p>当的时间段分配给辩论结束，对提案的成熟的人足够多的认同（这些条件，根据辩论的法定人数而异），该提案进入<strong>投票</strong>阶段。</p>
+          <p>在这一点上的建议被冻结，编辑要选择一个时间框架，其中，该集团将能够投票的建议。该'投票'事件被记录的组中的日历上，并通知给组的所有成员。</p>
+          <p>
+            在投票的时间，其中在显示提案进行表决，并在其中的投票页面出现一个新的通知发送。在这一点上每一个参与者，在阅读的建议和可能的解决方案列表后，
+            可以提交自己的喜好订购这些解决方案，从最喜欢到最低，从而使舒尔茨方法的处理，找出该集团preferrred解决方案。
+          </p>
+          <p>在表决该提案进入最后的<strong>“投票”</strong>的地位，在那里可以审查在任何时间投票结果。</p>
+      paragraph_9:
+        title: "促进共同建议和参与式民主"
+        content_html: |
+          <p>Airesis的开发是为了促进社区内的想法和意见的交流。为了实现这一目标，该平台提供了不同的工具：</p>
+          <ul>
+            <li>该提案是公共默认</strong>
+            </li>
+            <li>发布在社交网络上，在Airesis的开放空间或外部博客和论坛的建议;
+            </li>
+            <li>个人博客，社区成员可以提出themselfes和发布信息，并公布他们的成员组的消息，除了交流思想/意见;
+            </li>
+            <li>组织为社会成员会议的可能性;
+            </li>
+            <li>的可能性，以纪念在一个共享的日历有趣的活动;
+            </li>
+            <li>讨论板中的每一项建议，在其中添加捐款的编辑将能够在该提案的文字综合，根据收到的评价存在;
+            </li>
+            <li>声望系统奖励的参与，建设性的辩论和透明度，鼓励解决问题
+            </li>
+            <li>有机会邀请他们的联系人加入讨论
+            </li>
+            <li>有机会申请成为共同编辑的建议;</li>
+            <li>通过认证的成员表决的建议的决议。
+            </li>
+          </ul>
+      paragraph_10:
+        title: "临时匿名，无记名投票和可审计投票"
+        content_html: |
+          <p>其中Airesis的特点是，群体可以选择，如果提案的辩论将是匿名与否。</p>
+          <p>如果匿名启用，作者和的建议评论员通过化名的方式表示。此功能可让您根据自己的内容而已，公正地评价这些建议，批评和建议，没有“名”的作者和人际交往的喜好/动态讨厌影响的辩论。</p>
+          <p>在任何情况下，在辩论结束，并在表决后，参与者将与他们的真实姓名显示，这样就可以验证他们每个人的干预。</p>
+          <p>此选项也适用于投票阶段，因此有可能选择这是否会发生通过公开或秘密投票。重要的是，尤其是在无记名投票的情况下，是验证票的登记和没有欺诈的能力。这是可能的，通过由Airesis实现可审核表决的系统。</p>
+      paragraph_11:
+        title: "管理组和用户角色"
+        content_html: |
+          <p>Airesis实现了一个灵活的系统来管理其任何成员可以在集团内部，这样我们可以分配以下角色的权限：</p>
+          <ul>
+            <li>查看私人建议</li>
+            <li>贡献的建议</li>
+            <li>将组新建议</li>
+            <li>发布在首页组</li>
+            <li>创建活动和投票</li>
+            <li>支持提案组的名称</li>
+            <li>添加参与者组</li>
+            <li>提名委员选举</li>
+          </ul>
+          <p> Airesis允许用它来选择设置，最适合他们的需求和他们的内部规定组。它是可能的，例如，允许访问某些功能仅活跃用户和/或证书，或者那些具有特定的作用。也有充足的自由，对管理要求的提案必须符合进入表决。
+          </p>
+          <p>另一个重要特征是分割成区域/工作组，使各组内有可能创建区和有权担任谁将讨论关于该特定区域中的提案的参与者的每个区域。每个参与者将被分配给每个区特定角色，以使其更加灵活的工具。 </p>
+      paragraph_12:
+        title: "团体"
+        content_html: |
+          进入“组”可以通过从顶部栏按下“求组”，或从首页的工作人员的左栏来完成。
+          <p> 点击一组的名称，打开其主页（展示+新闻/博客）。在提案方面显示了什么该集团已决定公开，并看到内部的人（建议和私人活动），你要问的本地管理员入场组。 </p>
+          <p>提出的区域分为四个选项卡（“辩论”，“中投”，“投票”，“掉队”），根据自己的地位的提议这是名单。点击提案的标题，它会打开，显示文本和贡献的领域。建议可以通过选择类别或标签来进一步过滤，显示的主题只有你感兴趣的建议。提出的区域分为四个选项卡（“辩论”，“中投”，“投票”，“掉队”），根据自己的地位的提议这是名单。点击提案的标题，它会打开，显示文本和贡献的领域。建议可以通过选择类别或标签来进一步过滤，显示的主题只有你感兴趣的建议。</p>
+          <p> 社会的每个成员都可以促进一个新的建议：要做到这一点只要按一下按钮“创建新方案”，它会出现在表单填写。</p>
+          <p>通过讨论访问的提案里，社区成员可以根据它进行交互他们的技能，专业知识和意见。</p>
+          <h3 id="Spazio_comune">开放空间</h3>
+          <p> 点击「休憩用地」访问意为，可能是共同利益的提案的管理领域。</p>
+          <p> 组成的组中的提案的区域看起来类似于组;它也提出了一个“私人日历”，显示所有的公共事件，最私密的那些关系到该组。</p>
+          <p> 在开放空间也是一个选项卡“日历”，其中强调了整个社会的事件（信号事件，会议，投票权）。通过点击一张纸条，打开该事件的网页，并根据不同的类型，你可以用它（通过参加投票或信令出席会议的意愿，例如）进行交互。</p>
+    whatis:
+      title: "电子民主在世界上的第一个社交网络"
+      description: "直接民主的工具诞生了，决定和采取集体行动对任何主题产生任何地点的建议和想法。"
+      paragraph_1:
+        title: "线上的民主网络社区"
+        content_html: |
+          <p>Airesis是一个免费的软件平台，使社区和群体根据直接民主和参与的原则组织起来的生产方式。
+          </p>
+      paragraph_2:
+        title: "建立你的组织"
+        content_html: |
+          <p>
+            如果你是一个社区，一个企业，一个学校或一个协会，Airesis是非常适合你的！<br/>
+            在短短几分钟内创建你的团队，并尝试所有可用的工具。<br/>
+            创建组是免费的，快捷，方便。<br/>
+            请阅读我们的政策文件，以了解如何更好地组织它，发现它是多么轻松的。Airesis提供电子民主的工具！
+          </p>
+      paragraph_3:
+        title: "组织参与者"
+        content_html: |
+          <p>
+            一个强有力的机制允许你给你的团队设置<strong>角色和权限</strong>：你可能为用户提供或多或少的权限及角色，分层组织参与或提供每个人平等的权利和义务。<br/>
+            这就是为什么Airesis非常适合于<strong>公司</strong>，以及一个<strong>民主运动</strong>或<strong>社区</strong>的需求的原因。
+          </p>
+      paragraph_4:
+        title: "提出并商讨"
+        content_html: |
+          <p>
+            Airesis的核心是建议：你将不得不使用一些模板，你可以从事个人组中，并听取他们的意见。<br/>
+            您可以在各个主题辩论，建立一个议程，共享的方式或投票给候选人以民主的方式。<br/>
+            Airesis的建议工具现在是最先进的，完整的质量体系协商可在网上！<br/>
+            现在这里有%{users} 用户讨论%{proposals}建议。
+          </p>
+      paragraph_5:
+        title: "组织您的活动，提高参与"
+        content_html: |
+          <p>
+            调度事件的完整系统，可以让你更好地组织小组的活动。 <br/>
+            即将举行的活动的参加者将得到通知，并可以与组的日历进行同步他们的日历。 <br/>
+            然后，每个参与者都可以指定是否参加与否，让组织者更好地管理事件。
+          </p>
+      paragraph_6:
+        title: "共享文件存档"
+        content_html: |
+          <p>
+            您的小组将有一个非常有用的，完整的文档归档，可安排在文件夹和子文件夹，以使所有参与者所有必要的材料。<br/>
+            使用Airesis的文件档案的易用性是无与伦比的：你可以将文件上传到服务器只是简单地从计算机拖拽到浏览器中。<br/>
+            短短几秒钟，上传就完成了！问问我们的团队如何增加存储空间，在您的处置并上传的文件1GB。
+          </p>
+      paragraph_7:
+        title: "讨论的地方"
+        content_html: |
+          <p>
+            最好的想法来自于对话：这就是为什么Airesis决定提供一个论坛，每一组中的用户可以交换想法，建议或只是随意聊天。<br/>
+            提供本次论坛是完整和现代的，完全可配置和可扩展本集团根据自己的需要来安排。<br/>
+            您可以公开讨论，对所有人可见，并私下讨论，保留该组的参与者。组织论坛段，创造版主群！这一切都在你的手中！<br/>
+            目前已经有在Airesis%{topics}积极的讨论！
+          </p>
+      paragraph_8:
+        title: "还有很多"
+        content_html: |
+          <p>
+            Airesis的功能还不只这些！<br/>
+            观看我们的%{intro_page} ，发现了数十种工具和选项可为您的团体提供服务。<br/>
+            查询功能，将帮助您管理组，将让你组织，以使其最大的无数：如果你有需要的话，肯定Airesis将让您满意！
+          </p>
+        link: '介绍页'
+    press:
+      title: "Press Release"
+    roadmap:
+      paragraph1:
+        title: "目标：直接民主"
+        content_html: |
+          <p>Airesis从推出超过两年前的需要的结果，两个项目融合出生的人必须能够使用
+           软件平台，可以集成社交网络，事件管理和质量决策系统的主要特点。</p>
+          <p>这次会议之后，决定在一个共同的开源应用程序的开发合作，使其能
+           实施一年多的长时间工作所确定的集市2.0组的功能。</p>
+          <p>该任务是（现在仍然是）雄心勃勃，但我们知道这是可能的与正确的工具，一步一步实现。</p>
+          <p>多亏了我们的决心是什么最初看起来像一个自由的梦想，发现很多人的支持和程序员的帮助下，
+           分析家，数学家，平面设计师和负责任的公民。</p>
+          <p>目前的软件版本发布在每月或每两个月，以满足用户的需求和需要，
+           为了申请一个不断完善的过程。</p>
+      paragraph2:
+        title: "Airesis的演变"
+        content_html: |
+          <p>下面的列表显示Airesis其进化过程中的变化。
+           您还可以找到计划在将来的版本中突出创新。
+           选中该页面的时候，如果你有兴趣知道正在开发的功能和回来看望我们！</p>
+      title: "Airesis的演变"
+      description: "我们的道路，实现了新的软件，能够不断发展的民主制度来生活在网络的想法。"
+    helpus:
+      title: "帮助我们，每个人都可以做出贡献"
+      description: "有助于创造能够发展民主的工具"
+      paragraph1:
+        title: "为什么我们要求你支持Airesis？"
+        content_html: |
+          <p>
+          在做这个项目的志愿者花费时间，为用户带来一个有用的软件为我们的社区带来相当多的时间。
+          然而，志愿服务和辛勤工作本身并不足以：钱是需要维护服务器公开可用的软件更新，并试验新的功能和改进，我们正在开发。除此之外，有偿工作所需的服务器维护和用户帮助台。
+           </p>
+      paragraph2:
+        title: "选择支持"
+        content_html: |
+          <p>
+           开发小组有几十个意见，以改进该软件，但实现它们需要资金</p>
+          <p>今天，你可以捐助实现特定功能，或向我们提出新的想法，如果您愿意的话。</p>
+          <p>转到<a href=%{link}>捐赠页面</a>，看看我们在您的帮助下我们的工作！</p>
+      paragraph3:
+        title: "如何捐赠"
+        content_html: |
+          <p> 
+            以支持Airesis的发展，使项目继续运营。您的捐款将全部给平台的开发和托管。<br/>在财政上支持我们，以支付高级程序员和托管我们的应用程序的服务器：
+          </p>
+          <center>
+            <p>通过银行转帐给：:'周明' 建行: IT76L0316501600000011758905</p>
+            <p>或者使用支付宝捐款:</p>
+          </center>
+      paragraph4:
+        content_html: |
+          <p><a href="mailto:%{mail}">Contact us</a> for more information.</p>
+
+      paragraph5:
+        title: "传播这个项目"
+      title: "帮助我们，只要你想，任何人都可以做出贡献"
+      description: "有助于不断发展的电子民主的工具"
+    linkback:
+      paragraph1:
+        title: "帮助我们传播这个电子民主工具"
+        content_html: |
+          <p>我们的项目需要通过所有那些谁关心我们的民主制度的未来是已知的。帮助我们传播它在博客和论坛，在Facebook，社交网络，只要有对民主的渴望。</p>
+          <p>您可以使用您的网站或在朋友，协会或机构的那些共享项目的目标，我们的链接或我们的旗帜。为了显示在您的网站的横幅或链接，复制下面的代码发现，在你的网站的代码页插入它，在您希望它显示了这一点：</p>
+      paragraph2:
+        title: "Banners"
+      paragraph3:
+        title: "Text link"
+        content_html: |
+          <p>如果您选择发布，将会对这个项目帮助很大。 Thank You</p>
+    tags:
+      title: "Airesis - 做出决定"
+      description: "一个决策工具，直接民主和电子政务：参与讨论，把你的想法，提出解决方案和在线投票"
+    engage:
+      title: "参与该项目的一个新的民主国家"
+      description: "推动在此项目中与您的经验，帮助我们建立一个新的民主，更透明和共享"
+      nav:
+        opensource: "开源"
+        participate: "参与"
+        banner: "Banner"
+      paragraph1:
+        title: "Airesis is open to everyone"
+        description_html: |
+          <p>Airesis is a project based upon a free and open-source software. You can contribute to its development:</p>
+          <ul>
+            <li>Using the platform and doing bug-checking</li>
+            <li>Giving comments and suggestions about usability and platform UI</li>
+            <li>Programming the platform UI (REQUIRED: knowledge of HTML, CSS or Javascript)</li>
+            <li>Programming the platform server-side (REQUIRED: knowledge of Ruby and/or C++ language, or will to learn it with the help of other volunteers)</li>
+            <li>Supporting us with a <a href=%{donations_path}>donation</a> or raising founds</li>
+            <li><a href="#linkback">Spreading the word</a> about the project and managing its communication</li>
+          </ul>
+          <p>To help us coordinate our activities we use these tools. You can start from here:</p>
+          <ul>
+            <li><a href="https://groups.google.com/forum/?fromgroups=#!forum/agora-20" target="_blank">Development group on Google Groups</a></li>
+            <li><a href="https://www.facebook.com/groups/airesis/" target="_blank">Development group on Faceook</a></li>
+            <li><a href="https://github.com/coorasse/Airesis" target="_blank">Source code</a></li>
+          </ul>
+      paragraph2:
+        title: "如何贡献"
+        description_html: |
+          <p>
+          任何人都可以帮助在开源项目Airesis：你不必是一个程序员，因为有很多的活动做的工作。
+          在项目<a href=%{chisiamo}>我们都是无偿的志愿者</a>的，共享的意愿，以帮助公民组织透明，参与顶尖民主的决策。</p>
+          <p>要报告您的可用性，请填写<a href="%{form}" target="_blank"><strong>这种形式</ strong> </a>，或联系<strong>Nicola Giulietti</ strong>&nbsp;- %{email} - cell. %{cell} 单元格或您想了解更多的信息。</ P>
+          <p>下面是志愿者名单，我们需要：</p>
+      developer:
+        title: "Developer"
+        description_html: |
+          <p>
+          The developer is the person who actually writes the code of Airesis. <br/>
+          He follows the specifications and guidelines agreed upon by the team.
+          The developer will write new modules in Ruby when there will be new features to be added, or HTML pages, using also CSS and Javascript in case of UI functionalities.<br/>
+          New applicants will be helped and guided by the <a href="%{chisiamo}" target="_blank">head programmer</a> in their first steps to easily start their jobs.
+          </p>
+      analyst:
+        title: "Analyst"
+        description_html: |
+          <p>
+            He is the conjunction ring between users and the development team. <br/>
+            He collects feedbacks from groups and citizens and gives the development team all the required documentations to develop new functionalities or improve existing ones.<br/>
+            He elaborates algorithms, as well as pros and cons of each feature, and its possible impropriate uses.
+          </p>
+      first_lev_tester:
+        title: "First-level tester"
+        description_html: |
+          <p>
+          The first-level tester is a person available to test the system without necessarily have to provide any technical feedback about the code.
+          The first level tester is required to know about how to run the system and be able to use an internet browser or social networking system but it is not required to know any programming language.<br/>
+          Feedback from a first-level tester will then be about unexpected occurrences from the system and bugs.
+          </p>
+      sec_lev_tester:
+        title: "Second-level tester"
+        description_html: |
+          <p>
+          Good knowledge of programming is required to become a second-level tester. He is asked to perform more stringent and detailed tests than the first-level tester. A second-level tester works on complex issues and is able to push the whole system under stress, to discover hidden problems.
+          </p>
+      graphic:
+        title: "Graphic designer"
+        description_html: |
+          <p>
+            The graphic designer draws the user interfaces and gives their drafts to the development group.
+            He improves the usability and comprehensiveness of the texts in the software (eg: user guides...)
+          </p>
+      recruiter:
+        title: "Recruitment"
+        description_html: |
+          <p>
+            He is in charge of looking for new volunteers willing to help in this project, testers, as well as groups available to use the software
+            for their needs.
+            He engages groups of people that are not represented by the development group (women, people with low informatic skills, etc...) so that the software can be
+            attractive even and foremost to them, basing on their feedbacks.
+          </p>
+      communication:
+        title: "Communication manager"
+        description_html: |
+          <p>
+            He manages press contacts, promotes the software looking for new users, technical aspects such as linkback and SEO (Search Engine Optimization),
+            viral marketing (eg. creating interesting proposals), videos and informative documentation.
+            He updates social networks and media, represent the external referent-spokesman.
+          </p>
+      i18n:
+        title: "Internazionalization"
+        description_html: |
+          <p>
+            He is in charge of the software translation. He contacts and coordinates foreign translators.<br/>
+            (P.S.: it is not required to posses any programming skill)
+          </p>
