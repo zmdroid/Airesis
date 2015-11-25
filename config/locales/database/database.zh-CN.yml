@@ -114,6 +114,8 @@ zh-CN:
         description: 表决提案
       PROPOSAL_DATE:
         description: 建立投票活动
+      PROPOSAL_PARTICIPATION:
+        description: 对提案作出贡献
     notification_categories:
       MYPROP:
         description: 我编写的提案
