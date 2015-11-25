@@ -86,20 +86,24 @@ zh-CN:
       long: '%d %B %Y'
   time:
     formats:
-      default: '%d %b %Y at %I:%M %p'
-      long: '%A %d %B %Y at %I:%M %p'
-      long_date: '%A %d %B %Y'
-      long_date_time: '%A %d %B %Y at %I:%M %p'
-      from_long_date_time: 'From %A %d %B %Y at %I:%M %p'
-      until_long_date_time: 'To %A %d %B %Y at %I:%M %p'
-      short: '%d %b %Y'
-      two_rows: '%d %b %Y <br/> %I:%M %p'
-      weekday: '%a at %I:%M %p'
-      month: '%B'
-      dayandmonth: '%d/%m'
-      hour: '%I:%M %p'
-      yesterday_at: '昨天 %I:%M %p'
-      textfield: '%d/%m/%Y %I:%M %p'
+     default: "%d %b %Y at %I:%M %p"
+     long: "%A %d %B %Y at %I:%M %p"
+     long_date: "%A %d %B %Y"
+     long_date_time: "%A %d %B %Y at %I:%M %p"
+     from_long_date_time: "From %A %d %B %Y at %I:%M %p"
+     until_long_date_time: "To %A %d %B %Y at %I:%M %p"
+     from_long_date: "From %A %d %B %Y"
+     until_long_date: "To %A %d %B %Y"
+     short: "%d %b %Y"
+     two_rows: "%d %b %Y <br/> %I:%M %p"
+     weekday: "%a at %I:%M %p"
+     month: "%B"
+     dayandmonth: "%d/%m"
+     hour: "%I:%M %p"
+     yesterday_at: "昨天 at %I:%M %p"
+     textfield: "%d/%m/%Y %I:%M %p"
+     datepicker: "%Y-%m-%d"
+     datetimepicker: "%Y-%m-%d %H:%M"
     am: 上午
     pm: 下午
     left:
@@ -132,14 +136,14 @@ zh-CN:
       over_x_years:
         other: '超过 %{count} 年前'
       x_days:
-        other: ! '%{count} 天前'
+        other: '! %{count} 天前'
       x_minutes:
-        other: ! '%{count} 分钟前'
+        other: '! %{count} 分钟前'
       x_months:
-        other: ! '%{count} 个月前'
+        other: '! %{count} 个月前'
       x_seconds:
-        other: ! '%{count} 秒前'
+        other: '! %{count} 秒前'
   label:
-    from: 从
-    to: 到
+    from: '从'
+    to: '到'
   countdown: '{m<}{mn} {ml} 前{m>} {s<}刚刚{s>}'

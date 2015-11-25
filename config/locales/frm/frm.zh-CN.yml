@@ -55,6 +55,8 @@ zh-CN:
         delete: 删除
         category: 分类
         delete_confirm: 确定要删除这个论坛分类？
+        default_private: "私有论坛"
+        default_public: "开放论坛"
     common:
       pages: 页面
     errors:

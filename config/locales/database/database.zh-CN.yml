@@ -224,8 +224,6 @@ zh-CN:
         description: 群组提出的新提案
         email_subject: '%{proposal}'
         message: '<b>%{group}</b> 群组提出了新的提案<b>%{proposal}</b> '
-      new_blog_comment:
-        description: 你的 Blog 有了新的回应
       new_comments_mine:
         description: 你的提案有新的回应
         email_subject: 你的提案有一个新的回应
@@ -234,6 +232,26 @@ zh-CN:
         description: 你参与讨论的提案有新的回应
         email_subject: '%{title} - 新的回应'
         message: '<b>%{name}</b> 在你参与讨论的提案<b>%{title}</b> 中新增了一个回应'
+      new_participation_request:
+        description: 新参与申请
+        email_subject:
+          one: "有一个新的参与要求"
+          other: "有 %{count} 新的参与请求"
+        message:
+          one: "<b>%{user}</b> 要求参加小组 <b>%{group}</b>"
+          other: "<b>%{count} users</b> 要求参加小组 <b>%{group}</b>"
+      new_blog_comment:
+        description: 你的 Blog 有了新的回应
+        email_subject:
+          one: "一个新的评论在你的博客文章"
+          other: "%{count} new comments in your blog post"
+        message:
+          one: "<b>%{user}</b> 评论你的帖子 <b>%{title}</b>"
+          other: "There are <b>%{count}</b> 你的文章的新评论 <b>%{title}</b>"
+      contribute_update:
+        description: Update of the text of an already evaualted contribution
+        email_subject: "%{title} - 以前评估的贡献已经改变了"
+        message: "<b>%{name}</b>改变了贡献 <b>%{title}</b> 你以前曾评价。如果你想改变你的看法。"
     proposal_categories:
       no_category:
         description: 未分类
