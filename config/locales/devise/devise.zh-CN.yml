@@ -1,7 +1,7 @@
 zh-CN:
   errors:
     messages:
-      expired: 过期了, 请重新申请一次has expired, please request a new one
+      expired: '过期了, 请重新申请一次has expired, please request a new one'
       not_found: 找不到
       already_confirmed: 已经确认，请试着直接登入
       not_locked: 没有被锁定

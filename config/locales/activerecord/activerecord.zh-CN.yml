@@ -43,10 +43,13 @@ zh-CN:
         title: 标题
       blog_post:
         title: 标题
-        body: 内文
+        body: 内容
         published: 状态
         published_true: 已发布
         published_false: 草稿
+        published_reserved: "保留"
+        group_ids: 发表于以下群组
+        published_at: 发布到 
       group_invitation:
         emails_list: E-mail 位置
         testo: 讯息内容

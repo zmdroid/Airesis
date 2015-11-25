@@ -151,6 +151,9 @@ zh-CN:
         search_with_place: 或地理边界
         no_results: 找不到群组
         limit_reached: 你每天最多建立一个群组
+        search_with_query: "使用个性化查询"
+        search_description: "使用搜索工具或点击一个标签来发现你感兴趣的团体"
+        participants_number: "参加人数"
         switchButton:
           exact_border: 精确搜寻：使用确切的地理位置搜寻群组
           area_border: 地区搜寻： 搜寻这个地区内的所有群组

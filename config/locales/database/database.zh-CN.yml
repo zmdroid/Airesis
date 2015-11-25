@@ -65,25 +65,25 @@ zh-CN:
         description: 中文(简)              
     proposal_types:
       STANDARD:
-        description: 标准的议案
+        description: 标准提案
       POLL:
-        description: 投票
+        description: 民意调查
       RULE_BOOK:
-        description: 规则书
+        description: 规则手册
       PRESS:
-        description: 新闻发布
+        description: 新闻稿
       EVENT:
-        description: 主办团体
+        description: 事件组织
       ESTIMATE:
-        description: 预估成本
+        description: 成本估计
       AGENDA:
         description: 议程
       CANDIDATES:
-        description: 一名候选人的选择
+        description: 选择候选人
       SIMPLE:
-        description: 简单的议案
+        description: 简单的建议
       PETITION:
-        description: 请愿
+        description: 请愿书
     event_types:
       meeting:
         description: 会议
@@ -92,37 +92,7 @@ zh-CN:
       meeting2:
         description: 会议
       election:
-        description: 选举
-    proposal_types:
-      STANDARD:
-        description: Standard Proposal
-      POLL:
-        description: Poll
-      RULE_BOOK:
-        description: Rule Book
-      PRESS:
-        description: Press Release
-      EVENT:
-        description: Event Organization
-      ESTIMATE:
-        description: Cost Estimate
-      AGENDA:
-        description: Agenda
-      CANDIDATES:
-        description: Choice of a candidate
-      SIMPLE:
-        description: Simple proposal
-      PETITION:
-        description: Petition
-    event_types:
-      meeting:
-        description: meeting
-      vote:
-        description: vote
-      meeting2:
-        description: meeting
-      election:
-        description: election        
+        description: 选举        
     group_actions:
       STREAM_POST:
         description: 发表在群组墙上
