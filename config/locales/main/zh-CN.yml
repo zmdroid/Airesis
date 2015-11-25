@@ -292,6 +292,8 @@ zh-CN:
       confirm_password: 再次确认密码
       register_button: 注册
       identity_provviders_title: 连结你常用的社群网站帐号直接登录！
+      accept_conditions: "接受服务条款"
+      accept_privacy: "接受隐私条款"
     proposals:
       index:
         title: 提案列表
@@ -689,6 +691,8 @@ zh-CN:
         no_notifications: 没有通知
         sign_has_read: 阅
         moderator: 审和界面
+        forgot_password_button: "Forgotten password?"
+        profile: "PROFILE"
       welcome: 欢迎
       groups_title: 群组
       login: 登录
@@ -776,9 +780,12 @@ zh-CN:
         volunteers: "志愿者"
       show:
         your_proposals: 你正在参与的提案
+        no_proposals_to_vote_now: "目前没有在投票阶段的建议"
+        proposals_now_voting: "现在投票建议"
         proposals:
           title: 标题
           last_edit: 最后编辑
+          authors: "Editors"
           notifications: 通知
         notifications:
           title: 提示
@@ -789,6 +796,10 @@ zh-CN:
         proposals_button: 提案
         calendar_button: 日历
         map_button: 地图
+        groups_button: "群组"
+        blogs_button: "博客"
+        petitions_button: "申请"
+        tags_button: "标签"
     proposal_supports:
       new:
         panel_title: 确认同意支持此提案
@@ -849,26 +860,167 @@ zh-CN:
         back_to_proposal: 返回提案
     tags:
       show:
-        related_title: 相关标签
+        related_title: "相关标签"
+      list_proposals_with_tag: "建议"
+      no_proposals_with_tag: "有这个标签没有提议尚未"
+      list_posts_with_tag: "帖子"
+      no_posts_with_tag: "有这个标签没有职位"
+      list_groups_with_tags: "群组"
+      no_groups_with_tag: "在这个标签下没有群组"
+      proposals_tab: "建议"
+      posts_tab: "帖子"
+      groups_tab: "群组"
+      not_found:
+        subtitle: "以上是关于Airesis最常用的关键字"
+    footer:
+      for_edemocracy: "电子民主"
+      go_to_main_site: "进入主网站"
+      for_edemocracy_html: "<a href=\"https://github.com/coorasse/Airesis\" target=\"_blank\">Open Source</a> project for e-democracy"
+    moderator_panel:
+      title: "主持人面板"
+      block_user: "阻止用户"
+      blocked_user_list: "被阻止的用户列表"
+      block: "解锁"
+    feedback:
+      send_feedback: "信息反馈"
+      add_details: "添加详细信息"
+      view_preview: "预习"
+      send_succes: "反馈成功发送。 谢谢！"
+      send_error: "很抱歉，在发送反馈时出错"
+      describe_problem: "在这里写下您的留言："
+      highlight_or_blackout: "亮点或停电的重要信息"
+      blackout: "暗转"
+      highlight: "突出"
+    passwords:
+      edit:
+        title: "更改您的密码"
+    event_comments:
+      new:
+        insert_comment: "插入注释"
+    propsoals:
+      index:
+        type: "类型 %{type}"
+    proposal_comments:
+      title: "贡献历史"
+      noise:
+        title: "捐款名单"
+        no_contributes: "没有贡献在这里"
+    available_authors:
+      index:
+        explain_html: |
+          选择您想帮助你起草该提案的摘要，点击“保存”。<br/>
+          小心！这些用户将在你的建议的管理相同的权限。
+    participation_roles:
+      edit:
+        title: "编辑参与角色"
+    group_participations:
+      index:
+        title: "与会者列表"
+    certifications:
+      index:
+        title: "认证组"
   pl:
     comments:
+      zero: "还没有评论"
+      one: "一个评论"
       other: '%{count} 回应'
+  models:
+    best_quorum:
+      good_score_condition: "该提案将去投票，如果它有一个成熟大于<b>％{good_score}％</ b>和%{participants}，否则就会被抛弃"
+      good_score_condition_past: "该提案会去投票，如果它有一个成熟大于<b>％{good_score}％</b>和%{participants}，否则会被放弃"
+    quorum:
+      participants:
+        one: '<b>一个人</b> 将参加'
+        other: '他们都参加 <b>%{count}</b> 人'
+      participants_past:
+        one: '<b>人</b>参加'
+        other: '他们参加了<b>%{count}</b> 的人'
+      or_condition_1: "这场辩论将结束 %{time} or when %{participants_num}."
+      or_condition_1_past: "辩论持续了 %{time} or when %{participants_num}."
+      and_condition_1: "这场辩论将结束 %{time}, but it will continue unless %{participants_num}."
+      and_condition_1_past: "这场辩论将结束 %{time}, but continued unless %{participants_num}."
+      time_condition_1: "这场辩论将结束 %{time}"
+      time_condition_1_past: "辩论持续了 %{time}"
+      participants_condition_1: "辩论将持续到 %{participants_num}."
+      participants_condition_1_past: "争论一直持续到 %{participants_num}."
+      good_score_condition: "该提案将去投票，如果它有一个成熟大于 <b>%{good_score}%</b>, 否则将被抛弃"
+      good_score_condition_past: "该提案会去投票，如果它有一个成熟大于 <b>%{good_score}%</b>, 否则会被放弃"
+      bad_score_explain: |
+        如果该建议得到了成熟了 <b>%{good_score}%</b> 它会去投票阶段。然而它得到低于排名 <b>%{bad_score}%</b>, 它会被抛弃。<br/>
+        辩论将继续，如果排名保持时间这两个阈值之间，而不管或评估的数量
+      bad_score_explain_past: |
+        如果该建议得到了成熟了 <b>%{good_score}%</b>它会去投票阶段。 然而它得到低于排名 <b>%{bad_score}%</b>, 它会被抛弃。<br/>
+        辩论将继续，如果排名保持时间这两个阈值之间，而不管或评估的数量
+      until_date: "(until %{date})"
+      help_content:
+        description_html: |
+          <h3>什么是仲裁?</h3>
+          <p>
+          会议的法定人数为参数，确定何时该提案的辩论结束，投票阶段开始。<br/>
+          当您创建一个新的建议你选择仲裁的一个可用的空地或者一个在你的小组中可用的法定人数之中。<br/>
+          在这个窗口中，您可以点击不同的法定人数，以查看它的特点：你会发现，描述和选择的参数列表<br/>。
+          </p>
+        participants: "参与者的最小数量:"
+        not_specified: "未标明"
+        time_discussion: "讨论期:"
+        condition: "通道条件:"
+        at_least_one: "最后一个"
+        both: "都"
+        good_score: "到期:"
+        bad_score: "拒绝:"
   proposals:
     create_button: 提出新的提案
     show:
       ready_for_vote: 准备好投票了！
-    regenerate_button: 返回讨论阶段
+      keep_discuss: "继续讨论"
+    regenerate_button: "返回讨论阶段"
+    edit:
+      expand_all: "展开全部"
+      collapse_all: "全部收缩"
+    schulze_vote_results:
+      results: "结果"
+      votes: "投票"
+      solution: "解释"
+      points: "点"
+      random_ordered_votes: "Random ordered votes"
+      number_of_voters: "选民人数"
+      vote: "他们投票"
+    authors_list_panel:
+      dont_want_to_be_an_author: "I don't want to be an author anymore"
+    left_panel:
+      promote_proposal: "促进提案"
+      share_with_friends: "和朋友分享"
+    show_proposal:
+      vote_here: "这一建议是在投票阶段。 Read the solution(s) and %{link}."
   digit_tags: 输入你想加入的标签
   buttons:
     cancel: 取消
     save: 储存
     report: 回报
     update: 更新
-    send: 送出
+    send: 提交
     create: 建立
     delete: 删除
     sea​​rch: '搜寻'
     edit: 编辑
+    close: "关闭"
+    next: "下一步"
+    go_back: "返回"
+    chosen: "我选择!"
+    ok: "OK"
+    yes_word: 'YES'
+    no_word: 'NO'
+    mark: "标记"
+    detach: "分离"
+    login: "登录"
+    show: "显示"
+    preview: "预习"
+    new_newsletter: "创建简讯"
+    unlock: "解锁"
+    vote_here: "投票在这里"
+    unintegrate: "放回辩论"
+    join_accounts: "联合帐户和登录"
+    save_and_exit: "保存并退出"
   tooltips:
     random_stack_1: '<strong>显示的顺序？ </strong><br/>首先我们会挑出最新或您尚未给予评价的编辑修订意见，接着依序照您认为的优劣来排序。 <br/> <b>提醒你</b>: 您给予的评价会改变排序！ '
     random_stack_2: '<strong>显示的顺序？ </strong><br/>编辑修订会依照最近一则为顺序来排列。 '
@@ -878,6 +1030,13 @@ zh-CN:
     valutazioni: 提出评价的人数
     gradimento: 正面评价的比例
     nickname: '<strong>开启匿名讨论本提案</strong> <br />透过匿名讨论，没有人能知道彼此是谁，在这种方式下共同编辑或讨论提案，可能可以让焦点更集中于提案的内容本身。 <br/> <b>提醒你</b>: 当讨论结束，无论提案被通过或是撤销后，所有参与者的显示名称会公开。 '
+    voteup: "该提案已经足够成熟，可以进入到投票阶段（你可以改变你的评价时，该提案的文字更新）"
+    votedown: "该提案的文本尚未成熟，因为用户的贡献已经被集成（你可以改变你的评价时，该提案的文本将被更新）"
+    manage_noise: "<strong> 管理无用的贡献</strong> <br /> 与会者会告诉你什么样的贡献是无用的讨论。有了这个面板中，可以删除，并把它们放在已删除文件夹的贡献。"
+    view_noise: "查看<strong>无用的贡献</strong><br/>在这里你会发现所有被认为是无用的，该提案的编辑删除讨论的贡献"
+    quorum_minutes: "直到 <b>%{date}</b> 在 %{time}"
+    quorum_valutations: "直到它在被评为由 <b>至少 %{valutations} 人</b>"
+    quorum_description: "该提案将在辩论 %{conditions}的条件. 它会去投票阶段只有当它的 <b>成熟</b>大于 <b>%{good_score}%</b>."
   group: 群组
   saving: 储存中...
   sending: 传送中...
@@ -908,6 +1067,7 @@ zh-CN:
       work_area:
         area_created: 建立工作小组时出现错误
       creation: 建立群组时出现错误
+      post_removed: "Error while removing the post from the group"
     proposals:
       view_proposal: 你没有适当的权限观看此提案
       participate: 你没有适当的权限主动参与这个提案，请联系这个群组的管理者们。
@@ -920,6 +1080,14 @@ zh-CN:
       proposal_not_voted: 这个提案没有完成投票阶段，所以你无法进行这个操作
       proposal_not_valuating: 这个提案并非投票阶段，所以你无法进行这个操作
       proposal_not_your: 你无法编辑不是属于你的提案
+      proposal_already_ranked: "You have already evaluated this proposal once. The proposal has not been modified since your last evaluation"
+      creation: "We are sorry but there was an error while creating the proposal"
+      editors_added: "Error while adding editors"
+      close_debate: "Error while closing the debate"
+      vote_period_incorrect: "Please choose another votation event"
+      vote_period_soon: "The vote event must start at least %{time} minutes after the end of debate"
+      vote_period_short: "The vote event must last at least 10 minutes"
+      same_title: "There is another proposal with the same title."
     registration:
       recaptcha: 输入图形辨识错误，请再试试看
       user_not_found: 没有找到这个使用者
@@ -928,7 +1096,49 @@ zh-CN:
       already_have: 抱歉，你已经建立 Blog 了
       comment_added: 建立回应时出现错误
     users:
+      join_accounts_password: "Wrong password"
       join_accounts_password: 密码错误
+    group_participations:
+       destroy: "You can not leave a group of which you are the sole administrator"
+       already_member: "Error while creating the participation request. You are already member of this group!"
+       request_not_registered: "You are already member of this groups but your participation request has not been registered."
+       request_sent: "Error while creating the participation request"
+       request_not_found: "Request not found. Operation error"
+       error_saving: "Error in the procedure. Unable to continue"
+    error_404:
+      proposals:
+        title: "This proposal doesn't exist"
+        description: "The proposal you are looking for doesn't exist or has been deleted"
+      blog_posts:
+        title: "This post doesn't exist"
+        description: "The post you are looking for doesn't exist or has been deleted"
+      events:
+        title: "This event doesn't exist"
+        description: "The event you are looking for doesn't exist or has been deleted"
+      groups:
+        title: "This group doesn't exist"
+        description: "The group you are looking for doesn't exist or has been deleted"
+      title: "The page you are looking for doesn't exist"
+      description: "Your address might be wrong, or this page does no longer exist"
+    error_500:
+      title: "Oops...our mistake"
+      description: "A  report has been sent and the problem will be fixed as soon as possible."
+    event:
+      comment_added: "Error while entering the comment"
+    participations_destroyed: "Error during operation"
+    error_indexer:
+      title: "服务不可用"
+      description: "我们正在经历的问题与内部系统。再尝试几分钟。"
+    error_302:
+      title: "Unauthorized access"
+      description: "Sorry. You do not have permissions to access this resource."
+    area_participation:
+      create: "Error adding the user to the area"
+    area:
+      update: "Error updating the area"
+    group_invitations:
+      code_expired: "The Invitation Code has expired"
+      already_participant: "You are already a participant of this group"
   info:
     setting_preferences: 成功更改设定
     blog_created: 成功建立文章
@@ -1104,4 +1314,9 @@ zh-CN:
       share_with_friends: "和朋友分享"
     show_proposal:
       vote_here: "这一建议是在投票阶段。阅览方案列表和%{link}。"
-  digit_tags: "输入要添加的标签"  
+  digit_tags: "输入要添加的标签"
+
+  placeholder:
+    find: 查找
+  cookie_policy: "Cookies"
+  privacy_policy: 隐私政策

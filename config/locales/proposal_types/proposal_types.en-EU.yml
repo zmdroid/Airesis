@@ -33,15 +33,15 @@ en-EU:
           candidates: "Insert name and surname"
           simple: "Insert a title"
         new_solution_title:
-          standard: "Solution <span class=\"num\">%{num}</span>:"
-          poll: "Option <span class=\"num\">%{num}</span>:"
-          rule_book: "Solution <span class=\"num\">%{num}</span>:"
-          press: "Solution <span class=\"num\">%{num}</span>:"
-          event: "Solution <span class=\"num\">%{num}</span>:"
-          estimate: "Solution <span class=\"num\">%{num}</span>:"
-          agenda: "<span class=\"num\">%{num}</span> point:"
-          candidates: "Candidate <span class=\"num\">%{num}</span>:"
-          simple: "Solution <span class=\"num\">%{num}</span>:"
+          standard: 'Solution <span class=\"num\">%{num}</span>:'
+          poll: 'Option <span class=\"num\">%{num}</span>:'
+          rule_book: 'Solution <span class=\"num\">%{num}</span>:'
+          press: 'Solution <span class=\"num\">%{num}</span>:'
+          event: 'Solution <span class=\"num\">%{num}</span>:'
+          estimate: 'Solution <span class=\"num\">%{num}</span>:'
+          agenda: '<span class=\"num\">%{num}</span> point:'
+          candidates: 'Candidate <span class=\"num\">%{num}</span>:'
+          simple: 'Solution <span class=\"num\">%{num}</span>:'
       new:
         standard:
           problems_title: "Problems"

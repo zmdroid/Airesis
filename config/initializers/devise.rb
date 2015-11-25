@@ -28,6 +28,7 @@ Devise.setup do |config|
   config.reset_password_within = 6.hours
 
   config.sign_out_via = :delete
+  #config.mailer_sender = "8888888@qq.com"
 
   require "omniauth-facebook"
   config.omniauth :facebook, ENV['FACEBOOK_APP_ID'], ENV['FACEBOOK_APP_SECRET'],

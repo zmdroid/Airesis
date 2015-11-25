@@ -15,6 +15,12 @@ zh-CN:
       invalid_token: 无效的认证安全码。
       timeout: 你已离开太久，请重新登入。
       inactive: 你的帐号被冻结了。
+      already_authenticated: 'You are already registered'
+      unauthenticated: 'Log-in required to access this page.  Please log-in.'
+      unconfirmed: "Account has not been confirmed yet"
+      user:
+        invalid: 'Invalid username or password'
+        not_found_in_database: 'Invalid username or password'
     sessions:
       signed_in: 成功登入！
       signed_out: 你已登出。

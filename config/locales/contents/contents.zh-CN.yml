@@ -2,7 +2,7 @@ zh-CN:
   home:
     intro:
       title: "线上的民主网络社区"
-      description: "A tool of direct democracy born to decide and act collectively on proposals and ideas generated anywhere for any theme."
+      description: "一种直接民主的工具，为任何主题的任何地方，在任何地方的建议和想法，都是决定和集体行动的工具。"
       paragraph_1:
         title: "线上的民主网络社区"
         content_html: |
@@ -331,8 +331,7 @@ zh-CN:
             以支持Airesis的发展，使项目继续运营。您的捐款将全部给平台的开发和托管。<br/>在财政上支持我们，以支付高级程序员和托管我们的应用程序的服务器：
           </p>
           <center>
-            <p>通过银行转帐给：:'周明' 建行: IT76L0316501600000011758905</p>
-            <p>或者使用支付宝捐款:</p>
+            <p>通过微信捐款:</p>
           </center>
       paragraph4:
         content_html: |

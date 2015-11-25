@@ -1,4 +1,4 @@
-web: bundle exec rails s -b 192.168.3.205
-sidekiq: bundle exec sidekiq
+web: bundle exec rails s  -e production
+sidekiq: RAILS_ENV=production bundle exec sidekiq
 privatepub: rackup private_pub.ru -s thin -E production
-solr: bundle exec rake sunspot:solr:run
+solr: RAILS_ENV=production bundle exec rake sunspot:solr:run

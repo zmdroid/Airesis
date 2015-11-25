@@ -2,7 +2,7 @@ development:
   server: "http://localhost:9292/faye"
   secret_token: "secret"
 production:
-  server: "http://localhost:9292/faye/faye"
+  server: "http://114.215.237.28:9292/faye/faye"
   secret_token: "secret"
 test:
   server: "http://localhost:9292/faye/faye"

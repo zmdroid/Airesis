@@ -123,7 +123,6 @@
       <li><%= link_to t('pages.home.index.whatis'), edemocracy_path %></li>
       <li><%= link_to t('pages.home.index.features'), '#features', class: 'smoothscroll' %></li>
       <li><%= link_to t('pages.home.index.donations'), sostienici_path %></li>
-      <li><%= link_to t('pages.home.index.volunteers'), chisiamo_path %></li>
       <li><%= link_to t('pages.home.index.register'), new_user_registration_path %></li>
     </ul>
   </nav>
@@ -133,13 +132,13 @@
       <%= image_tag "flags/#{I18n.locale}.png", class: 'language', title: t('pages.home.index.change_language') %>
     </a>
   </div>
-
+<% if ::Configuration.socialnetwork_active %>
   <ul class="header-social">
     <li><a href="https://www.facebook.com/airesisit"><i class="fa fa-facebook"></i></a></li>
     <li><a href="https://twitter.com/democracyo"><i class="fa fa-twitter"></i></a></li>
     <li><a href="https://plus.google.com/+AiresisIt"><i class="fa fa-google-plus"></i></a></li>
   </ul>
-
+<% end %>
 </header>
 
 <!-- Homepage Hero
@@ -365,12 +364,11 @@
           <h3 class="plan-title"><i class="fa fa-coffee"></i>Small</h3>
 
           <p class="plan-price">
-            5.00€
-            <span>Buy a coffee for the developers</span>
+            5.00rmb
           </p>
 
           <div class="plan-sign-up">
-            <%= paypal_button(size: 'small', amount: '5.00') %>
+            <%= image_tag 'weixin/5.jpg' %>
           </div>
         </div>
       </li>
@@ -379,12 +377,11 @@
           <h3 class="plan-title"><i class="fa fa-thumbs-up"></i>Standard</h3>
 
           <p class="plan-price">
-            20.00€
-            <span>Become member of Tecnologie Democratiche</span>
+            20.00rmb
           </p>
 
           <div class="plan-sign-up">
-            <%= paypal_button(size: 'small', amount: '20.00') %>
+            <%= image_tag 'weixin/20.jpg' %>
           </div>
         </div>
       </li>
@@ -393,12 +390,11 @@
           <h3 class="plan-title"><i class="fa fa-star"></i>Great</h3>
 
           <p class="plan-price">
-            50.00€
-            <span>Become member of TD and contribute to the development</span>
+            50.00rmb
           </p>
 
           <div class="plan-sign-up">
-            <%= paypal_button(size: 'small', amount: '50.00') %>
+            <%= image_tag 'weixin/50.jpg' %>
           </div>
         </div>
       </li>
@@ -406,12 +402,10 @@
         <div class="price-block">
           <h3 class="plan-title"><i class="fa fa-trophy"></i>Up to you</h3>
 
-          <p class="plan-price">--.--€
-            <span>Your help is greatly appreciated!</span>
-          </p>
+          <p class="plan-price">500rmb</p>
 
           <div class="plan-sign-up">
-            <%= paypal_button(size: 'small') %>
+            <%= image_tag 'weixin/500.jpg' %>
           </div>
         </div>
       </li>
@@ -421,80 +415,7 @@
 
 </section>
 <!-- Pricing End -->
-
-<!-- Subscribe
-================================================== -->
-<section id="subscribe">
-  <h1><%= 'FOLLOW US' %></h1>
-
-  <div class="row">
-    <div class="columns medium-6">
-      <div class="fb-like-box" data-height="600" data-width="450" data-href="http://www.facebook.com/AiresisIt" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="true" data-show-border="false"></div>
-    </div>
-    <div class="columns medium-6">
-      <a class="twitter-timeline" href="https://twitter.com/hashtag/airesis" data-widget-id="511174030523518976">#airesis
-        Tweet</a>
-    </div>
-  </div>
-</section>
-
-<section id="testimonials" class="green-background">
-  <div class="row content">
-    <span><i class="quote-left fa fa-quote-left"></i></span>
-
-    <div class="text-container">
-      <div class="columns">
-        <h1><%= 'Citations' %></h1>
-      </div>
-      <div class="columns flex-container">
-        <div class="flexslider">
-          <ul class="slides">
-            <li>
-              <blockquote>
-                <p>Quae optima sunt, esse communia.
-                </p>
-
-                <p>(Le idee migliori sono proprietà comune.)</p>
-                <cite>Lucio Anneo Seneca</cite>
-              </blockquote>
-            </li>
-            <li>
-              <blockquote>
-                <p>The tragedy of modern democracies is that they have not yet succeeded in effecting democracy.
-                </p>
-                <cite>Jacques Maritain</cite>
-              </blockquote>
-            </li>
-            <li>
-              <blockquote>
-                <p>Nothing is stronger than an idea whose time has come.
-                </p>
-                <cite>Victor Hugo</cite>
-              </blockquote>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <span><i class="quote-right fa fa-quote-right"></i></span>
-  </div>
-</section>
-
-<!-- Screenshots
-================================================== -->
-<section id="screenshots">
-
-  <div class="row section-head">
-
-    <h1><%= t('home.whowe.intro.title') %></h1>
-
-    <p><%= t('home.whowe.intro.description_html', story: story_path) %>
-    </p>
-
-  </div>
-
-</section>
-
+<!--
 <footer>
 
   <div class="row">
@@ -544,7 +465,7 @@
     </div>
   </div>
 </footer>
-
+-->
 <%= render 'layouts/languages' %>
 <%= render 'cookies_eu/consent_banner', link: cookie_law_path %>
 </body>

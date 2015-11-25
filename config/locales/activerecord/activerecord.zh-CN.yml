@@ -28,7 +28,7 @@ zh-CN:
         interest_border_id: 你主要关心的地区
         image_url: 图片位置
         default_role_name: 新使用者的角色名称？
-        default_role_name_placeholder: 例如：使用者, 会员, 行动者, 海盗
+        default_role_name_placeholder: '例如：使用者, 会员, 行动者, 海盗'
         name_placeholder: 选择一个与群组认同或所在地区有关的名称
         title_bar_placeholder: 群组页面的标题
         description_placeholder: 以下讯息会出现在群组页面的首页
@@ -93,7 +93,7 @@ zh-CN:
         amount: 数量
         sys_currency_id: 货币
       user:
-        email: E-mail 位置
+        email: 邮箱
         login: 使用者名
         password: 密码
         linkedinpageurl: 你在 Linkedin 的个人页面
@@ -101,6 +101,8 @@ zh-CN:
         accept_conditions: 使用者条款
         receive_newsletter: 接收电子报
         blocked: 错误
+        name: '贵姓'
+        surname: '称呼' 
       group_area:
         name: 名称
         description: 描述
