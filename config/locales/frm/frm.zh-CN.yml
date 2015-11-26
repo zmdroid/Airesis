@@ -55,8 +55,16 @@ zh-CN:
         delete: 删除
         category: 分类
         delete_confirm: 确定要删除这个论坛分类？
-        default_private: "私有论坛"
-        default_public: "开放论坛"
+        default_private: "Private section"
+        default_public: "Public Section"
+      group:
+        index: "Manage moderator groups"
+        show:
+          title: "Manage moderators"
+        new: "New Moderators Group"
+        created: "Succesfully created moderators group"
+        not_created: "Error creating the Moderators group"
+        deleted: "Succesfully deleted Moderators group"
     common:
       pages: 页面
     errors:

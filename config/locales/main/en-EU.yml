@@ -373,6 +373,7 @@ en-EU:
         last_7d: "created in the last week"
         last_1m: "created in the last month"
         last_1y: "created in the last year"
+        territory: "territory"
       show:
         voteup: 'I agree'
         votenil: "I don't know / I do not understand"

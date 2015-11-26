@@ -108,42 +108,59 @@ zh-CN:
     pm: 下午
     left:
       seconds:
+        one: "1 second"
         other: '%{count} 秒'
       minutes:
+        one: "1 minute"
         other: '%{count} 分'
       hours:
+        one: "1 hour"
         other: '%{count} 小时'
       days:
+        one: "1 day"
         other: '%{count} 天'
       months:
+        one: "1 month"
         other: '%{count} 月'
   datetime:
     added_on: '于 %{date}'
     distance_in_words:
       about_x_hours:
+        one: about 1 hour ago
         other: '约 %{count} 个小时前'
       about_x_months:
+        one: about 1 month ago
         other: '约 %{count} 个月前'
       about_x_years:
+        one: about 1 year ago
         other: '约 %{count} 年前'
       almost_x_years:
+        one: almost 1 year ago
         other: '将近 %{count} 年前'
       half_a_minute: 半分钟前
       less_than_x_minutes:
+        one: less than 1 minute ago
         other: '少于 %{count} 分钟前'
       less_than_x_seconds:
+        one: less than 1 second ago
         other: '少于 %{count} 秒前'
       over_x_years:
+        one: more than 1 year ago
         other: '超过 %{count} 年前'
       x_days:
+        one: 1 day ago
         other: '! %{count} 天前'
       x_minutes:
+        one: 1 minute ago
         other: '! %{count} 分钟前'
       x_months:
+        one: 1 month ago
         other: '! %{count} 个月前'
       x_seconds:
+        one: "1 second ago"
         other: '! %{count} 秒前'
   label:
     from: '从'
     to: '到'
   countdown: '{m<}{mn} {ml} 前{m>} {s<}刚刚{s>}'
+  countdown2: "{y<}{yn} {yl}{y>} {o<}{on} {ol}{o>} {d<}{dn} {dl}{d>} {h<}{hn} {hl}{h>} {m<}{mn} {ml}{m>} {s<}few seconds{s>}"

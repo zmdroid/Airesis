@@ -111,6 +111,11 @@ zh-CN:
         description: 描述
         default_role_name: 预设角色名称
     errors:
+      template:
+        header:
+          one: 'an error did not allow this %{model} from being saved'
+          other: '%{count} errors did not allow this %{model} from being saved'
+        body: 'There were problems with the following fields'
       messages:
         inclusion: 不在列表中
         exclusion: 不能使用的保留字
@@ -134,6 +139,9 @@ zh-CN:
         record_invalid: '验证失败 %{错误}'
         not_found: 找不到
         TOS: 需要接受 TOS
+        not_an_email: '不是有效的电子邮件地址'
+        certified_cannot_edit: '如果你是一个注册用户，就无法编辑'
+        forum_visibility: "如果该类是私有的，则一个论坛在该组中是不可见的"
       full_messages:
         format: '%{attribute} %{message}'
       models:
@@ -141,3 +149,6 @@ zh-CN:
           attributes:
             email:
               already_confirmed: 这个E-mail 已经注册过了。
+        group:
+          portavoce:
+            required: '你必须选择一个管理员'

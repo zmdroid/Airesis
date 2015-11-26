@@ -207,6 +207,7 @@ zh-CN:
         settings: 设定
         documents: 文件
         forums: 论坛
+        alarm_settings: "设置"
       documents:
         documents_archive: 封存的文件
         storage_size: 占用储存空间
@@ -342,6 +343,12 @@ zh-CN:
         last_7d: 在过去一周中建立
         last_1m: 在过去一个月中建立
         last_1y: 在过去的一年中建立
+        login_with: "login with:"
+        search_title: "Search in group proposals"
+        search_placeholder: "Insert at least two characters to search"
+        search_words: "Any words"
+        participants_number: "PARTICIPANTS"
+        territory: "范围"
       show:
         voteup: 我同意
         votenil: 我不知道 / 我不明白
@@ -680,6 +687,8 @@ zh-CN:
       groups:
         events: 活动
         proposals: 提案
+        forum: "论坛"
+      no_groups_yet: "你还不在任何一组。"
       menu:
         my_page: 我的首页
         my_blog: 我的 Blog
@@ -694,8 +703,8 @@ zh-CN:
         no_notifications: 没有通知
         sign_has_read: 阅
         moderator: 审和界面
-        forgot_password_button: "Forgotten password?"
-        profile: "PROFILE"
+        forgot_password_button: "忘记密码？"
+        profile: "简介"
       welcome: 欢迎
       groups_title: 群组
       login: 登录
@@ -705,6 +714,7 @@ zh-CN:
       new_group: 寻找群组
       support_us: 支持我们
       no_alerts: 没有提醒
+      read: "读"
     blogs:
       show:
         no_posts: 没有文章
@@ -756,7 +766,7 @@ zh-CN:
         follw_on_twitter: 在推特上追踪 @democracyo
         field_1:
           title: '<em>提出</em> 解决方案'
-          content: 这是动民主 Airesis v1.75
+          content: 这是自由民主 Airesis v1.75
         field_2:
           title: '<em>现在就加入</em>'
           content: 加入群组，选择最能代表你和你有兴趣参与的。人多力量大！
@@ -781,6 +791,7 @@ zh-CN:
         features: "特点"
         donations: "捐赠"
         volunteers: "志愿者"
+        FAQ: "FAQ"
       show:
         your_proposals: 你正在参与的提案
         no_proposals_to_vote_now: "目前没有在投票阶段的建议"
@@ -1235,6 +1246,7 @@ zh-CN:
     town: '%{name} (镇)'
     country: '%{name} (国家)'
     continent: '%{name} (大陆)'
+    searching: "搜索中，请等待…"
   mailer:
     default:
       follow_twitter: 在 Twitter 跟随我们
@@ -1285,6 +1297,26 @@ zh-CN:
     terms_of_service: 服务条款
     privacy_policy: 隐私权
     guide: 常见问题
+  terms_of_service: "条款"
+  privacy_policy: "隐私"
+  controllers:
+    searches:
+      index:
+        groups_divider: "Groups"
+  tags:
+    index:
+      tag_title: "%{proposals} proposals - %{blog_posts} blog posts - %{groups} groups"
+  blog_posts:
+    form:
+      published_title: "Your post will be published on the web and everyone will be able to see, share and comment it"
+      reserved_title: "Your post will be visible only to users which belongs to the groups in which you publish"
+      draft_title: "Your post is visible only to you"
+  confirm_delete: "Are you sure?"
+  you: "You"
+  twitter:
+    share:
+      blog_post: "Look at this post on #%{app}! %{tags}"
+      event: "There is a new event on #%{app}"
   home:
     portlets:
       last_proposals:
@@ -1323,3 +1355,51 @@ zh-CN:
     find: 查找
   cookie_policy: "Cookies"
   privacy_policy: 隐私政策
+
+  users:
+    confirm_credentials:
+      title: "Confirm your credentials"
+      instructions_html: |
+        There is already another user on Airesis with the same email address.<br />
+        Insert your password on Airesis to join the two accounts.<br />
+        If you do not remember the password, proceed to the 'Recover Password' page.
+    statistics:
+      title: "User statistics"
+      last_login: "Last login"
+      integrated_count: "Integrated contributions number"
+      spam_count: "SPAM Contributions number"
+      noisy_count: "Noisy contributions number"
+      total_count: "Total contributions number"
+      total_comments_count: "Total comments number"
+      proposals_editor: "Number of proposals you have edited"
+      proposals_voted: "Number of proposals that have been voted"
+      average_rank_voted_proposals: "Average rank of proposals that have been voted"
+      proposals_accepted_count: "Number of proposals that have been accepted"
+      proposals_abandonend_count: "Number of proposals that have been abandoned"
+      good_writer: "Good contributions writer"
+      good_proposals_writer: "Good proposals writer"
+  proposal_comments:
+    manage_noise:
+      title: "Manage useless contributions"
+      help: "Drag and drop the contributions you consider useless for the discussion on the right"
+  votations:
+    create:
+      confirm: "Vote registered correctly. Thank you!"
+  errors:
+    messages:
+      invalid_token: "Security Token Invalid"
+      votation: "Sorry but something went wrong while casting your vote. Try again later."
+    votation:
+      already_voted: "You have already voted for this proposal"
+    proposal:
+      authors_added: "Error while adding new authors"
+  draft_tooltip: "This post is visible only by you"
+  reserved_tooltip: "This post is visible only by group participants"
+  keep_reading: "keep reading"
+  feedback_subject: "%{time} - New feedback"
+  delete_event_confirm: "Are you sure to delete this comment?"
+  groups:
+    group:
+      delete_group_warning_html: "You are allowed to delete this group. By deleting this group, you will delete all forums, proposals and documents associated with it.<br/>The data cannot be restored.<br/>Be careful!"
+  confirm:
+    unintegrate: "You are going to put your contribution back into the discussion. Are you sure?"
