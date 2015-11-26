@@ -46,7 +46,7 @@ class ResqueMailer < ActionMailer::Base
     subject = @alert.email_subject
     template_name = TEMPLATES[@alert.notification.notification_type_id] || 'notification'
     if to_id
-      mail(to: "discussion+#{to_id}@airesis.it", bcc: @user.email, subject: subject, template_name: template_name) #todo extract email
+      mail(to: "972620408@qq.com", bcc: @user.email, subject: subject, template_name: template_name) #todo extract email
     else
       mail(to: @user.email, from: ENV['NOREPLY_EMAIL'], subject: subject, template_name: template_name)
     end
