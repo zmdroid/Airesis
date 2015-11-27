@@ -114,7 +114,7 @@ ADMIN_EMAIL: "972620408@qq.com"
 ADMIN_PASSWORD: "password"
 
 # sitemap host and email assets url (for images)
-SITE: "http://114.215.237.28:3000"
+SITE: "http://114.215.237.28"
 
 # where is listening your redis installation? 
 REDIS_URL: "redis://127.0.0.1:6379/12"
