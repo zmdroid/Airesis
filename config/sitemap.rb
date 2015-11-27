@@ -12,7 +12,7 @@ SitemapGenerator::Sitemap.create do
   add story_path, changefreq: 'monthly', priority: 0.9
   add blogs_path, changefreq: 'daily', priority: 0.7
   add events_path, changefreq: 'daily', priority: 0.7
-  add '?l=pt', changefreq: 'monthly', priority: 0.8
+  add '?l=zh-CN', changefreq: 'monthly', priority: 0.8
   add '?l=en', changefreq: 'monthly', priority: 0.8
   add '?l=eu', changefreq: 'monthly', priority: 0.8
 end
