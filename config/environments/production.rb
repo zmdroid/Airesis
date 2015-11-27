@@ -31,15 +31,6 @@ Airesis::Application.configure do
 
   config.active_record.raise_in_transactional_callbacks = true
 
-  config.action_mailer.delivery_method =:smtp
-  config.action_mailer.smtp_settings = {
-      :address=> "smtp.qq.com",
-      :port=> 25,
-      :domain=> "qq.com",
-       :authentication=> :login,
-       :user_name=> "393012998@qq.com",#你的邮箱
-       :password=> "zm198933#@!"      #你的密码
- }
 end
 
 Airesis::Application.default_url_options = Airesis::Application.config.action_mailer.default_url_options

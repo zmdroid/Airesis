@@ -72,13 +72,13 @@ module Airesis
     config.action_mailer.default_url_options = { host: ENV['MAILER_DEFAULT_HOST'] }
 
     config.action_mailer.smtp_settings = {
-      enable_starttls_auto: true,
-      port: 587,
-      address: ENV['EMAIL_ADDRESS'],
-      user_name: ENV['EMAIL_USERNAME'],
-      password: ENV['EMAIL_PASSWORD'],
-      authentication: :plain
-    }
+        :address=> ENV['EMAIL_ADDRESS'],
+        :port=> 25,
+        :domain=> "qq.com",
+         :authentication=> :login,
+         :user_name=> ENV['EMAIL_USERNAME'],#你的邮箱
+         :password=>  ENV['EMAIL_PASSWORD']      #你的密码
+   }
 
     if ENV['AWS_HOST'].present?
       options = {
