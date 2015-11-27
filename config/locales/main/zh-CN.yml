@@ -1220,6 +1220,7 @@ zh-CN:
     blog:
       blog_created: 成功建立 Blog
       title_updated: 成功更新 Blog 标题
+      comment_added: "成功创建留言"
     events:
       event_deleted: 成功删除活动
       event_updated: 成功更新活动
