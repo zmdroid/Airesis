@@ -66,19 +66,10 @@ module Airesis
 
     config.active_job.queue_adapter = :sidekiq
 
-    config.action_mailer.delivery_method = :smtp
-
     config.action_mailer.raise_delivery_errors = true
     config.action_mailer.default_url_options = { host: ENV['MAILER_DEFAULT_HOST'] }
 
-    config.action_mailer.smtp_settings = {
-        :address=> ENV['EMAIL_ADDRESS'],
-        :port=> 25,
-        :domain=> "qq.com",
-         :authentication=> :login,
-         :user_name=> ENV['EMAIL_USERNAME'],#你的邮箱
-         :password=>  ENV['EMAIL_PASSWORD']      #你的密码
-   }
+
 
     if ENV['AWS_HOST'].present?
       options = {
