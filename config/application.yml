@@ -116,10 +116,8 @@ ADMIN_PASSWORD: "password"
 # sitemap host and email assets url (for images)
 SITE: "http://114.215.237.28:3000"
 
-# where is listening your redis installation? development
-#REDIS_URL: "redis://127.0.0.1:6379/12"
-#production
-REDIS_URL: "redis://114.215.237.28:6379/12"
+# where is listening your redis installation? 
+REDIS_URL: "redis://127.0.0.1:6379/12"
 
 # remove these variables if you are not using amazon s3
 AWS_HOST: "s3-eu-west-1.amazonaws.com"
