@@ -116,15 +116,15 @@ UserType.create(description: 'Moderator', short_name: 'mod') { |c| c.id = 2 }.sa
 UserType.create(description: 'Authenticated User', short_name: 'authuser') { |c| c.id = 3 }.save
 UserType.create(description: 'User', short_name: 'user') { |c| c.id = 4 }.save
 UserType.create(description: 'Certified', short_name: 'certified') { |c| c.id = 5 }.save
-BestQuorum.create(name: '1 giorno', percentage: nil, minutes_m: 0, hours_m: 0, days_m: 1, good_score: 50,
+BestQuorum.create(name: '1 天', percentage: nil, minutes_m: 0, hours_m: 0, days_m: 1, good_score: 50,
                   bad_score: 50, vote_percentage: 0, vote_minutes: nil, vote_good_score: 50, t_percentage: 's', t_minutes: 's', t_good_score: 's', t_vote_percentage: 's', t_vote_minutes: 'f', t_vote_good_score: 's', public: true, seq: 1)
-BestQuorum.create(name: '3 giorni', percentage: nil, minutes_m: 0, hours_m: 0, days_m: 3, good_score: 50,
+BestQuorum.create(name: '3 天', percentage: nil, minutes_m: 0, hours_m: 0, days_m: 3, good_score: 50,
                   bad_score: 50, vote_percentage: 0, vote_minutes: nil, vote_good_score: 50, t_percentage: 's', t_minutes: 's', t_good_score: 's', t_vote_percentage: 's', t_vote_minutes: 'f', t_vote_good_score: 's', public: true, seq: 2)
-BestQuorum.create(name: '7 giorni', percentage: nil, minutes_m: 0, hours_m: 0, days_m: 7, good_score: 50,
+BestQuorum.create(name: '7 天', percentage: nil, minutes_m: 0, hours_m: 0, days_m: 7, good_score: 50,
                   bad_score: 50, vote_percentage: 0, vote_minutes: nil, vote_good_score: 50, t_percentage: 's', t_minutes: 's', t_good_score: 's', t_vote_percentage: 's', t_vote_minutes: 'f', t_vote_good_score: 's', public: true, seq: 3)
-BestQuorum.create(name: '15 giorni', percentage: nil, minutes_m: 0, hours_m: 0, days_m: 15, good_score: 50,
+BestQuorum.create(name: '15 天', percentage: nil, minutes_m: 0, hours_m: 0, days_m: 15, good_score: 50,
                   bad_score: 50, vote_percentage: 0, vote_minutes: nil, vote_good_score: 50, t_percentage: 's', t_minutes: 's', t_good_score: 's', t_vote_percentage: 's', t_vote_minutes: 'f', t_vote_good_score: 's', public: true, seq: 4)
-BestQuorum.create(name: '30 giorni', percentage: nil, minutes_m: 0, hours_m: 0, days_m: 30, good_score: 50,
+BestQuorum.create(name: '30 天', percentage: nil, minutes_m: 0, hours_m: 0, days_m: 30, good_score: 50,
                   bad_score: 50, vote_percentage: 0, vote_minutes: nil, vote_good_score: 50, t_percentage: 's', t_minutes: 's', t_good_score: 's', t_vote_percentage: 's', t_vote_minutes: 'f', t_vote_good_score: 's', public: true, seq: 5)
 admin = ParticipationRole.create(name: 'amministratore', description: 'Amministratore')
 GroupAction.all.each do |group_action|
@@ -159,7 +159,7 @@ SysLocale.create(key: 'crowdin', host: 'localhost', lang: 'crowdin')
 SysLocale.create(key: 'bs-BA', host: 'localhost', territory: Country.find_by(description: 'Bosnia and Herzegovina'), lang: 'bs-BA')
 SysLocale.create(key: 'de-DE', host: 'localhost', territory: Country.find_by(description: 'Germany'), lang: 'de-DE')
 SysLocale.create(key: 'el-GR', host: 'localhost', territory: Country.find_by(description: 'Greece'), lang: 'el-GR')
-SysLocale.create(key: 'en-EU', host: 'localhost', territory: Continent.find_by(description: 'Europe'), default: true)
+SysLocale.create(key: 'en-EU', host: 'localhost', territory: Continent.find_by(description: 'Europe'), lang: 'en-EU')
 SysLocale.create(key: 'en-IE', host: 'localhost', territory: Country.find_by(description: 'Ireland'), lang: 'en-IE')
 SysLocale.create(key: 'en-US', host: 'localhost', territory: Continent.find_by(description: 'America'), lang: 'en-US')
 SysLocale.create(key: 'en-GB', host: 'localhost', territory: Country.find_by(description: 'United Kingdom'), lang: 'en-GB')
@@ -182,11 +182,12 @@ SysLocale.create(key: 'ru-RU', host: 'localhost', territory: Country.find_by(des
 SysLocale.create(key: 'sr-CS', host: 'localhost', territory: Country.find_by(description: 'Serbia'), lang: 'sr-CS')
 SysLocale.create(key: 'sr-SP', host: 'localhost', territory: Country.find_by(description: 'Serbia'), lang: 'sr-SP')
 SysLocale.create(key: 'sh-HR', host: 'localhost', territory: Country.find_by(description: 'Croatia'), lang: 'sh-HR')
-SysLocale.create(key: 'zh-TW', host: 'localhost', territory: Country.find_by(description: 'China'), lang: 'zh-TW')
-SysLocale.create(key: 'zh-CN', host: 'localhost', territory: Country.find_by(description: 'China'), lang: 'zh-CN')
+SysLocale.create(key: 'zh-TW', host: 'localhost', territory: Country.find_by(description: '中国'), lang: 'zh-TW')
+SysLocale.create(key: 'zh-CN', host: 'localhost', territory: Country.find_by(description: '中国'), default: true)
 
 SysCurrency.create(description: 'EUR')
 SysCurrency.create(description: 'CHF')
+SysCurrency.create(description: 'RMB')
 SysCurrency.create(description: '$')
 
 SysMovementType.create(description: 'Entrata')

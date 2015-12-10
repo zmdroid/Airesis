@@ -42,7 +42,7 @@ class TagsController < ApplicationController
         format.json { render json: @tags }
       end
     else
-      @page_title = 'Elenco dei tag più utilizzati'
+      @page_title = '标签列表'
       @tags = Tag.most_used(current_domain.territory)
       respond_to do |format|
         format.html

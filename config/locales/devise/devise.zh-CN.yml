@@ -1,7 +1,7 @@
 zh-CN:
   errors:
     messages:
-      expired: '过期了, 请重新申请一次has expired, please request a new one'
+      expired: '过期了, 请重新申请一次'
       not_found: 找不到
       already_confirmed: 已经确认，请试着直接登入
       not_locked: 没有被锁定
@@ -19,8 +19,8 @@ zh-CN:
       unauthenticated: 'Log-in required to access this page.  Please log-in.'
       unconfirmed: "Account has not been confirmed yet"
       user:
-        invalid: 'Invalid username or password'
-        not_found_in_database: 'Invalid username or password'
+        invalid: '无效的用户名或密码'
+        not_found_in_database: '无效的用户名或密码'
     sessions:
       signed_in: 成功登入！
       signed_out: 你已登出。

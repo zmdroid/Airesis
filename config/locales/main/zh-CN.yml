@@ -185,6 +185,9 @@ zh-CN:
         blog_button: 建立我的 Blog
         participants_list: 参与者列表
         invite_button: 邀请朋友加入！
+        show_all_participants: "Show all %{count} ..."
+        show_all_admins: "Show all %{count} ..."
+        show_all_requests: "Show all %{count} ..."
         participants_full_list: 完成群组成员列表
         no_participants: 目前还没有人参与这个群组。
         no_blogs_yet: 这个群组目前还没有任何文章，稍后再回来！
@@ -202,7 +205,17 @@ zh-CN:
         last_proposals: 最后观看的议题
         last_topics: 最新的主题
         next_events: 下一个活动
+        rule_book_html: |
+          The rules can be selected while creating a group.<br/>
+          <p>All users can create a group, as of now.</p>
+          <p>When you participate in a group the posts in your blog can be shown in the Wall of the group.</p>
+          <p>Groups can sustain proposals, create new ones, create surveys and organize members using roles and permissions.</p>
+          <p>It is possible to change the rules of this group through its <b>Settings</b>.</p>
         short_url: 短网址
+        featured_post:
+          'true': Unpin
+          'false': Pin on top
+        permissions_title: "You and the group"
       header:
         settings: 设定
         documents: 文件
@@ -221,13 +234,16 @@ zh-CN:
           advanced: 进阶
           advanced_percentage_description: '如果成熟度低于%{bad_score} %，这项提案将被放弃。 '
           advanced_percentage_description3: 在达到投票阶段或否决的门槛前，提案会一直开放讨论。
+          time_description: "辩论最后 %{days} %{hours} %{minutes}"
+          simple_percentage_description: "and a maturity equal or superior to %{good_score}."
+          advanced_participation_description: "(%{current_number} out of %{total_number} that have the right) <b>(average value: %{average})</b>"
         active: 启动
         name: 名称
         participants: 参与者
         condition: 条件
         good_percentage: '% 成熟度'
         bad_percentage: '% 撤销'
-        confirm_deletion: 确定要删除门槛？
+        confirm_deletion: 'Are you sure you want to delete the quorum %{quorum}?'
         edit_quorum: 修改门槛
         configure_proposal_parameters: 调整提案的参数
         default_anonymous_proposal: 开启暂时匿名功能
@@ -236,6 +252,7 @@ zh-CN:
         let_editor_change_settings: 编辑可以自由选择上面的选项
         time: 时间
         edit_quorum_warning: 注意！门槛的修改不会套用在进行中的提案。
+        add_quorum: "Create a new quorum"
       edit_work_areas:
         index:
           not_enabled: 工作小组没有开放。
@@ -243,6 +260,7 @@ zh-CN:
           description2: 如此一来，你可以更方便管理所有参与成员与他们的角色权限。
           description3: 但请注意这是进阶功能，适合比较庞大的群组或熟悉操作的使用者进行设定。
           description4: 在启动工作小组前，确定你是否能够直接管理群组成员的使用权限
+          enable: "使工作区域"
         manage:
           new_area: 建立一个工作小组
           switch_area_participants: 切换到成员管理
@@ -251,6 +269,7 @@ zh-CN:
           list_participants: 小组的成员的清单。为他们每个人都选择他所属的工作小组。
           switch_area_management: 切换到工作小组的管理
           confirm_deletion: 确定要删除此工作小组？
+          manage_roles_in_area: "Edit roles and permissions in the work area %{area}"
         manage_group_areas: 管理工作小组内的成员
         form:
           title: 新工作小组
@@ -940,8 +959,8 @@ zh-CN:
       other: '%{count} 回应'
   models:
     best_quorum:
-      good_score_condition: "该提案将去投票，如果它有一个成熟大于<b>％{good_score}％</ b>和%{participants}，否则就会被抛弃"
-      good_score_condition_past: "该提案会去投票，如果它有一个成熟大于<b>％{good_score}％</b>和%{participants}，否则会被放弃"
+      good_score_condition: "该提案将去投票，如果它的成熟大于<b>％{good_score}</ b>和%{participants}的参与者，否则就会被抛弃"
+      good_score_condition_past: "该提案会去投票，如果它有一个成熟大于<b>％{good_score}</b>和%{participants}，否则会被放弃"
     quorum:
       participants:
         one: '<b>一个人</b> 将参加'
@@ -953,7 +972,7 @@ zh-CN:
       or_condition_1_past: "辩论持续了 %{time} or when %{participants_num}."
       and_condition_1: "这场辩论将结束 %{time}, but it will continue unless %{participants_num}."
       and_condition_1_past: "这场辩论将结束 %{time}, but continued unless %{participants_num}."
-      time_condition_1: "这场辩论将结束 %{time}"
+      time_condition_1: "这场辩论将持续 %{time}"
       time_condition_1_past: "辩论持续了 %{time}"
       participants_condition_1: "辩论将持续到 %{participants_num}."
       participants_condition_1_past: "争论一直持续到 %{participants_num}."
@@ -1081,7 +1100,7 @@ zh-CN:
       work_area:
         area_created: 建立工作小组时出现错误
       creation: 建立群组时出现错误
-      post_removed: "Error while removing the post from the group"
+      post_removed: "从组中删除该错误时出错"
     proposals:
       view_proposal: 你没有适当的权限观看此提案
       participate: 你没有适当的权限主动参与这个提案，请联系这个群组的管理者们。
@@ -1094,14 +1113,14 @@ zh-CN:
       proposal_not_voted: 这个提案没有完成投票阶段，所以你无法进行这个操作
       proposal_not_valuating: 这个提案并非投票阶段，所以你无法进行这个操作
       proposal_not_your: 你无法编辑不是属于你的提案
-      proposal_already_ranked: "You have already evaluated this proposal once. The proposal has not been modified since your last evaluation"
-      creation: "We are sorry but there was an error while creating the proposal"
-      editors_added: "Error while adding editors"
-      close_debate: "Error while closing the debate"
-      vote_period_incorrect: "Please choose another votation event"
-      vote_period_soon: "The vote event must start at least %{time} minutes after the end of debate"
-      vote_period_short: "The vote event must last at least 10 minutes"
-      same_title: "There is another proposal with the same title."
+      proposal_already_ranked: "你已经对这项建议进行了评价。自从你上次评估后，这个建议没有被修改过"
+      creation: "我们很抱歉，但这是一个错误，而创建的建议l"
+      editors_added: "添加编辑器时出错"
+      close_debate: "在结束辩论时出现错误"
+      vote_period_incorrect: "请选择另一个竞选活动"
+      vote_period_soon: "辩论结束后，投票活动必须至少在%{time}分钟内开始"
+      vote_period_short: "投票事件必须持续至少10分钟"
+      same_title: "有另一个建议，具有相同的标题。"
     registration:
       recaptcha: 输入图形辨识错误，请再试试看
       user_not_found: 没有找到这个使用者
@@ -1110,49 +1129,49 @@ zh-CN:
       already_have: 抱歉，你已经建立 Blog 了
       comment_added: 建立回应时出现错误
     users:
-      join_accounts_password: "Wrong password"
+      join_accounts_password: "密码错误"
       join_accounts_password: 密码错误
     group_participations:
-       destroy: "You can not leave a group of which you are the sole administrator"
-       already_member: "Error while creating the participation request. You are already member of this group!"
-       request_not_registered: "You are already member of this groups but your participation request has not been registered."
-       request_sent: "Error while creating the participation request"
-       request_not_found: "Request not found. Operation error"
-       error_saving: "Error in the procedure. Unable to continue"
+       destroy: "你不能离开这个群组，因为您是唯一的管理员"
+       already_member: "创建参与请求时出错。你已经是这个小组的成员了！"
+       request_not_registered: "您已经是该组的成员，但是您的参与请求还没有被注册。"
+       request_sent: "创建参与请求时出错"
+       request_not_found: "未找到请求。操作误差"
+       error_saving: "程序中的错误。无法继续"
     error_404:
       proposals:
-        title: "This proposal doesn't exist"
-        description: "The proposal you are looking for doesn't exist or has been deleted"
+        title: "这个建议不存在"
+        description: "你正在寻找的建议不存在或已被删除"
       blog_posts:
-        title: "This post doesn't exist"
-        description: "The post you are looking for doesn't exist or has been deleted"
+        title: "这个帖子不存在"
+        description: "你所寻找的职位不存在或已被删除"
       events:
-        title: "This event doesn't exist"
-        description: "The event you are looking for doesn't exist or has been deleted"
+        title: "这个事件不存在"
+        description: "你正在寻找的事件不存在或已被删除"
       groups:
-        title: "This group doesn't exist"
-        description: "The group you are looking for doesn't exist or has been deleted"
-      title: "The page you are looking for doesn't exist"
-      description: "Your address might be wrong, or this page does no longer exist"
+        title: "这个群体不存在"
+        description: "你所寻找的那群不存在或已被删除"
+      title: "你正在寻找的页面不存在"
+      description: "您的地址可能是错误的，或此页不存在"
     error_500:
-      title: "Oops...our mistake"
-      description: "A  report has been sent and the problem will be fixed as soon as possible."
+      title: "哎呀…出错了"
+      description: "已发出一份报告，该问题将尽快解决。"
     event:
-      comment_added: "Error while entering the comment"
-    participations_destroyed: "Error during operation"
+      comment_added: "输入评论时出错"
+    participations_destroyed: "操作过程中出现错误"
     error_indexer:
       title: "服务不可用"
       description: "我们正在经历的问题与内部系统。再尝试几分钟。"
     error_302:
-      title: "Unauthorized access"
-      description: "Sorry. You do not have permissions to access this resource."
+      title: "未经授权的访问"
+      description: "对不起您没有访问此资源的权限。"
     area_participation:
-      create: "Error adding the user to the area"
+      create: "将用户添加到该区域中的错误"
     area:
-      update: "Error updating the area"
+      update: "更新该区域的错误"
     group_invitations:
-      code_expired: "The Invitation Code has expired"
-      already_participant: "You are already a participant of this group"
+      code_expired: "邀请码已过期"
+      already_participant: "你已经是这个小组的参与者"
   info:
     setting_preferences: 成功更改设定
     blog_created: 成功建立文章
@@ -1359,48 +1378,48 @@ zh-CN:
 
   users:
     confirm_credentials:
-      title: "Confirm your credentials"
+      title: "确认您的凭据"
       instructions_html: |
-        There is already another user on Airesis with the same email address.<br />
-        Insert your password on Airesis to join the two accounts.<br />
-        If you do not remember the password, proceed to the 'Recover Password' page.
+        在airesis另一个用户已经有着相同的电子邮件地址。<br />
+        将您的密码Airesis加入了两个账户。<br />
+        如果你不记得密码，请进入“找回密码”页面。
     statistics:
-      title: "User statistics"
-      last_login: "Last login"
-      integrated_count: "Integrated contributions number"
-      spam_count: "SPAM Contributions number"
-      noisy_count: "Noisy contributions number"
-      total_count: "Total contributions number"
-      total_comments_count: "Total comments number"
-      proposals_editor: "Number of proposals you have edited"
-      proposals_voted: "Number of proposals that have been voted"
-      average_rank_voted_proposals: "Average rank of proposals that have been voted"
-      proposals_accepted_count: "Number of proposals that have been accepted"
-      proposals_abandonend_count: "Number of proposals that have been abandoned"
-      good_writer: "Good contributions writer"
-      good_proposals_writer: "Good proposals writer"
+      title: "用户统计"
+      last_login: "上次登录"
+      integrated_count: "集成的捐款数目"
+      spam_count: "垃圾邮件数量的贡献"
+      noisy_count: "噪声贡献数"
+      total_count: "总捐款数"
+      total_comments_count: "总评论数"
+      proposals_editor: "编辑的建议数"
+      proposals_voted: "已投票数的提案"
+      average_rank_voted_proposals: "已投票的提案的平均排名"
+      proposals_accepted_count: "已接受的提案数"
+      proposals_abandonend_count: "已放弃的提案数"
+      good_writer: "优秀作家"
+      good_proposals_writer: "好建议作家"
   proposal_comments:
     manage_noise:
-      title: "Manage useless contributions"
-      help: "Drag and drop the contributions you consider useless for the discussion on the right"
+      title: "管理无用的贡献"
+      help: "把你认为没有用的捐款拖到你的右边"
   votations:
     create:
-      confirm: "Vote registered correctly. Thank you!"
+      confirm: "表决正确。谢谢你！"
   errors:
     messages:
-      invalid_token: "Security Token Invalid"
-      votation: "Sorry but something went wrong while casting your vote. Try again later."
+      invalid_token: "安全令牌无效"
+      votation: "很抱歉，在投你一票的时候出了问题。再试一次。"
     votation:
-      already_voted: "You have already voted for this proposal"
+      already_voted: "你已经投票赞成这项提案了"
     proposal:
-      authors_added: "Error while adding new authors"
-  draft_tooltip: "This post is visible only by you"
-  reserved_tooltip: "This post is visible only by group participants"
-  keep_reading: "keep reading"
-  feedback_subject: "%{time} - New feedback"
-  delete_event_confirm: "Are you sure to delete this comment?"
+      authors_added: "添加新作者时出现错误"
+  draft_tooltip: "这篇文章是你所看到的"
+  reserved_tooltip: "这篇文章是可见的，只有组参与者"
+  keep_reading: "继续看"
+  feedback_subject: "%{time} - 新反馈"
+  delete_event_confirm: "你确定删除此评论?"
   groups:
     group:
-      delete_group_warning_html: "You are allowed to delete this group. By deleting this group, you will delete all forums, proposals and documents associated with it.<br/>The data cannot be restored.<br/>Be careful!"
+      delete_group_warning_html: "您可以删除该组。通过删除该组，您将删除所有与之相关的论坛、提案和文件，这些数据无法恢复！"
   confirm:
-    unintegrate: "You are going to put your contribution back into the discussion. Are you sure?"
+    unintegrate: "你将把你的贡献放回讨论中。你肯定吗?"

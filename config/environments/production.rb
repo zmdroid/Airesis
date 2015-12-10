@@ -9,7 +9,7 @@ Airesis::Application.configure do
   config.i18n.fallbacks = true
 
   # Disable Rails's static asset server (Apache or nginx will already do this)
-  config.serve_static_files = false
+  config.serve_static_files = true
 
   # Compress JavaScripts and CSS
   config.assets.js_compressor = :uglifier
@@ -37,8 +37,8 @@ Airesis::Application.configure do
       :port=> 25,
       :domain=> "qq.com",
        :authentication=> :login,
-       :user_name=> "393012998@qq.com",#你的邮箱
-       :password=> "zm198933#@!"      #你的密码
+       :user_name=> "zhouming@du-kang.cn",#你的邮箱
+       :password=> "ZhouMing123"      #你的密码
  }
 end
 

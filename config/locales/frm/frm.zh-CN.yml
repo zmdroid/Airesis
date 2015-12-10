@@ -6,6 +6,8 @@ zh-CN:
       topic: 主题
       posts: 文章
       posts_count:
+        zero: No posts
+        one: 1 post
         other: '%{count} 篇文章'
       flagged_for_spam: 您的帐号已被标记为垃圾攻击
       cannot_create_topic: 你目前不能增加一个新的主题
@@ -40,6 +42,21 @@ zh-CN:
         default_public: "开放论坛"
         default_private_description: "论坛保留给组参与者"
         default_public_description: "对所有用户可见airesis论坛。也不在该组中的用户"
+      mod:
+        index: Manage Groups
+        new: New Group
+        created: The group was successfully created
+        not_created: Group could not be created
+        deleted: The selected group has been deleted
+        members: "Members in %{group}"
+      mods:
+        show:
+          add_member: Add
+          add_a_new_member: "Add a new member"
+          current_members: "Current Members"
+        edit: Edit
+        delete: Delete
+        name: Name
       category:
         index: 管理论坛分类
         new: 建立一个新的论坛分类
@@ -76,14 +93,20 @@ zh-CN:
       new: 建立一个新的论坛
       edit: '编辑 %{title} 论坛'
       topics_count:
+        zero: 0 topics
+        one: 1 topic
         other: '%{count} 个主题'
       posts_count:
+        zero: 0 posts
+        one: 1 post
         other: '%{count} 篇文章'
       moderator_tools: 版主工具
       topic_tools: 主题工具
       admin_tools: 管理者工具
+      title: "New forum"
     forums:
       index:
+        title: Forum
         forum: 论坛
         views: 检视
         last_post: 最新发表：
@@ -143,6 +166,7 @@ zh-CN:
         pin:
           "true": '取消置顶'
           "false": '置顶'
+        related_proposals: "Related proposals"
     post:
       buttons:
         reply: 文章回覆
@@ -155,7 +179,9 @@ zh-CN:
       edited: 你已编辑你的文章
       not_edited: 无法编辑你的文章
       deleted: 您的文章已被删除
-      cannot_delete: 你不能删除不属于你的文章
+      deleted_with_topic: The last post in the topic has been deleted. The entire Topic has been also deleted
+      cannot_delete: You cannot delete a post you do not own
+      cannot_quote_deleted_post: The post you tried to quote does not exist anymore.
     posts:
       moderation:
         moderate: 管理
@@ -178,11 +204,15 @@ zh-CN:
         update: 更新主题
       frm_category:
         create: 建立分类
+        update: Update category
+      frm_mod:
+        create: Create group
   simple_form:
     labels:
       frm_forum:
         category: 分类
         title: 标题
+        name: Title
         description: 描述
         moderators: 版主群
         visible_outside: 公开检视
@@ -192,11 +222,14 @@ zh-CN:
         pinned: 置顶
         hidden: 隐藏
         posts:
-          text: 内文
+          text: 内容
       frm_category:
         name: 名称
       post:
-        text: 内文
+        text: 内容
+      frm_mod:
+        name: Name
+# General stuff
   time_ago_in_words: '%{time} 前'
   ago: 前
   ago_by: 前由

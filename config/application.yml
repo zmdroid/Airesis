@@ -51,14 +51,14 @@ GEOSPATIAL_NAME: "zmdroid"
 #####################
 #email service
 #####################
-EMAIL_ADDRESS: "393012998@qq.com"
-EMAIL_USERNAME: "393012998"
-EMAIL_PASSWORD: "zm198933#@!"
+EMAIL_ADDRESS: "zhouming@du-kang.cn"
+EMAIL_USERNAME: "zhouming"
+EMAIL_PASSWORD: "ZhouMing123"
 
 MAILER_DEFAULT_HOST: "smtp.qq.com"
 
 # set your email address to override email receiver in development and test
-OVERRIDE_MAIL_RECIPIENT: "393012998@qq.com"
+OVERRIDE_MAIL_RECIPIENT: "zhouming@du-kang.cn"
 
 #####################
 #newsletter parameters
@@ -74,15 +74,15 @@ NEWSLETTER_HOME_URL: ""
 # feedbacks (optional)
 # set these values to send and receive feedbacks from users
 #####################
-FEEDBACK_SENDER: "Feedback <393012998@qq.com>"
-FEEDBACK_RECEIVER: "393012998@qq.com"
+FEEDBACK_SENDER: "Feedback <zhouming@du-kang.cn>"
+FEEDBACK_RECEIVER: "zhouming@du-kang.cn"
 
 #####################
 # email settings (required)
 # email addresses for all email services
 #####################
-DEFAULT_FROM: "393012998@qq.com"
-NOREPLY_EMAIL: "No Reply <393012998@qq.com>"
+DEFAULT_FROM: "zhouming@du-kang.cn"
+NOREPLY_EMAIL: "No Reply <zhouming@du-kang.cn>"
 
 # when we send emails the default protocol to use for urls.
 # airesis tries not to use the rails default ActionMailer Default Host
@@ -107,10 +107,10 @@ APP_LONG_NAME: "我的地盘 - 我的宣言"
 
 # default reference email address for the website. is used in the app to tell the user which email address he
 # has to contact for information. it is also shown in the footer of the emails as main contact address.
-APP_EMAIL_ADDRESS: "393012998@qq.com"
+APP_EMAIL_ADDRESS: "zhouming@du-kang.cn"
 
 # default administrator credentials
-ADMIN_EMAIL: "972620408@qq.com"
+ADMIN_EMAIL: "zhouming@du-kang.cn"
 ADMIN_PASSWORD: "password"
 
 # sitemap host and email assets url (for images)
@@ -153,9 +153,9 @@ CAP_STAGING_SERVER: ""
 #sentry settings. remove these keys to not use it (leaving them empty will throw an error)
 #https://d9cd0288b9184dbf9a7eaf4a327cd202:f6470751e352475ca470d7b07f103cb6@app.getsentry.com/59525
 #############
-SENTRY_PUBLIC_KEY: "d9cd0288b9184dbf9a7eaf4a327cd202"
-SENTRY_PRIVATE_KEY: "f6470751e352475ca470d7b07f103cb6"
-SENTRY_PORT: "59525"
+SENTRY_PUBLIC_KEY: ""
+SENTRY_PRIVATE_KEY: ""
+SENTRY_PORT: ""
 
 #############
 # environment constants (leave default values for default behaviour, change them to change platform behaviour)

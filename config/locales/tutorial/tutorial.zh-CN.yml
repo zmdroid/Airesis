@@ -41,21 +41,21 @@ zh-CN:
       category: 此提案的分类
       history: 提案的历史纪录，在当中您能检视提案的修订与演进
     groups_edit:
-      welcome: "That is the administrator panel for groups. We will explain you the single sections..."
-      group_info: "Here you can change all the information about the group and its picture. Please fill the keywords if you have not done it yet. They are important for your group to be found."
-      group_roles: "Here you can manage the roles available in the group. You can manage their permissions and the edit the existings one."
-      group_users: "Here you can manage the participants in your group. You can assign them roles and send emails."
-      group_proposals: "This is the page where you can change everything related to proposals: quorums and settings."
-      group_areas: "The Areas are available if you want to activate them. They will allow you to split your group in smaller groups"
-      group_forum: "And finally here you have all the settings for the Forum."
+      welcome: "这是管理员面板组。我们将解释的单节..."
+      group_info: "在这里，你可以改变一切有关本集团及其图像信息。请填写关键字，如果你还没有做这件事。它们是重要的被发现你的小组。"
+      group_roles: "在这里，您可以管理的角色，可在该组。你可以管理自己的权限，编辑存在一。"
+      group_users: "在这里您可以管理您的组中的参与者。您可以分配角色和发送电子邮件。"
+      group_proposals: "这个页面，您可以改变一切有关建议：法定人数和设置。"
+      group_areas: "如果要激活这些区域可供选择。他们将让你分割你的组小团体"
+      group_forum: "最后在这里您对论坛的所有设置。"
     users_alarm_preferences:
-      intro: "In this page you can edit all the settings about alerts and notifications."
-      alerts: "You can choose which alerts to receive on Airesis..."
-      emails: "...by e-mail, or both."
-      no_emails: "Remember: if you disable an alert on Airesis, you will not receive it on Airesis either."
+      intro: "在这个页面，您可以编辑有关警报和通知的所有设置。"
+      alerts: "您可以选择它提醒收到关于Airesis..."
+      emails: "...通过电子邮件，或两者兼而有之。"
+      no_emails: "请记住：如果你禁用Airesis警报，您将不会收到它Airesis无论是。"
     users_border_preferences:
-      intro: "If you have not done it yet, set your geographical interest borders. Airesis will soon use them to show you specific contents."
+      intro: "如果你还没有这么做过，设置地域利益的边界。 Airesis很快就会使用它们向您展示具体内容。"
     welcome:
-      intro: "Welcome on Airesis %{name}. These tutorials will guide you through the application and exaplain you how to use it and where to find the information you need."
+      intro: "欢迎来到Airesis%{name}。这些教程将指导您完成该应用程序，并解释如何使用它，在哪里可以找到您所需要的信息。"
     next: 下一步
     back: 上一步
