@@ -1,8 +1,8 @@
 # remove it if you don't want to force ssl
 #FORCE_SSL: 'false'
 
-SECRET_KEY_BASE: "rake secret"
-DEVISE_SECRET_KEY: "rake secret"
+SECRET_KEY_BASE: "9d7e3b08d7530b87aa4d7bc710587cdf5329dbe692cb0cf0c37d2fa6b729c29d6c47f8b6012ce5f4716ddb814ce9be4cd857bae4b3629d881d374d7063b7f4ae"
+DEVISE_SECRET_KEY: "9d7e3b08d7530b87aa4d7bc710587cdf5329dbe692cb0cf0c37d2fa6b729c29d6c47f8b6012ce5f4716ddb814ce9be4cd857bae4b3629d881d374d7063b7f4ae"
 
 # if you want to allow the users to login via facebook fill these variables
 FACEBOOK_APP_ID: ""
