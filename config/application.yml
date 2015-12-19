@@ -114,7 +114,7 @@ ADMIN_EMAIL: "zhouming@du-kang.cn"
 ADMIN_PASSWORD: "password"
 
 # sitemap host and email assets url (for images)
-SITE: "http://114.215.237.28"
+SITE: "http://shequ.du-kang.cn"
 
 # where is listening your redis installation? 
 REDIS_URL: "redis://127.0.0.1:6379/12"

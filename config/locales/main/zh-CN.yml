@@ -148,7 +148,7 @@ zh-CN:
         proposals_number: 提案总数
         events_number: 开启活动
         search_mask: 搜寻工具
-        search_with_place: 或地理边界
+        search_with_place: 地理边界
         no_results: 找不到群组
         limit_reached: 你每天最多建立一个群组
         search_with_query: "使用个性化查询"
