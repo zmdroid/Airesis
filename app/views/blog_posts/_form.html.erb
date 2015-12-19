@@ -35,7 +35,7 @@
           </p>
       <% end %>
 
-      <p>
+      <p style="padding-top: 25px;">
         <input type="hidden" name="group_id" value="<%= params[:group_id] %>"/>
         <%= link_to t('buttons.cancel'), :back, class: 'btn', id: 'cancel_button', data: {disable_with: t('loading')} %>
         <%= f.submit t('buttons.save'), class: 'btn blue', id: 'save_button', data: {disable_with: t('loading')} %>
