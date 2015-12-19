@@ -355,7 +355,7 @@ Airesis::Application.routes.draw do
   end
 
   # routes available only on main site
-  #constraints NoSubdomain do
+  constraints NoSubdomain do
 
     root to: 'home#index'
 
@@ -578,5 +578,5 @@ Airesis::Application.routes.draw do
     resources :tokens, only: [:create, :destroy]
 
     get '/:id' => 'groups#show'
-  #end
+  end
 end
