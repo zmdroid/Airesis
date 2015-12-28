@@ -33,12 +33,12 @@ Airesis::Application.configure do
 
   config.action_mailer.delivery_method =:smtp
   config.action_mailer.smtp_settings = {
-      :address=> "smtp.qq.com",
+      :address=> "smtp.mxhichina.com",
       :port=> 25,
-      :domain=> "qq.com",
+      :domain=> "mxhichina.com",
        :authentication=> :login,
-       :user_name=> "zhouming@du-kang.cn",#你的邮箱
-       :password=> "ZhouMing123"      #你的密码
+       :user_name=> "kefu@minzhuzhi.com",#你的邮箱
+       :password=> "nimei198933@"      #你的密码
  }
 end
 

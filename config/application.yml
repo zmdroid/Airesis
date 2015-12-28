@@ -51,14 +51,14 @@ GEOSPATIAL_NAME: "zmdroid"
 #####################
 #email service
 #####################
-EMAIL_ADDRESS: "zhouming@du-kang.cn"
-EMAIL_USERNAME: "zhouming"
-EMAIL_PASSWORD: "ZhouMing123"
+EMAIL_ADDRESS: "kefu@minzhuzhi.com"
+EMAIL_USERNAME: "kefu"
+EMAIL_PASSWORD: "nimei198933@"
 
-MAILER_DEFAULT_HOST: "smtp.qq.com"
+MAILER_DEFAULT_HOST: "smtp.mxhichina.com"
 
 # set your email address to override email receiver in development and test
-OVERRIDE_MAIL_RECIPIENT: "zhouming@du-kang.cn"
+OVERRIDE_MAIL_RECIPIENT: "kefu@minzhuzhi.com"
 
 #####################
 #newsletter parameters
@@ -74,15 +74,15 @@ NEWSLETTER_HOME_URL: ""
 # feedbacks (optional)
 # set these values to send and receive feedbacks from users
 #####################
-FEEDBACK_SENDER: "Feedback <zhouming@du-kang.cn>"
-FEEDBACK_RECEIVER: "zhouming@du-kang.cn"
+FEEDBACK_SENDER: "Feedback <kefu@minzhuzhi.com>"
+FEEDBACK_RECEIVER: "kefu@minzhuzhi.com"
 
 #####################
 # email settings (required)
 # email addresses for all email services
 #####################
-DEFAULT_FROM: "zhouming@du-kang.cn"
-NOREPLY_EMAIL: "No Reply <zhouming@du-kang.cn>"
+DEFAULT_FROM: "kefu@minzhuzhi.com"
+NOREPLY_EMAIL: "No Reply <kefu@minzhuzhi.com>"
 
 # when we send emails the default protocol to use for urls.
 # airesis tries not to use the rails default ActionMailer Default Host
@@ -107,14 +107,14 @@ APP_LONG_NAME: "我的地盘 - 我的宣言"
 
 # default reference email address for the website. is used in the app to tell the user which email address he
 # has to contact for information. it is also shown in the footer of the emails as main contact address.
-APP_EMAIL_ADDRESS: "zhouming@du-kang.cn"
+APP_EMAIL_ADDRESS: "admin@minzhuzhi.com"
 
 # default administrator credentials
-ADMIN_EMAIL: "zhouming@du-kang.cn"
-ADMIN_PASSWORD: "password"
+ADMIN_EMAIL: "admin@minzhuzhi.com"
+ADMIN_PASSWORD: "minzhu198933@"
 
 # sitemap host and email assets url (for images)
-SITE: "http://shequ.du-kang.cn"
+SITE: "http://www.minzhuzhi.com"
 
 # where is listening your redis installation? 
 REDIS_URL: "redis://127.0.0.1:6379/12"

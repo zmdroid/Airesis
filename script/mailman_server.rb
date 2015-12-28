@@ -6,13 +6,13 @@ require "mailman"
 Mailman.config.logger = Logger.new("log/mailman.log")
 
 Mailman.config.pop3 = {
-    server: 'pop.exmail.qq.com', port: 110,
-    username: 'reply@du-kang.cn',
-    password: 'Reply123'
+    server: 'pop3.mxhichina.com', port: 110,
+    username: 'kefu@minzhuzhi.com',
+    password: 'nimei198933@'
 }
 
 Mailman::Application.run do
-  to 'reply+%token%@du-kang.cn' do
+  to 'kefu+%token%@minzhuzhi.com' do
     begin
       ReceivedEmail.create! subject: message.subject, body: message.text_part.decoded, from: message.from.first, to: message.to.first, token: params[:token]
 
