@@ -1,7 +1,7 @@
 class PasswordsController < Devise::PasswordsController
   def create
-    if params[:user] && params[:user][:login]
-      user = User.where(['(login = :login or email = :login) and users.blocked = false', login: params[:user][:login]]).first
+    if params[:user] && params[:user][:email]
+      user = User.where(['email = :email and users.blocked = false', email: params[:user][:email]]).first
       if user
         super
       else
