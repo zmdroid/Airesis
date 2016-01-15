@@ -198,8 +198,15 @@
 <script type="text/javascript" src="//api.map.baidu.com/api?v=2.0&ak=<%= ENV['MAPS_API_KEY'] %>"></script>
 <script src="http://api.map.baidu.com/library/GeoUtils/1.2/src/GeoUtils_min.js" type="text/javascript"></script>
 <script src="http://api.map.baidu.com/library/EventWrapper/1.2/src/EventWrapper.min.js" type="text/javascript"></script>
-<script type="text/javascript" src="http://js.tongji.linezing.com/3609484/tongji.js"></script>
-<noscript><a href="http://www.linezing.com"><img src="http://img.tongji.linezing.com/3609484/tongji.gif"/></a></noscript>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?fe52e9be2b1da892f38caeecf7cf45d7";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
 <% if Rails.env.production? && SENTRY_ACTIVE%>
     <script src="//cdn.ravenjs.com/1.1.19/jquery,native/raven.min.js"></script>
     <script>

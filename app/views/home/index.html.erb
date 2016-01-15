@@ -45,8 +45,15 @@
       </script>
   <% end %>
 
-<script type="text/javascript" src="http://js.tongji.linezing.com/3609484/tongji.js"></script>
-<noscript><a href="http://www.linezing.com"><img src="http://img.tongji.linezing.com/3609484/tongji.gif"/></a></noscript>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?fe52e9be2b1da892f38caeecf7cf45d7";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
 
   //google analytics
   <% if Rails.env.production? && ENV['GOOGLE_ANALYTICS'].present? %>
