@@ -35,6 +35,7 @@ class GroupInvitationEmail < ActiveRecord::Base
   end
 
   def send_emails
+    logger.info "send emails"
     ResqueMailer.invite(id).deliver_later
   end
 end
